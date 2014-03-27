@@ -1,0 +1,16 @@
+.top_float{
+	margin: 0;
+	float:right;
+}
+
+/* ------------------------------------
+ * Clearfix
+ -------------------------------------*/ 
+.clearfix:after{content: "."; display: block; clear: both; height: 0; visibility: hidden;}
+.clearfix{min-height: 1px;}
+* html .clearfix{height: 1px;
+  /*¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
