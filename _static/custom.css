@@ -1,15 +1,19 @@
+h2{
+border-bottom: 1px #CCC solid;
+}
+
 .top_float{
 	margin: 0;
 	float:right;
 }
 
 /* ------------------------------------
- * Clearfix
+ * Clearfix フロートの調整用
  -------------------------------------*/ 
 .clearfix:after{content: "."; display: block; clear: both; height: 0; visibility: hidden;}
 .clearfix{min-height: 1px;}
 * html .clearfix{height: 1px;
-  /*¥*//*/
+  /**//*/
   height: auto;
   overflow: hidden;
   /**/
