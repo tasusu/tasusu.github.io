@@ -28,10 +28,11 @@ Contents
     :maxdepth: 1
 
     cv
-    research
+    publications
+    talks
     software
 
-Notes (Japanese)
+Notes (in Japanese)
 ------------------------------
 .. toctree::
     :maxdepth: 1

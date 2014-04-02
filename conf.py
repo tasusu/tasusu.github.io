@@ -107,8 +107,10 @@ html_theme_options = {
     # an arbitrary url.
     'navbar_links': [
          ('<span class="glyphicon glyphicon-user"></span> C.V.', "cv"),
-         ('<span class="glyphicon glyphicon-th-list"></span> Publications', "research"),
+         ('<span class="glyphicon glyphicon-th-list"></span> Publications', "publications"),
+         ('<span class="glyphicon glyphicon-facetime-video"></span> Talks', "talks"),
          ('<span class="glyphicon glyphicon-hdd"></span> Software', 'software')
+         
     ],
 
     # Global TOC depth for "site" navbar tab. (Default: 1)
