@@ -3,9 +3,13 @@ C.V.
 
 Employment
 ------------------------------
+**Research Fellowship**:
+
+- April 2014 -- now, 学振特別研究員DC2 (JSPS Research Fellowship for Young Scientists)
+
 **Research Assistant**:
 
-- April 2013 -- now, `ERATO Kawarabayashi Large Graph Project <http://www.jst.go.jp/erato/kawarabayashi/english/>`_.
+- April 2013 -- March 2014, `ERATO Kawarabayashi Large Graph Project <http://www.jst.go.jp/erato/kawarabayashi/english/>`_.
 
 **Teaching Assistant**:
 
@@ -31,8 +35,7 @@ Education
 
 Award
 ------------------------------
-
-- 第31回日本オペレーションズ・リサーチ学会学生論文賞
+- 第31回日本オペレーションズ・リサーチ学会学生論文賞 (Student Paper Award of ORSJ)
 
 Computer Skills
 ------------------------------
