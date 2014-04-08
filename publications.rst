@@ -7,7 +7,7 @@ Refereed Journal
 
     - **Fast Deterministic Algorithms for Matrix Completion Problems**, 
 
-      *SIAM Journal on Discrete Mathematics*, 28(1), pp. 490--502, 2014. [`Journal Webite <http://epubs.siam.org/doi/abs/10.1137/130909214>`_]
+      *SIAM Journal on Discrete Mathematics*, 28(1), pp. 490--502, 2014. [`Journal Website <http://epubs.siam.org/doi/abs/10.1137/130909214>`_]
 
       (Journal version of my paper in IPCO 2013) 
 
@@ -28,7 +28,7 @@ Refereed Conference Proceedings
 
     - **Fast Deterministic Algorithms for Matrix Completion Problems**
        
-      *Integer Programming and Combinatorial Optimization (LNCS 7801)*, Springer, 2013.
+      *Integer Programming and Combinatorial Optimization (IPCO)*, 2013.
 
 Technical Report
 ------------------------------
