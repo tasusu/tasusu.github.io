@@ -16,12 +16,20 @@ Video
       .. raw:: html
 
          <iframe width="560" height="315" src="//www.youtube.com/embed/qg57z1lRLzw" frameborder="0" allowfullscreen></iframe>
-         <iframe src="http://www.slideshare.net/slideshow/embed_code/33017253" width="342" height="291" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe> 
+         <iframe src="//www.slideshare.net/slideshow/embed_code/33017253" width="342" height="291" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe> 
          
 
 International Conference
 -----------------------------------------------------
 .. rst-class:: cardlist
+
+    - **Multicasting in Linear Deterministic Relay Network by Matrix Completion**
+
+      IEEE International Symposium on Information Theory (ISIT), 2014. 
+
+      .. raw:: html
+
+           <iframe src="//www.slideshare.net/slideshow/embed_code/36818904" width="342" height="291" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
     - **Fast Deterministic Algorithms for Matrix Completion Problems**
 
@@ -29,11 +37,19 @@ International Conference
 
       .. raw:: html
 
-         <iframe src="http://www.slideshare.net/slideshow/embed_code/17714382" width="342" height="291" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+         <iframe src="//www.slideshare.net/slideshow/embed_code/17714382" width="342" height="291" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
 
 Domestic Conference (in Japanese)
 -----------------------------------------------------
 .. rst-class:: cardlist
+
+    - **限界効用逓減性をもつ単調劣モジュラ関数の最大化**
+     
+      with 𠮷田悠一
+
+      SOTAつくば合宿, 2014.
 
     - **行列補完を用いた無線マルチキャスト符号構成アルゴリズム**
         
@@ -41,7 +57,7 @@ Domestic Conference (in Japanese)
 
       .. raw:: html
         
-        <iframe src="http://www.slideshare.net/slideshow/embed_code/33017160" width="342" height="291" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+        <iframe src="//www.slideshare.net/slideshow/embed_code/33017160" width="342" height="291" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
 
     - **最適予算配分問題に対する高速アルゴリズム**
