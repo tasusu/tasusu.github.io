@@ -25,15 +25,23 @@ International Conference
 
     - **Multicasting in Linear Deterministic Relay Network by Matrix Completion**
 
-      IEEE International Symposium on Information Theory (ISIT), 2014. 
+      `IEEE International Symposium on Information Theory (ISIT), 2014 <http://www.isit2014.org>`_
 
       .. raw:: html
 
            <iframe src="//www.slideshare.net/slideshow/embed_code/36818904" width="342" height="291" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
+    - **Optimal Budget Allocation: Theoretical Guarantee and Efficient Algorithm** [`Video <http://techtalks.tv/talks/optimal-budget-allocation-theoretical-guarantee-and-efficient-algorithm/61153/>`_]
+
+      `International Conference on Machine Learning (ICML), 2014 <http://icml.cc/2014>`_ 
+
+      .. raw:: html
+
+           <iframe src="//www.slideshare.net/slideshow/embed_code/41287381" width="340" height="290" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+
     - **Fast Deterministic Algorithms for Matrix Completion Problems**
 
-      Integer Programming and Combinatorial Optimization (IPCO), 2013. 
+      `Integer Programming and Combinatorial Optimization (IPCO), 2013 <https://www.cec.uchile.cl/~ipco2013>`_
 
       .. raw:: html
 

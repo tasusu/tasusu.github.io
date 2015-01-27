@@ -230,6 +230,57 @@ white
 
 さて， ``\foreach`` 構文の中には ``\draw[->] (\u) -- (\v);`` という処理があります．これは，ループ変数 ``\u`` と ``\v`` を使っているので，1回目では ``\draw[->] (s) -- (a);`` に展開され，2回目では ``\draw[->] (s) -- (b);`` というように展開されていきます．これによって，全ての枝を引くことができるというわけです．
 
+数式にマーカーを引く・説明をつける
+-----------------------------------------------------------
+数式の一部分にマーカーを引いて，その下に説明をつけることができます．数式の意味や役割を分かりやすく伝えるのに役に立ちます．
+
+.. image :: /_static/img/tikz-highlight.png 
+
+tikzコマンド
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``\tikz`` コマンドを利用すると文中にTikZの描画を入れることが出来ます．これを利用して，以下のように書いてみます（いきなり全部書くのは大変なので，第2項だけ書きます）:: 
+
+    \begin{align*}
+        f(\mathbf{w}, b) = 
+            \tikz[baseline=(x.base)]{
+                \node(x)[rectangle, fill=blue!10, rounded corners]{$\displaystyle \frac{\lambda}{2} \|\mathbf{w} \|^2$} node[blue, below of = x]{正則化項};}
+            }
+    \end{align*}
+
+オプションの意味としては以下の通りです．
+
+baseline=(x.base)
+    ``\tikz`` コマンドの描画の基準線をノード ``x`` のアンカー位置（中心）に合わせます．これをやらないと，項が微妙にずれて表示されてしまいます．
+
+rectangle
+    ノードを四角形で囲う
+
+rounded corners
+    ``rectangle`` で指定された四角形の角を丸くする
+
+中の ``blue`` を ``red`` に変えれば，もちろん色が赤くなります．
+
+
+highlight マクロ
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+これを毎回書くのは大変なので， ``\newcommand`` を使ってマクロを作りましょう::
+
+    \newcommand{\highlight}[2][yellow]{\tikz[baseline=(x.base)]{\node[rectangle,rounded corners,fill=#1!10](x){#2};}}
+    \newcommand{\highlightcap}[3][yellow]{\tikz[baseline=(x.base)]{\node[rectangle,rounded corners,fill=#1!10](x){#2} node[below of=x, color=#1]{#3};}}
+
+``\highlight`` はマーカーを引くだけ， ``highlightcap`` はマーカー＋キャプションをつけるコマンドです．上の画像の数式は以下のようになります::
+
+    \begin{align*}
+        f(\mathbf{w}, b) = 
+            \highlightcap[red]{$\displaystyle \sum_{i=1}^k \left(y_i - \mathbf{w}^\top \mathbf{x}_i - b \right)^2$}{経験誤差}
+            + 
+            \highlightcap[blue]{$\displaystyle \frac{\lambda}{2} \left\|\mathbf{w} \right\|^2$}{正則化項}
+    \end{align*}
+
+上の例から明らかですが， ``\highlightcap[色]{数式}{キャプション}`` という使い方です． ``色`` は省略すると自動で ``yellow`` になります．
+また， ``数式`` の部分は ``$...$`` で囲う必要があります．
+``\highlight`` はただ単に ``{キャプション}`` の部分を書かないだけで，ほとんど同じです．
+
 Tikzの基礎
 ------------------------------
 もっと色んな絵を描いてみたい人向けの解説です．

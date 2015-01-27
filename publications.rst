@@ -15,28 +15,20 @@ Refereed Conference Proceedings
 --------------------------------------------------------
 .. rst-class:: cardlist
 
-    - **Multicasting in Linear Deterministic Relay Network by Matrix Completion** 
+    - **Multicasting in Linear Deterministic Relay Network by Matrix Completion** [`PDF(technical report) <http://www.keisu.t.u-tokyo.ac.jp/research/techrep/data/2013/METR13-34.pdf>`_]
 
-      *IEEE International Symposium on Information Theory (ISIT)*, 2014, to appear.
+      `IEEE International Symposium on Information Theory (ISIT), 2014 <http://www.isit2014.org>`_
 
 
     - **Optimal Budget Allocation: Theoretical Guarantee and Efficient Algorithm**  [`PDF(extended version) <papers/icml2014.pdf>`_]
       
       with Naonori Kakimura, Kazuhiro Inaba, Ken-ichi Kawarabayashi
       
-      *International Conference on Machine Learning (ICML)*, 2014.
+      `International Conference on Machine Learning (ICML), 2014, <http://icml.cc/2014>`_ **Cycle 1,  AC ratio: 27%**
 
     - **Fast Deterministic Algorithms for Matrix Completion Problems**
        
-      *Integer Programming and Combinatorial Optimization (IPCO)*, 2013.
-
-Technical Report
-------------------------------
-.. rst-class:: cardlist
-
-    - **Multicasting in Linear Deterministic Relay Network by Matrix Completion** [`PDF <http://www.keisu.t.u-tokyo.ac.jp/research/techrep/data/2013/METR13-34.pdf>`_]
-      
-      *Methematical Engineering Technical Reports (METR)*, 2013. 
+      `Integer Programming and Combinatorial Optimization (IPCO), 2013 <https://www.cec.uchile.cl/~ipco2013>`_
 
 
 Thesis
