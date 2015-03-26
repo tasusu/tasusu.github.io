@@ -197,11 +197,16 @@ Overlay Specification    意味
 
 PDFのしおりが文字化けする
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-次のコマンドをプリアンブルに書く::
+platexの場合は次のコマンドをプリアンブルに書く::
 
     \usepackage{atbegshi}
     \ifnum 42146=\euc"A4A2 \AtBeginShipoutFirst{\special{pdf:tounicode EUC-UCS2}}\else
     \AtBeginShipoutFirst{\special{pdf:tounicode 90ms-RKSJ-UCS2}}\fi
+
+uplatexの場合はpxjahyper.styを使う::
+
+    \usepackage{pxjahyper} 
+
 
 下の方にある変なアイコン（ナビゲーションシンボル）を消す
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -250,3 +255,22 @@ only/onslideの前後で配置が微妙にずれるのを防ぐ
     \end{overprint}
 
 上の例では， ``overprint`` 環境全体が，2つ目の長い文章の大きさにフィットするように自動的に調整される．
+
+
+テンプレート
+--------------------------------------------------
+自分が使っているテンプレートを公開しておきます（MITライセンス）．
+uplatex+dvipdfmxでコンパイルすることを前提にしています．
+その他の環境は適宜修正してお使いください．
+   
+サンプル
+~~~~~~~~~~~~~~~~~~~
+      
+.. raw:: html
+
+    <iframe src="//www.slideshare.net/slideshow/embed_code/46359576" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+
+ソースコード
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. literalinclude:: beamertemplete.tex
+

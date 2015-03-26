@@ -30,6 +30,17 @@ Refereed Conference Proceedings
        
       `Integer Programming and Combinatorial Optimization (IPCO), 2013 <https://www.cec.uchile.cl/~ipco2013>`_
 
+Preprint
+------------------------------
+.. rst-class:: cardlist
+
+    - **Maximizing Submodular Functions with the Diminishing Return Property over the Integer Lattice** [`PDF(ArXiv) <http://arxiv.org/pdf/1503.01218v1.pdf>`_]
+
+
+      with Yuichi Yoshida
+
+      `ArXiv <http://arxiv.org/abs/1503.01218>`_, 2015.
+     
 
 Thesis
 ------------------------------

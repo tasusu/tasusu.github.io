@@ -18,7 +18,7 @@ Email: |mail|
 Research Areas
 ------------------------------
 - Combinatorial Optimization
-- Network Coding
+- Network Coding and Matrix Completion
 - Approximation Algorithms for Submodular Optimization
 
 
