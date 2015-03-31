@@ -34,8 +34,13 @@ Preprint
 ------------------------------
 .. rst-class:: cardlist
 
-    - **Maximizing Submodular Functions with the Diminishing Return Property over the Integer Lattice** [`PDF(ArXiv) <http://arxiv.org/pdf/1503.01218v1.pdf>`_]
+    - **Finding a low-rank basis in a matrix subspace** [`PDF(ArXiv) <http://arxiv.org/pdf/1503.08601v1.pdf>`_]
 
+      with Yuji Nakatsukasa and André Uschmajew
+
+      `ArXiv <http://arxiv.org/abs/1503.08601>`_, 2015.
+
+    - **Maximizing Submodular Functions with the Diminishing Return Property over the Integer Lattice** [`PDF(ArXiv) <http://arxiv.org/pdf/1503.01218v1.pdf>`_]
 
       with Yuichi Yoshida
 
@@ -48,4 +53,4 @@ Thesis
 
     - Master: "Faster Deterministic Algorithms for Matrix Completion Problems,” Kyoto University, 2013, supervised by Satoru Iwata.
 
-      **第31回日本オペレーションズ・リサーチ学会学生論文賞**
+      **Operation Research Society Japan Student Paper Award (第31回日本オペレーションズ・リサーチ学会学生論文賞)**
