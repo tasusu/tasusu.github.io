@@ -24,7 +24,7 @@ Refereed Conference Proceedings
       
       with Naonori Kakimura, Kazuhiro Inaba, Ken-ichi Kawarabayashi
       
-      `International Conference on Machine Learning (ICML), 2014, <http://icml.cc/2014>`_ **Cycle 1,  AC ratio: 27%**
+      `International Conference on Machine Learning (ICML), 2014, <http://icml.cc/2014>`_ **Cycle 1,  acceptance ratio: 27%**
 
     - **Fast Deterministic Algorithms for Matrix Completion Problems**
        
