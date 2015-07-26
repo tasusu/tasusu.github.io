@@ -15,7 +15,7 @@ Employment
 
 - April 2012 -- March 2013, "微分積分学A・B (Calculus A&B)," Kyoto university.
 
-- April 2013 -- July 2013, "線形数理要論 (Advanced Core in Linear Algebra)," the university of Tokyo.
+- April 2013 -- July 2013, April 2014 -- July 2014, "線形数理要論 (Advanced Core in Linear Algebra)," the university of Tokyo.
 
 
 Education
@@ -39,4 +39,4 @@ Award
 
 Computer Skills
 ------------------------------
-- **Programming**: Python, HTML, CSS, Javascript. 
+- **Programming**: Python, Javascript. 

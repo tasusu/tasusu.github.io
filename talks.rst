@@ -21,7 +21,16 @@ Video
 
 International Conference
 -----------------------------------------------------
-.. rst-class:: cardlist
+.. rst-class:: cardlist 
+
+    - **The low-rank basis problem for a matrix subspace**
+
+      `Internatinal Symposium on Mathematical Programming (ISMP), 2015 <http://www.ismp2015.org>`_
+
+      .. raw:: html
+
+           <iframe src="//www.slideshare.net/slideshow/embed_code/key/1QErppBx5pSlPh" width="340" height="290" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+
 
     - **Multicasting in Linear Deterministic Relay Network by Matrix Completion**
 
