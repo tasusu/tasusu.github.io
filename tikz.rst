@@ -2,6 +2,12 @@ TikZ
 ==============================
 BeamerのためのTikZ
 
+.. contents:: 
+    :depth: 1
+    :local:
+    :backlinks: none
+
+
 TikZとは
 ------------------------------
 Beamerは便利なのですが，図を描いたり絵を貼るのは苦手なので，どうしても文字を箇条書きしたようなスライドになりがちです．
@@ -26,7 +32,7 @@ TikZを使うと，模式図やグラフ等を用いた **ビジュアル性の�
 あとは中身を埋めていくことになります．
 
 
-模式図を作ってみる
+模式図を作る
 ------------------------------
 木構造を表す模式図をTikZで作ってみましょう．
 
@@ -129,7 +135,7 @@ edge from parent/.style={<-,draw}
     \end{tikzpicture}
 
 
-グラフを作ってみる
+グラフを作る
 ------------------------------
 よくある有向グラフを作ってみましょう．
 
@@ -280,6 +286,55 @@ highlight マクロ
 上の例から明らかですが， ``\highlightcap[色]{数式}{キャプション}`` という使い方です． ``色`` は省略すると自動で ``yellow`` になります．
 また， ``数式`` の部分は ``$...$`` で囲う必要があります．
 ``\highlight`` はただ単に ``{キャプション}`` の部分を書かないだけで，ほとんど同じです．
+
+ふきだしを作る
+------------------------------
+Beamerのプレゼンに便利なふきだしを作ってみましょう．
+
+.. image :: /_static/img/tikz-balloon.png 
+
+remember picture
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+以下では ``remember picute`` と呼ばれる ``tikzpicture`` 環境間でノードの名前を共有する機能を使用します．pdftexやluatexを使っている場合は何もしなくても大丈夫ですが，(u)platex+dvipdfmxを使っている場合はpxpgfmarkパッケージを読み込む必要があります::
+
+    \usepackage{pxpgfmark}   % TikZを読み込む後に書く
+
+shapesライブラリ
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+吹き出しの形を使うためにshapesライブラリを利用します::
+
+   \usetikzlibrary{shapes.callouts}
+ 
+
+まずは，吹き出しの根本となる部分をtikzノードにします::
+
+    \tikz[remember picture]{\node (bgraph){$G = (S,T;E)$};}
+
+後で参照するため，nodeには必ず名前をつけておきます．
+文中の文字など，baselineからズレるのが嫌な場合は， ``baseline=(bgraph.base)`` を ``\tikz`` のオプションに追加します．
+
+次に，吹き出し本体のノードを作ります::
+
+    \begin{tikzpicture}[remember picture, overlay] 
+        \node[rectangle callout, fill=red!80, white, callout absolute pointer={(bgraph.north)}, above=of bgraph]{2部グラフ}; %
+    \end{tikzpicture}
+
+オプションの意味としては以下の通りです．
+
+overlay
+    これをつけると， ``tikz`` 環境が他の要素の上に重なって表示されます．
+
+rectangle callout
+    四角形の吹き出し
+
+callout absolute pointer
+    吹き出しの指す先の座標を指定します．上の例では ``(bgraph.north)`` (bgraphノードの上端) を指定しています．
+
+above=of bgraph
+    吹き出しの本体が ``bgraph`` ノードの上に配置されます．
+
+``callout absolute pointer`` や ``above=...`` を変更することで細かい調整が出来ます．
+詳細な調整の仕方はTikZマニュアルのPositioningやCoordinate Systemの章を参照して下さい．
 
 Tikzの基礎
 ------------------------------
