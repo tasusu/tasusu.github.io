@@ -212,6 +212,29 @@ uplatexの場合はpxjahyper.styを使う::
     \usepackage{pxjahyper} 
 
 
+定理環境(theorem, lemma, example)のラベルを日本語(定理, 補題, 例)にする
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+自前で新しく環境を定義してしまうのも手だが，英語スライドを日本語にするときなどに手間である．
+BeamerはBabelに対応しているので，以下のように翻訳をプリアンブルに定義すれば良い::
+
+    \uselanguage{japanese}
+    \languagepath{japanese}
+    \deftranslation[to=japanese]{Theorem}{定理}
+    \deftranslation[to=japanese]{Lemma}{補題}
+    \deftranslation[to=japanese]{Example}{例}
+    \deftranslation[to=japanese]{Examples}{例}
+    \deftranslation[to=japanese]{Definition}{定義}
+    \deftranslation[to=japanese]{Definitions}{定義}
+    \deftranslation[to=japanese]{Problem}{問題}
+    \deftranslation[to=japanese]{Solution}{解}
+    \deftranslation[to=japanese]{Fact}{事実}
+    \deftranslation[to=japanese]{Proof}{証明}
+    \def\proofname{証明}
+
+フランス語やドイツ語はbeamer用の翻訳辞書があらかじめあるが，残念ながら日本語の辞書はまだないようだ．
+
+参考: [okumurabook]_ 
+
 下の方にある変なアイコン（ナビゲーションシンボル）を消す
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 次のコマンドをプリアンブルに書く::
@@ -277,4 +300,9 @@ uplatex+dvipdfmxでコンパイルすることを前提にしています．
 ソースコード
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. literalinclude:: beamertemplete.tex
+
+
+参考文献
+--------------------------------------------------
+.. [okumurabook] `奥村晴彦・黒木裕介 『［改訂第6版］LaTeX2e 美文書作成入門』 <http://oku.edu.mie-u.ac.jp/~okumura/bibun6/>`_
 

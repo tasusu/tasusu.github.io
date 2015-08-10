@@ -17,6 +17,21 @@
 \setbeamerfont{title}{size=\LARGE} % タイトル文字サイズ
 \setbeamerfont{date}{size=\small}  % 日付文字サイズ
 
+% Babel (日本語の場合のみ・英語の場合は不要)
+\uselanguage{japanese}
+\languagepath{japanese}
+\deftranslation[to=japanese]{Theorem}{定理}
+\deftranslation[to=japanese]{Lemma}{補題}
+\deftranslation[to=japanese]{Example}{例}
+\deftranslation[to=japanese]{Examples}{例}
+\deftranslation[to=japanese]{Definition}{定義}
+\deftranslation[to=japanese]{Definitions}{定義}
+\deftranslation[to=japanese]{Problem}{問題}
+\deftranslation[to=japanese]{Solution}{解}
+\deftranslation[to=japanese]{Fact}{事実}
+\deftranslation[to=japanese]{Proof}{証明}
+\def\proofname{証明}
+
 %Beamer色設定
 \definecolor{UniBlue}{RGB}{0,150,200} 
 \definecolor{AlertOrange}{RGB}{255,76,0}
@@ -69,8 +84,6 @@
 
 % 定理
 \theoremstyle{definition}
-\newtheorem{thm}{Theorem}
-\newtheorem{lem}{Lemma}
 \newenvironment{mythm}{\begin{alertblock}{定理}}{\end{alertblock}} %自分の結果は赤色で表示
 
 \AtBeginSection[]{
