@@ -5,23 +5,27 @@ Video
 -----------------------------------------------------
 .. rst-class:: cardlist
 
-    - **Optimal Budget Allocation: Theoretical Guarantee and Efficient Algorithm**  [`PDF(extended version) <papers/icml2014.pdf>`_]
-      
-      with 垣村尚徳, 稲葉一浩, 河原林健一,
+    - **Maximizing Submodular Functions over the Integer Lattice** [`PDF(ArXiv) <http://arxiv.org/pdf/1503.01218v1.pdf>`_]
 
-      ERATO 河原林巨大グラフプロジェクト成果報告会 2014
-      
-      **Short Video and Slide (in Japanese)**
+      with Yuichi Yoshida
+
+      `HIM Rigidity Workshop, Haussdorff Institute for Mathematics, University of Bonn, 2015 <https://www.him.uni-bonn.de/en/programs/current-trimester-program/combinatorial-optimization-2015/rigidity-workshop/>`_
 
       .. raw:: html
-
-         <iframe width="560" height="315" src="//www.youtube.com/embed/qg57z1lRLzw" frameborder="0" allowfullscreen></iframe>
-         <iframe src="//www.slideshare.net/slideshow/embed_code/33017253" width="342" height="291" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe> 
-         
+        
+         <iframe width="480" height="360" src="https://www.youtube.com/embed/9MPbhCdOHXk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 International Conference
 -----------------------------------------------------
 .. rst-class:: cardlist 
+
+    - **Non-Convex Compressed Sensing with the Sum-of-Squares Method** 
+
+      `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2016 <https://www.siam.org/meetings/da16/>`_, 
+
+      .. raw:: html
+
+        <iframe src="//www.slideshare.net/slideshow/embed_code/key/IvpHTJyhWq5LjV" width="340" height="290" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
     - **The low-rank basis problem for a matrix subspace**
 
@@ -61,6 +65,25 @@ International Conference
 Domestic Conference (in Japanese)
 -----------------------------------------------------
 .. rst-class:: cardlist
+    
+    - **整数格子点上の劣モジュラ被覆に対する高速アルゴリズム**
+
+      with 𠮷田悠一
+
+      IBIS 企画セッション「博士課程学生招待講演」, 2015.
+
+    - **低ランク基底問題に対する高速アルゴリズム**
+
+      with 中務佑治, André Uschmajew
+
+      OR学会秋季研究発表会, 2015.
+
+
+    - **整数格子点上の劣モジュラ被覆に対する高速アルゴリズム** [`Slide <http://www.slideshare.net/tasukusoma/ss-52438952>`_]
+     
+      with 𠮷田悠一
+
+      OR学会春季研究発表会, 2015.
 
     - **限界効用逓減性をもつ単調劣モジュラ関数の最大化**
      
@@ -68,14 +91,9 @@ Domestic Conference (in Japanese)
 
       SOTAつくば合宿, 2014.
 
-    - **行列補完を用いた無線マルチキャスト符号構成アルゴリズム**
+    - **行列補完を用いた無線マルチキャスト符号構成アルゴリズム** [`Slide <http://www.slideshare.net/tasukusoma/slide-33017160>`_]
         
       OR学会春季研究発表会, 2014. **プレゼンテーション賞**
-
-      .. raw:: html
-        
-        <iframe src="//www.slideshare.net/slideshow/embed_code/33017160" width="342" height="291" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-
 
     - **最適予算配分問題に対する高速アルゴリズム**
       
