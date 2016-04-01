@@ -6,7 +6,7 @@
 
 Tasuku Soma （相馬 輔）
 =================================================
-I am currently a Ph.D course student in `Graduate School of Information Science and Technology <http://www.i.u-tokyo.ac.jp/index_e.shtml>`_, `the University of Tokyo <http://www.u-tokyo.ac.jp/en/>`_. I enrolled the Ph.D course in April, 2013.
+I am currently an assistant professor in `Graduate School of Information Science and Technology <http://www.i.u-tokyo.ac.jp/index_e.shtml>`_, `the University of Tokyo <http://www.u-tokyo.ac.jp/en/>`_. 
 
 Email: |mail|
 
@@ -17,9 +17,11 @@ Email: |mail|
 
 Research Areas
 ------------------------------
-- Combinatorial Optimization
+**Optimization for Machine Learning, Signal Processing, and Communication**
+
 - Network Coding and Matrix Completion
 - Approximation Algorithms for Submodular Optimization
+- Sum of Squares Method for Compressed Sensing
 
 
 Contents
