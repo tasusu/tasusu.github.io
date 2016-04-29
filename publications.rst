@@ -11,7 +11,7 @@ Refereed Journal
 
       (Journal version of my paper in ISIT 2014) 
 
-    - **Fast Deterministic Algorithms for Matrix Completion Problems**, [`Journal Website <http://epubs.siam.org/doi/abs/10.1137/130909214>`_]
+    - **Fast Deterministic Algorithms for Matrix Completion Problems**, [`Journal Website <http://epubs.siam.org/doi/abs/10.1137/130909214>`_] [`PDF <papers/sidma2015.pdf>`_]
 
       *SIAM Journal on Discrete Mathematics*, 28(1), pp. 490--502, 2014. 
 
@@ -28,7 +28,7 @@ Refereed Conference Proceedings
 
       `Integer Programming and Combinatorial Optimization (IPCO), 2016 <http://events.ulg.ac.be/ipco2016/>`_, **acceptance ratio: 27%**, to appear
 
-    - **Non-Convex Compressed Sensing with the Sum-of-Squares Method** [`Proceedings <http://epubs.siam.org/doi/abs/10.1137/1.9781611974331.ch42>`_]
+    - **Non-Convex Compressed Sensing with the Sum-of-Squares Method** [`Proceedings <http://epubs.siam.org/doi/abs/10.1137/1.9781611974331.ch42>`_] [`PDF <papers/soda2016.pdf>`_]
 
       with Yuichi Yoshida
 
