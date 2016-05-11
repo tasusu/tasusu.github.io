@@ -22,7 +22,7 @@ Refereed Conference Proceedings
 --------------------------------------------------------
 .. rst-class:: cardlist
 
-    - **Maximizing Monotone Submodular Functions over the Integer Lattice**
+    - **Maximizing Monotone Submodular Functions over the Integer Lattice** [`PDF(ArXiv) <http://arxiv.org/pdf/1503.01218v2.pdf>`_]
 
       with Yuichi Yoshida
 
@@ -65,12 +65,6 @@ Preprint
 
       `ArXiv <http://arxiv.org/abs/1503.08601>`_, 2015.
 
-    - **Maximizing Submodular Functions with the Diminishing Return Property over the Integer Lattice** [`PDF(ArXiv) <http://arxiv.org/pdf/1503.01218v1.pdf>`_]
-
-      with Yuichi Yoshida
-
-      `ArXiv <http://arxiv.org/abs/1503.01218>`_, 2015.
-     
 
 Thesis
 ------------------------------
