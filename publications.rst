@@ -5,6 +5,12 @@ Refereed Journal
 --------------------------------------------------------
 .. rst-class:: cardlist
 
+    - **Finding a low-rank basis in a matrix subspace** [`PDF(ArXiv) <http://arxiv.org/pdf/1503.08601v1.pdf>`_]
+
+      with Yuji Nakatsukasa and André Uschmajew
+
+      *Mathematical Programming*, 2016, to appear.
+
     - **Multicasting in Linear Deterministic Relay Network by Matrix Completion** [`Journal Website <http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7358153>`_] [`PDF(technical report) <http://www.keisu.t.u-tokyo.ac.jp/research/techrep/data/2013/METR13-34.pdf>`_]
 
       *IEEE Transactions on Information Theory*, 62(2), pp. 870--875, 2016.
@@ -55,16 +61,6 @@ Refereed Conference Proceedings
        
       `Integer Programming and Combinatorial Optimization (IPCO), 2013 <https://www.cec.uchile.cl/~ipco2013>`_
 
-Preprint
-------------------------------
-.. rst-class:: cardlist
-
-    - **Finding a low-rank basis in a matrix subspace** [`PDF(ArXiv) <http://arxiv.org/pdf/1503.08601v1.pdf>`_]
-
-      with Yuji Nakatsukasa and André Uschmajew
-
-      `ArXiv <http://arxiv.org/abs/1503.08601>`_, 2015.
-
 
 Thesis
 ------------------------------
@@ -73,3 +69,7 @@ Thesis
     - Master: "Faster Deterministic Algorithms for Matrix Completion Problems,” Kyoto University, 2013, supervised by Satoru Iwata.
 
       **Operation Research Society Japan Student Paper Award (第31回日本オペレーションズ・リサーチ学会学生論文賞)**
+
+    - Doctor: "Submodular and Sparse Optimization Methods for Machine Learning and Communication," 2016, supervised by Satoru Iwata.
+
+      **Department Award (情報理工学系研究科研究科長賞)**

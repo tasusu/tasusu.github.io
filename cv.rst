@@ -47,8 +47,8 @@ Education
 
 Award
 ------------------------------
-- 東京大学大学院情報理工学系研究科研究科長賞, March 2016
-- 第31回日本オペレーションズ・リサーチ学会学生論文賞 (Student Paper Award of ORSJ)
+- 東京大学大学院情報理工学系研究科研究科長賞 (Department Award), 2016
+- 第31回日本オペレーションズ・リサーチ学会学生論文賞 (Student Paper Award of ORSJ), 2013
 
 Computer Skills
 ------------------------------
