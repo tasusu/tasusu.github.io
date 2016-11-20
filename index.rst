@@ -34,6 +34,7 @@ Contents
     talks
     software
 
+
 Notes (in Japanese)
 ------------------------------
 .. toctree::
@@ -41,3 +42,10 @@ Notes (in Japanese)
 
     beamer
     tikz
+
+Teaching (in Japanese)
+------------------------------
+.. toctree::
+    :maxdepth: 1
+
+    algebra2016
