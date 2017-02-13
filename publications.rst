@@ -32,31 +32,31 @@ Refereed Conference Proceedings
 
       with Yuichi Yoshida
 
-      `The 31st AAAI Conference on Artificial Inteligence <http://www.aaai.org/Conferences/AAAI/aaai17.php>`_, **acceptance ratio: 24%**, to appear
+      `The 31st AAAI Conference on Artificial Inteligence, 2017 <http://www.aaai.org/Conferences/AAAI/aaai17.php>`_, **acceptance rate: 24%**, to appear
 
-    - **Non-monotone DR-Submodular Function Maximization**
+    - **Non-monotone DR-Submodular Function Maximization** [`PDF(ArXiv) <https://arxiv.org/pdf/1612.00960v1.pdf>`_]
 
       with Yuichi Yoshida
 
-      `The 31st AAAI Conference on Artificial Inteligence <http://www.aaai.org/Conferences/AAAI/aaai17.php>`_, **acceptance ratio: 24%**, to appear
+      `The 31st AAAI Conference on Artificial Inteligence, 2017 <http://www.aaai.org/Conferences/AAAI/aaai17.php>`_, **acceptance rate: 24%**, to appear
     - **Maximizing Monotone Submodular Functions over the Integer Lattice** [`PDF(ArXiv) <http://arxiv.org/pdf/1503.01218v2.pdf>`_]
 
       with Yuichi Yoshida
 
-      `Integer Programming and Combinatorial Optimization (IPCO), 2016 <http://events.ulg.ac.be/ipco2016/>`_, **acceptance ratio: 27%**.
+      `Integer Programming and Combinatorial Optimization (IPCO), 2016 <http://events.ulg.ac.be/ipco2016/>`_, **acceptance rate: 27%**.
 
     - **Non-Convex Compressed Sensing with the Sum-of-Squares Method** [`Proceedings <http://epubs.siam.org/doi/abs/10.1137/1.9781611974331.ch42>`_] [`PDF <papers/soda2016.pdf>`_]
 
       with Yuichi Yoshida
 
-      `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2016 <https://www.siam.org/meetings/da16/>`_, **acceptance ratio: 28%**
+      `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2016 <https://www.siam.org/meetings/da16/>`_, **acceptance rate: 28%**
 
     - **A Generalization of Submodular Cover via the Diminishing Return Property on the Integer Lattice** [`PDF <http://papers.nips.cc/paper/5927-a-generalization-of-submodular-cover-via-the-diminishing-return-property-on-the-integer-lattice.pdf>`_]
 
       with Yuichi Yoshida
 
       `Advances in Neural Information Processing Systems (NIPS), 2015 <https://nips.cc/Conferences/2015>`_, 
-      poster session, **acceptance ratio: 22%**
+      poster session, **acceptance rate: 22%**
 
     - **Multicasting in Linear Deterministic Relay Network by Matrix Completion** [`PDF(technical report) <http://www.keisu.t.u-tokyo.ac.jp/research/techrep/data/2013/METR13-34.pdf>`_]
 
@@ -66,7 +66,7 @@ Refereed Conference Proceedings
       
       with Naonori Kakimura, Kazuhiro Inaba, Ken-ichi Kawarabayashi
       
-      `International Conference on Machine Learning (ICML), 2014, <http://icml.cc/2014>`_ **Cycle 1,  acceptance ratio: 27%**
+      `International Conference on Machine Learning (ICML), 2014, <http://icml.cc/2014>`_ **Cycle 1,  acceptance rate: 27%**
 
     - **Fast Deterministic Algorithms for Matrix Completion Problems**
        
