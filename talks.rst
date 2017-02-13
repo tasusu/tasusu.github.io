@@ -19,6 +19,14 @@ International Conference
 -----------------------------------------------------
 .. rst-class:: cardlist 
 
+    - **Regret Ratio Minimization in Multi-objective Submodular Function Maximization**
+
+      `The 31st AAAI Conference on Artificial Inteligence, 2017 <http://www.aaai.org/Conferences/AAAI/aaai17.php>`_
+
+      .. raw:: html
+
+        <iframe src="//www.slideshare.net/slideshow/embed_code/key/4c6yuXPlzjHYuv" width="340" height="290" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
     - **Non-Convex Compressed Sensing with the Sum-of-Squares Method** 
 
       `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2016 <https://www.siam.org/meetings/da16/>`_, 
