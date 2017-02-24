@@ -5,11 +5,11 @@ Refereed Journal
 --------------------------------------------------------
 .. rst-class:: cardlist
 
-    - **Finding a low-rank basis in a matrix subspace** [`PDF(ArXiv) <http://arxiv.org/pdf/1503.08601v1.pdf>`_]
+    - **Finding a low-rank basis in a matrix subspace** [`Journal Website <http://link.springer.com/article/10.1007/s10107-016-1042-2>`_] [`PDF(ArXiv) <http://arxiv.org/pdf/1503.08601v1.pdf>`_]
 
       with Yuji Nakatsukasa and André Uschmajew
 
-      *Mathematical Programming*, 2016, to appear.
+      *Mathematical Programming*, 162(1), pp. 325--361, 2017 (first online 2016).
 
     - **Multicasting in Linear Deterministic Relay Network by Matrix Completion** [`Journal Website <http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7358153>`_] [`PDF(technical report) <http://www.keisu.t.u-tokyo.ac.jp/research/techrep/data/2013/METR13-34.pdf>`_]
 
