@@ -28,17 +28,17 @@ Refereed Conference Proceedings
 --------------------------------------------------------
 .. rst-class:: cardlist
 
-    - **Regret Ratio Minimization in Multi-objective Submodular Function Maximization**
+    - **Regret Ratio Minimization in Multi-objective Submodular Function Maximization** [`PDF <http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14477/13859>`_]
 
       with Yuichi Yoshida
 
-      `The 31st AAAI Conference on Artificial Inteligence, 2017 <http://www.aaai.org/Conferences/AAAI/aaai17.php>`_, **acceptance rate: 24%**, to appear
+      `The 31st AAAI Conference on Artificial Inteligence, 2017 <http://www.aaai.org/Conferences/AAAI/aaai17.php>`_, **acceptance rate: 24%**.
 
     - **Non-monotone DR-Submodular Function Maximization** [`PDF(ArXiv) <https://arxiv.org/pdf/1612.00960v1.pdf>`_]
 
       with Yuichi Yoshida
 
-      `The 31st AAAI Conference on Artificial Inteligence, 2017 <http://www.aaai.org/Conferences/AAAI/aaai17.php>`_, **acceptance rate: 24%**, to appear
+      `The 31st AAAI Conference on Artificial Inteligence, 2017 <http://www.aaai.org/Conferences/AAAI/aaai17.php>`_, **acceptance rate: 24%**.
     - **Maximizing Monotone Submodular Functions over the Integer Lattice** [`PDF(ArXiv) <http://arxiv.org/pdf/1503.01218v2.pdf>`_]
 
       with Yuichi Yoshida
