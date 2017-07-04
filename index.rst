@@ -1,7 +1,7 @@
 .. raw:: html
 
     <figure class="top_float">
-		<img src="_static/img/top.jpg" class="img-thumbnail">
+		<img src="_static/img/top2017.jpg" class="img-thumbnail">
 	</figure>
 
 Tasuku Soma （相馬 輔）
