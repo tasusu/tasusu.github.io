@@ -72,6 +72,16 @@ Refereed Conference Proceedings
        
       `Integer Programming and Combinatorial Optimization (IPCO), 2013 <https://www.cec.uchile.cl/~ipco2013>`_
 
+Preprint
+------------------------------
+.. rst-class:: cardlist
+
+    - **On orthogonal tensors and best rank-one approximation ratio** [`PDF(arxiv) <https://arxiv.org/abs/1707.02569>`_]
+
+      with Zhening Li, Yuji Nakatsukasa, André Uschmajew
+       
+      ArXiv, 2017
+
 
 Thesis
 ------------------------------
