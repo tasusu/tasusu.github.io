@@ -1,15 +1,17 @@
-%!TEX platex=1
-\documentclass[14pt,xcolor=dvipsnames,table,dvipdfmx]{beamer}
+\documentclass[14pt,xcolor=dvipsnames,table,dvipdfmx,professional font]{beamer}
 
 %Beamerの設定
 \usetheme{Boadilla}
+
 %Beamerフォント設定
-\usepackage{txfonts} % TXフォント
+\usepackage{newtxtext,newtxmath} % TXフォント
+\usepackage{sfmath} % 日本語多ウェイト化
 \usepackage[deluxe,uplatex]{otf} % 日本語多ウェイト化
-% \usepackage[deluxe]{otf} % platexの場合はこちら
 \usepackage{pxjahyper} % PDF目次文字化け回避(platexでは不要)
 \renewcommand{\familydefault}{\sfdefault}  % 英文をサンセリフ体に
 \renewcommand{\kanjifamilydefault}{\gtdefault}  % 日本語をゴシック体に
+\DeclareSymbolFont{operators}{OT1}{\sfdefault}{m}{n}
+\SetSymbolFont{operators}{bold}{OT1}{\sfdefault}{b}{n}
 \usefonttheme{structurebold} % タイトル部を太字
 \setbeamerfont{alerted text}{series=\bfseries} % Alertを太字
 \setbeamerfont{section in toc}{series=\mdseries} % 目次は太字にしない
@@ -66,9 +68,6 @@
     \end{flushright}
 }
 
-% graphicx.sty
-\usepackage{graphicx}
-
 % Algorithm系
 \usepackage{algorithm}
 \usepackage[noend]{algorithmic}
@@ -78,7 +77,7 @@
 \renewcommand\algorithmicrequire{\textbf{Input:}}
 \renewcommand\algorithmicensure{\textbf{Output:}}
 
-% Tikz
+% TikZ
 \usepackage{tikz}
 \usetikzlibrary{positioning,shapes,arrows}
 
