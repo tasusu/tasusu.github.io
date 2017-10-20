@@ -76,6 +76,12 @@ Preprint
 ------------------------------
 .. rst-class:: cardlist
 
+    - **A New Approximation Guarantee for Monotone Submodular Function Maximization via Discrete Convexity** [`PDF(arxiv) <https://arxiv.org/abs/1709.02910>`_]
+
+      with Yuichi Yoshida
+       
+      ArXiv, 2017
+
     - **On orthogonal tensors and best rank-one approximation ratio** [`PDF(arxiv) <https://arxiv.org/abs/1707.02569>`_]
 
       with Zhening Li, Yuji Nakatsukasa, André Uschmajew

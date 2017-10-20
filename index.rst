@@ -19,10 +19,9 @@ Research Areas
 ------------------------------
 **Optimization for Machine Learning, Signal Processing, and Communication**
 
-- Network Coding and Matrix Completion
 - Approximation Algorithms for Submodular Optimization
 - Sum of Squares Method for Compressed Sensing
-
+- Network Coding and Matrix Completion
 
 Contents
 ------------------------------
@@ -42,10 +41,3 @@ Notes (in Japanese)
 
     beamer
     tikz
-
-Teaching (in Japanese)
-------------------------------
-.. toctree::
-    :maxdepth: 1
-
-    algebra2016
