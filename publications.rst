@@ -5,6 +5,12 @@ Refereed Journal
 --------------------------------------------------------
 .. rst-class:: cardlist
 
+    - **On orthogonal tensors and best rank-one approximation ratio** [`PDF(arxiv) <https://arxiv.org/abs/1707.02569>`_]
+
+      with Zhening Li, Yuji Nakatsukasa, André Uschmajew
+       
+      *SIAM Jounal on Matrix Analysis and Applications*, 39 (1), pp. 400--425, 2018.
+
     - **Finding a low-rank basis in a matrix subspace** [`Journal Website <http://link.springer.com/article/10.1007/s10107-016-1042-2>`_] [`PDF(ArXiv) <http://arxiv.org/pdf/1503.08601v1.pdf>`_]
 
       with Yuji Nakatsukasa and André Uschmajew
@@ -82,11 +88,6 @@ Preprint
        
       ArXiv, 2017
 
-    - **On orthogonal tensors and best rank-one approximation ratio** [`PDF(arxiv) <https://arxiv.org/abs/1707.02569>`_]
-
-      with Zhening Li, Yuji Nakatsukasa, André Uschmajew
-       
-      ArXiv, 2017
 
 
 Thesis
