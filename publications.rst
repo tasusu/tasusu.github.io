@@ -1,21 +1,24 @@
 Publications
 ==================================================
 
+See also: `Google Scholar <https://scholar.google.com/citations?user=6XorTkcAAAAJ>`_, `DBLP <https://dblp.uni-trier.de/pers/hd/s/Soma:Tasuku>`_, `Researchmap <https://researchmap.jp/tasuku>`_
+
 Refereed Journal
 --------------------------------------------------------
 .. rst-class:: cardlist
 
-    - **On orthogonal tensors and best rank-one approximation ratio** [`PDF(arxiv) <https://arxiv.org/abs/1707.02569>`_]
+
+    - **On orthogonal tensors and best rank-one approximation ratio** [`Journal Website <https://epubs.siam.org/doi/abs/10.1137/17M1144349>`_] [`ArXiv <https://arxiv.org/abs/1707.02569>`_]
 
       with Zhening Li, Yuji Nakatsukasa, André Uschmajew
        
       *SIAM Jounal on Matrix Analysis and Applications*, 39 (1), pp. 400--425, 2018.
 
-    - **Finding a low-rank basis in a matrix subspace** [`Journal Website <http://link.springer.com/article/10.1007/s10107-016-1042-2>`_] [`PDF(ArXiv) <http://arxiv.org/pdf/1503.08601v1.pdf>`_]
+    - **Finding a low-rank basis in a matrix subspace** [`Journal Website <http://link.springer.com/article/10.1007/s10107-016-1042-2>`_] [`ArXiv <https://arxiv.org/abs/1503.08601v2>`_]
 
       with Yuji Nakatsukasa and André Uschmajew
 
-      *Mathematical Programming*, 162(1), pp. 325--361, 2017 (first online 2016).
+      *Mathematical Programming*, 162(1), pp. 325--361, 2017.
 
     - **Multicasting in Linear Deterministic Relay Network by Matrix Completion** [`Journal Website <http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7358153>`_] [`PDF(technical report) <http://www.keisu.t.u-tokyo.ac.jp/research/techrep/data/2013/METR13-34.pdf>`_]
 
@@ -33,6 +36,12 @@ Refereed Journal
 Refereed Conference Proceedings
 --------------------------------------------------------
 .. rst-class:: cardlist
+    
+    - **A New Approximation Guarantee for Monotone Submodular Function Maximization via Discrete Convexity** [`ArXiv <https://arxiv.org/abs/1709.02910>`_]
+
+      with Yuichi Yoshida
+       
+      The 45th International Colloquium on Automata, Languages, and Programming (ICALP), 2018, to appear.
 
     - **Regret Ratio Minimization in Multi-objective Submodular Function Maximization** [`PDF <http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14477/13859>`_]
 
@@ -40,12 +49,12 @@ Refereed Conference Proceedings
 
       `The 31st AAAI Conference on Artificial Inteligence, 2017 <http://www.aaai.org/Conferences/AAAI/aaai17.php>`_, **acceptance rate: 24%**.
 
-    - **Non-monotone DR-Submodular Function Maximization** [`PDF(ArXiv) <https://arxiv.org/pdf/1612.00960v1.pdf>`_]
+    - **Non-monotone DR-Submodular Function Maximization** [`ArXiv <https://arxiv.org/abs/1612.00960v1>`_]
 
       with Yuichi Yoshida
 
       `The 31st AAAI Conference on Artificial Inteligence, 2017 <http://www.aaai.org/Conferences/AAAI/aaai17.php>`_, **acceptance rate: 24%**.
-    - **Maximizing Monotone Submodular Functions over the Integer Lattice** [`PDF(ArXiv) <http://arxiv.org/pdf/1503.01218v2.pdf>`_]
+    - **Maximizing Monotone Submodular Functions over the Integer Lattice** [`ArXiv <http://arxiv.org/abs/1503.01218v2>`_]
 
       with Yuichi Yoshida
 
@@ -82,12 +91,11 @@ Preprint
 ------------------------------
 .. rst-class:: cardlist
 
-    - **A New Approximation Guarantee for Monotone Submodular Function Maximization via Discrete Convexity** [`PDF(arxiv) <https://arxiv.org/abs/1709.02910>`_]
+    - **Polynomial-Time Algorithms for Submodular Laplacian Systems** [`ArXiv <https://arxiv.org/abs/1803.10923>`_]
 
-      with Yuichi Yoshida
+      with Kaito Fujii, Yuichi Yoshida
        
-      ArXiv, 2017
-
+      arxiv, 2018.
 
 
 Thesis
