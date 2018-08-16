@@ -41,7 +41,7 @@ Refereed Conference Proceedings
 
       with Yuichi Yoshida
        
-      The 45th International Colloquium on Automata, Languages, and Programming (ICALP), 2018, to appear.
+      `The 45th International Colloquium on Automata, Languages, and Programming (ICALP), 2018 <https://iuuk.mff.cuni.cz/~icalp2018>`_.
 
     - **Regret Ratio Minimization in Multi-objective Submodular Function Maximization** [`PDF <http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14477/13859>`_]
 
@@ -96,6 +96,11 @@ Preprint
       with Kaito Fujii, Yuichi Yoshida
        
       arxiv, 2018.
+
+    - **No-regret algorithms for online k-submodular maximization** [`ArXiv <https://arxiv.org/abs/1807.04965>`_] 
+    
+      arxiv, 2018.
+    
 
 
 Thesis

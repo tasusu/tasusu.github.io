@@ -45,5 +45,4 @@ Notes (in Japanese)
 Teaching (in Japanese)
 -----------------------------
 
-- `演習第一B第6回解答 <tensor_2.pdf>`_
 - `演習第二講義ノート <algalg.pdf>`_
