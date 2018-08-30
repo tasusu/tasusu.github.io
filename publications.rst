@@ -6,27 +6,34 @@ See also: `Google Scholar <https://scholar.google.com/citations?user=6XorTkcAAAA
 Refereed Journal
 --------------------------------------------------------
 .. rst-class:: cardlist
+    
+    - **Maximizing Monotone Submodular Functions over the Integer Lattice** [`Journal website <https://doi.org/10.1007/s10107-018-1324-y>`_] [`Full text <https://rdcu.be/5thr>`_] [`ArXiv <http://arxiv.org/abs/1503.01218v2>`_]
 
+      with Yuichi Yoshida
 
-    - **On orthogonal tensors and best rank-one approximation ratio** [`Journal Website <https://epubs.siam.org/doi/abs/10.1137/17M1144349>`_] [`ArXiv <https://arxiv.org/abs/1707.02569>`_]
+      *Mathematical Programming*, 2018, online available. 
+
+      (Journal version of our paper in IPCO 2016) 
+
+    - **On orthogonal tensors and best rank-one approximation ratio** [`Journal website <https://epubs.siam.org/doi/abs/10.1137/17M1144349>`_] [`ArXiv <https://arxiv.org/abs/1707.02569>`_]
 
       with Zhening Li, Yuji Nakatsukasa, André Uschmajew
        
       *SIAM Jounal on Matrix Analysis and Applications*, 39 (1), pp. 400--425, 2018.
 
-    - **Finding a low-rank basis in a matrix subspace** [`Journal Website <http://link.springer.com/article/10.1007/s10107-016-1042-2>`_] [`ArXiv <https://arxiv.org/abs/1503.08601v2>`_]
+    - **Finding a low-rank basis in a matrix subspace** [`Journal website <http://link.springer.com/article/10.1007/s10107-016-1042-2>`_] [`Full text <http://rdcu.be/nmLj>`_] [`ArXiv <https://arxiv.org/abs/1503.08601v2>`_]
 
       with Yuji Nakatsukasa and André Uschmajew
 
       *Mathematical Programming*, 162(1), pp. 325--361, 2017.
 
-    - **Multicasting in Linear Deterministic Relay Network by Matrix Completion** [`Journal Website <http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7358153>`_] [`PDF(technical report) <http://www.keisu.t.u-tokyo.ac.jp/research/techrep/data/2013/METR13-34.pdf>`_]
+    - **Multicasting in Linear Deterministic Relay Network by Matrix Completion** [`Journal website <http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7358153>`_] [`PDF(technical report) <http://www.keisu.t.u-tokyo.ac.jp/research/techrep/data/2013/METR13-34.pdf>`_]
 
       *IEEE Transactions on Information Theory*, 62(2), pp. 870--875, 2016.
 
       (Journal version of my paper in ISIT 2014) 
 
-    - **Fast Deterministic Algorithms for Matrix Completion Problems**, [`Journal Website <http://epubs.siam.org/doi/abs/10.1137/130909214>`_] [`PDF <papers/sidma2015.pdf>`_]
+    - **Fast Deterministic Algorithms for Matrix Completion Problems**, [`Journal website <http://epubs.siam.org/doi/abs/10.1137/130909214>`_] [`PDF <papers/sidma2015.pdf>`_]
 
       *SIAM Journal on Discrete Mathematics*, 28(1), pp. 490--502, 2014. 
 
@@ -54,6 +61,7 @@ Refereed Conference Proceedings
       with Yuichi Yoshida
 
       `The 31st AAAI Conference on Artificial Inteligence, 2017 <http://www.aaai.org/Conferences/AAAI/aaai17.php>`_, **acceptance rate: 24%**.
+
     - **Maximizing Monotone Submodular Functions over the Integer Lattice** [`ArXiv <http://arxiv.org/abs/1503.01218v2>`_]
 
       with Yuichi Yoshida
