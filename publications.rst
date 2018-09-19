@@ -43,6 +43,12 @@ Refereed Journal
 Refereed Conference Proceedings
 --------------------------------------------------------
 .. rst-class:: cardlist
+
+    - **Fast greedy algorithms for dictionary selection with generalized sparsity constraints**  [`ArXiv <https://arxiv.org/abs/1809.02314>`_]
+
+      with Kaito Fujii
+
+      `Advances in Neural Information Processing Systems (NIPS), 2018 <https://nips.cc/Conferences/2018>`_, **spotlight**, to appear.
     
     - **A New Approximation Guarantee for Monotone Submodular Function Maximization via Discrete Convexity** [`ArXiv <https://arxiv.org/abs/1709.02910>`_]
 
