@@ -101,6 +101,18 @@ Refereed Conference Proceedings
        
       `Integer Programming and Combinatorial Optimization (IPCO), 2013 <https://www.cec.uchile.cl/~ipco2013>`_
 
+
+Refereed Workshop Proceedings
+--------------------------------------------------------------
+.. rst-class:: cardlist
+
+    - **Maximally Invariant Data Perturbation as Explanation** [`ArXiv <https://arxiv.org/abs/1806.07004>`_]
+
+      with Satoshi Hara, Kouichi Ikeno, and Takanori Maehara
+
+      ICML Workshop on Human Interpretability in Machine Learning (WHI), 2018
+
+
 Preprint
 ------------------------------
 .. rst-class:: cardlist
