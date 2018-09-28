@@ -3,46 +3,15 @@ Publications
 
 See also: `Google Scholar <https://scholar.google.com/citations?user=6XorTkcAAAAJ>`_, `DBLP <https://dblp.uni-trier.de/pers/hd/s/Soma:Tasuku>`_, `Researchmap <https://researchmap.jp/tasuku>`_
 
-Refereed Journal
---------------------------------------------------------
+Refereed Journals and Conferences
+-------------------------------------------
 .. rst-class:: cardlist
-    
-    - **Maximizing Monotone Submodular Functions over the Integer Lattice** [`Journal website <https://doi.org/10.1007/s10107-018-1324-y>`_] [`Full text <https://rdcu.be/5thr>`_] [`ArXiv <http://arxiv.org/abs/1503.01218v2>`_]
+
+    - **Spectral Sparsification of Hypergraphs** [`ArXiv <https://arxiv.org/abs/1807.04974>`_]
 
       with Yuichi Yoshida
 
-      *Mathematical Programming*, 2018, online available. 
-
-      (Journal version of our paper in IPCO 2016) 
-
-    - **On orthogonal tensors and best rank-one approximation ratio** [`Journal website <https://epubs.siam.org/doi/abs/10.1137/17M1144349>`_] [`ArXiv <https://arxiv.org/abs/1707.02569>`_]
-
-      with Zhening Li, Yuji Nakatsukasa, André Uschmajew
-       
-      *SIAM Jounal on Matrix Analysis and Applications*, 39 (1), pp. 400--425, 2018.
-
-    - **Finding a low-rank basis in a matrix subspace** [`Journal website <http://link.springer.com/article/10.1007/s10107-016-1042-2>`_] [`Full text <http://rdcu.be/nmLj>`_] [`ArXiv <https://arxiv.org/abs/1503.08601v2>`_]
-
-      with Yuji Nakatsukasa and André Uschmajew
-
-      *Mathematical Programming*, 162(1), pp. 325--361, 2017.
-
-    - **Multicasting in Linear Deterministic Relay Network by Matrix Completion** [`Journal website <http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7358153>`_] [`PDF(technical report) <http://www.keisu.t.u-tokyo.ac.jp/research/techrep/data/2013/METR13-34.pdf>`_]
-
-      *IEEE Transactions on Information Theory*, 62(2), pp. 870--875, 2016.
-
-      (Journal version of my paper in ISIT 2014) 
-
-    - **Fast Deterministic Algorithms for Matrix Completion Problems**, [`Journal website <http://epubs.siam.org/doi/abs/10.1137/130909214>`_] [`PDF <papers/sidma2015.pdf>`_]
-
-      *SIAM Journal on Discrete Mathematics*, 28(1), pp. 490--502, 2014. 
-
-      (Journal version of my paper in IPCO 2013) 
-
-
-Refereed Conference Proceedings
---------------------------------------------------------
-.. rst-class:: cardlist
+      `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2019 <https://www.siam.org/conferences/CM/Main/soda19>`_, to appear.
 
     - **Fast greedy algorithms for dictionary selection with generalized sparsity constraints**  [`ArXiv <https://arxiv.org/abs/1809.02314>`_]
 
@@ -50,70 +19,88 @@ Refereed Conference Proceedings
 
       `Advances in Neural Information Processing Systems (NIPS), 2018 <https://nips.cc/Conferences/2018>`_, **spotlight**, to appear.
     
+    - **Maximizing Monotone Submodular Functions over the Integer Lattice** [`ArXiv <http://arxiv.org/abs/1503.01218v2>`_] [`full text <https://rdcu.be/5thr>`_]
+
+      with Yuichi Yoshida
+      
+      `Mathematical Programming, 2018 <https://doi.org/10.1007/s10107-018-1324-y>`_, online available. 
+      
+      `Integer Programming and Combinatorial Optimization (IPCO), 2016 <http://events.ulg.ac.be/ipco2016/>`_ 
+
     - **A New Approximation Guarantee for Monotone Submodular Function Maximization via Discrete Convexity** [`ArXiv <https://arxiv.org/abs/1709.02910>`_]
 
       with Yuichi Yoshida
        
       `The 45th International Colloquium on Automata, Languages, and Programming (ICALP), 2018 <https://iuuk.mff.cuni.cz/~icalp2018>`_.
 
+    - **Maximally Invariant Data Perturbation as Explanation** [`ArXiv <https://arxiv.org/abs/1806.07004>`_]
+
+      with Satoshi Hara, Kouichi Ikeno, and Takanori Maehara
+
+      ICML Workshop on Human Interpretability in Machine Learning (WHI), 2018
+    
+    - **On orthogonal tensors and best rank-one approximation ratio** [`ArXiv <https://arxiv.org/abs/1707.02569>`_]
+
+      with Zhening Li, Yuji Nakatsukasa, André Uschmajew
+       
+      `SIAM Jounal on Matrix Analysis and Applications, 39 (1), pp. 400--425, 2018 <https://epubs.siam.org/doi/abs/10.1137/17M1144349>`_.
+
     - **Regret Ratio Minimization in Multi-objective Submodular Function Maximization** [`PDF <http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14477/13859>`_]
 
       with Yuichi Yoshida
 
-      `The 31st AAAI Conference on Artificial Inteligence, 2017 <http://www.aaai.org/Conferences/AAAI/aaai17.php>`_, **acceptance rate: 24%**.
+      `The 31st AAAI Conference on Artificial Inteligence, 2017 <http://www.aaai.org/Conferences/AAAI/aaai17.php>`_
 
     - **Non-monotone DR-Submodular Function Maximization** [`ArXiv <https://arxiv.org/abs/1612.00960v1>`_]
 
       with Yuichi Yoshida
 
-      `The 31st AAAI Conference on Artificial Inteligence, 2017 <http://www.aaai.org/Conferences/AAAI/aaai17.php>`_, **acceptance rate: 24%**.
+      `The 31st AAAI Conference on Artificial Inteligence, 2017 <http://www.aaai.org/Conferences/AAAI/aaai17.php>`_
 
-    - **Maximizing Monotone Submodular Functions over the Integer Lattice** [`ArXiv <http://arxiv.org/abs/1503.01218v2>`_]
+    - **Finding a low-rank basis in a matrix subspace**  [`Full text <http://rdcu.be/nmLj>`_] [`ArXiv <https://arxiv.org/abs/1503.08601v2>`_]
 
-      with Yuichi Yoshida
+      with Yuji Nakatsukasa and André Uschmajew
 
-      `Integer Programming and Combinatorial Optimization (IPCO), 2016 <http://events.ulg.ac.be/ipco2016/>`_, **acceptance rate: 27%**.
+      `Mathematical Programming, 162(1), pp. 325--361, 2017 <http://link.springer.com/article/10.1007/s10107-016-1042-2>`_.
+
 
     - **Non-Convex Compressed Sensing with the Sum-of-Squares Method** [`Proceedings <http://epubs.siam.org/doi/abs/10.1137/1.9781611974331.ch42>`_] [`PDF <papers/soda2016.pdf>`_]
 
       with Yuichi Yoshida
 
-      `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2016 <https://www.siam.org/meetings/da16/>`_, **acceptance rate: 28%**
+      `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2016 <https://www.siam.org/meetings/da16/>`_
+
+
+    - **Multicasting in Linear Deterministic Relay Network by Matrix Completion** [`PDF(technical report) <http://www.keisu.t.u-tokyo.ac.jp/research/techrep/data/2013/METR13-34.pdf>`_]
+
+      `IEEE Transactions on Information Theory, 62(2), pp. 870--875, 2016 <http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7358153>`_.
+
+      `IEEE International Symposium on Information Theory (ISIT), 2014 <http://www.isit2014.org>`_
 
     - **A Generalization of Submodular Cover via the Diminishing Return Property on the Integer Lattice** [`PDF <http://papers.nips.cc/paper/5927-a-generalization-of-submodular-cover-via-the-diminishing-return-property-on-the-integer-lattice.pdf>`_]
 
       with Yuichi Yoshida
 
       `Advances in Neural Information Processing Systems (NIPS), 2015 <https://nips.cc/Conferences/2015>`_, 
-      poster session, **acceptance rate: 22%**
+      poster
 
-    - **Multicasting in Linear Deterministic Relay Network by Matrix Completion** [`PDF(technical report) <http://www.keisu.t.u-tokyo.ac.jp/research/techrep/data/2013/METR13-34.pdf>`_]
-
-      `IEEE International Symposium on Information Theory (ISIT), 2014 <http://www.isit2014.org>`_
 
     - **Optimal Budget Allocation: Theoretical Guarantee and Efficient Algorithm**  [`PDF(extended version) <papers/icml2014.pdf>`_]
       
       with Naonori Kakimura, Kazuhiro Inaba, Ken-ichi Kawarabayashi
       
-      `International Conference on Machine Learning (ICML), 2014, <http://icml.cc/2014>`_ **Cycle 1,  acceptance rate: 27%**
+      `International Conference on Machine Learning (ICML), 2014, <http://icml.cc/2014>`_ **Cycle 1 (acceptance rate: 27%)**
 
-    - **Fast Deterministic Algorithms for Matrix Completion Problems**
        
+
+    - **Fast Deterministic Algorithms for Matrix Completion Problems**, [`PDF <papers/sidma2015.pdf>`_]
+
+      `SIAM Journal on Discrete Mathematics, 28(1), pp. 490--502, 2014 <http://epubs.siam.org/doi/abs/10.1137/130909214>`_.
+      
       `Integer Programming and Combinatorial Optimization (IPCO), 2013 <https://www.cec.uchile.cl/~ipco2013>`_
 
 
-Refereed Workshop Proceedings
---------------------------------------------------------------
-.. rst-class:: cardlist
-
-    - **Maximally Invariant Data Perturbation as Explanation** [`ArXiv <https://arxiv.org/abs/1806.07004>`_]
-
-      with Satoshi Hara, Kouichi Ikeno, and Takanori Maehara
-
-      ICML Workshop on Human Interpretability in Machine Learning (WHI), 2018
-
-
-Preprint
+Preprints
 ------------------------------
 .. rst-class:: cardlist
 
@@ -126,7 +113,7 @@ Preprint
     - **No-regret algorithms for online k-submodular maximization** [`ArXiv <https://arxiv.org/abs/1807.04965>`_] 
     
       arxiv, 2018.
-    
+
 
 
 Thesis
