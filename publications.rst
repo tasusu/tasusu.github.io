@@ -13,11 +13,11 @@ Refereed Journals and Conferences
 
       `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2019 <https://www.siam.org/conferences/CM/Main/soda19>`_, to appear.
 
-    - **Fast greedy algorithms for dictionary selection with generalized sparsity constraints**  [`ArXiv <https://arxiv.org/abs/1809.02314>`_]
+    - **Fast greedy algorithms for dictionary selection with generalized sparsity constraints**  [`Proceedings <https://papers.nips.cc/paper/7724-fast-greedy-algorithms-for-dictionary-selection-with-generalized-sparsity-constraints>`_] 
 
       with Kaito Fujii
 
-      `Advances in Neural Information Processing Systems (NIPS), 2018 <https://nips.cc/Conferences/2018>`_, **spotlight**, to appear.
+      `Advances in Neural Information Processing Systems (NeurIPS), 2018 <https://nips.cc/Conferences/2018>`_, **spotlight**.
     
     - **Maximizing Monotone Submodular Functions over the Integer Lattice** [`ArXiv <http://arxiv.org/abs/1503.01218v2>`_] [`full text <https://rdcu.be/5thr>`_]
 
@@ -77,7 +77,7 @@ Refereed Journals and Conferences
 
       `IEEE International Symposium on Information Theory (ISIT), 2014 <http://www.isit2014.org>`_
 
-    - **A Generalization of Submodular Cover via the Diminishing Return Property on the Integer Lattice** [`PDF <http://papers.nips.cc/paper/5927-a-generalization-of-submodular-cover-via-the-diminishing-return-property-on-the-integer-lattice.pdf>`_]
+    - **A Generalization of Submodular Cover via the Diminishing Return Property on the Integer Lattice** [`Proceedings <http://papers.nips.cc/paper/5927-a-generalization-of-submodular-cover-via-the-diminishing-return-property-on-the-integer-lattice>`_]
 
       with Yuichi Yoshida
 

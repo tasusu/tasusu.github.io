@@ -45,4 +45,5 @@ Notes (in Japanese)
 Teaching (in Japanese)
 -----------------------------
 
+- `幾何数理工学演習(2018):問題と解答例 <https://www.dropbox.com/sh/50b7rqk4g1w1ha8/AABwtFqfiqBgTmqVweD9iuaUa?dl=0>`_
 - `演習第二講義ノート <algalg.pdf>`_
