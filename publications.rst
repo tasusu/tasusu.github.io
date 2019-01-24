@@ -6,12 +6,16 @@ See also: `Google Scholar <https://scholar.google.com/citations?user=6XorTkcAAAA
 Refereed Journals and Conferences
 -------------------------------------------
 .. rst-class:: cardlist
+    
+    - **No-regret algorithms for online k-submodular maximization** [`ArXiv <https://arxiv.org/abs/1807.04965>`_] 
+    
+      `The 22nd International Conference on Artificial Intelligence and Statistics (AISTATS), 2019 <https://www.aistats.org/>`_, to appear.
 
-    - **Spectral Sparsification of Hypergraphs** [`ArXiv <https://arxiv.org/abs/1807.04974>`_]
+    - **Spectral Sparsification of Hypergraphs** [`Proceedings <https://epubs.siam.org/doi/abs/10.1137/1.9781611975482.159>`_]
 
       with Yuichi Yoshida
 
-      `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2019 <https://www.siam.org/conferences/CM/Main/soda19>`_, to appear.
+      `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2019 <https://www.siam.org/conferences/CM/Main/soda19>`_.
 
     - **Fast greedy algorithms for dictionary selection with generalized sparsity constraints**  [`Proceedings <https://papers.nips.cc/paper/7724-fast-greedy-algorithms-for-dictionary-selection-with-generalized-sparsity-constraints>`_] 
 
@@ -23,7 +27,7 @@ Refereed Journals and Conferences
 
       with Yuichi Yoshida
       
-      `Mathematical Programming, 2018 <https://doi.org/10.1007/s10107-018-1324-y>`_, online available. 
+      `Mathematical Programming, 172, pp.539--563, 2018 <https://doi.org/10.1007/s10107-018-1324-y>`_. 
       
       `Integer Programming and Combinatorial Optimization (IPCO), 2016 <http://events.ulg.ac.be/ipco2016/>`_ 
 
@@ -109,11 +113,6 @@ Preprints
       with Kaito Fujii, Yuichi Yoshida
        
       arxiv, 2018.
-
-    - **No-regret algorithms for online k-submodular maximization** [`ArXiv <https://arxiv.org/abs/1807.04965>`_] 
-    
-      arxiv, 2018.
-
 
 
 Thesis
