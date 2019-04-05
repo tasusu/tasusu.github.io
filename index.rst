@@ -6,7 +6,7 @@
 
 Tasuku Soma （相馬 輔）
 =================================================
-I am currently an assistant professor in `Graduate School of Information Science and Technology <http://www.i.u-tokyo.ac.jp/index_e.shtml>`_, `the University of Tokyo <http://www.u-tokyo.ac.jp/en/>`_. 
+An assistant professor in `Graduate School of Information Science and Technology <http://www.i.u-tokyo.ac.jp/index_e.shtml>`_, `the University of Tokyo <http://www.u-tokyo.ac.jp/en/>`_.  I am currently in a reserch group of `Satoru Iwata <https://www.opt.mist.i.u-tokyo.ac.jp/~iwata>`_, who was also a superviser of my Ph.D course.
 
 Email: |mail|
 
@@ -17,11 +17,11 @@ Email: |mail|
 
 Research Areas
 ------------------------------
-**Optimization for Machine Learning, Signal Processing, and Communication**
+**Submodular and/or algebraic techniques in optimization**.
 
-- Approximation Algorithms for Submodular Optimization
-- Sum of Squares Method for Compressed Sensing
-- Network Coding and Matrix Completion
+- Submodular optimization and its applications in machine learning 
+- Sparsification and spectral methods in algorithm design
+- Compressed sensing, tensor approximation, and matrix spaces
 
 Contents
 ------------------------------

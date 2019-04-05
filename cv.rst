@@ -1,6 +1,8 @@
 C.V.
 ==================================================
 
+[`full C.V. in PDF format <cv.pdf>`_]
+
 Employment
 ------------------------------
 **Academic Position**
@@ -47,7 +49,7 @@ Education
 
 Award
 ------------------------------
-- 東京大学大学院情報理工学系研究科研究科長賞 (Department Award), 2016
+- 東京大学大学院情報理工学系研究科研究科長賞 (Dean's list), 2016
 - 第31回日本オペレーションズ・リサーチ学会学生論文賞 (Student Paper Award of ORSJ), 2013
 
 Computer Skills
