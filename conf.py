@@ -92,6 +92,9 @@ html_theme = 'bootstrap'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
+    #remove sidebar
+    'nosidebar' : True,
+
     # Navigation bar title. (Default: ``project`` value)
     'navbar_title': "Tasuku Soma",
 
@@ -208,8 +211,8 @@ html_extra_path = ["_extra"]
 #html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
-html_sidebars = {'sidebar': ['localtoc.html', 'sourcelink.html', 'searchbox.html']}
+html_sidebars = {}
+#html_sidebars = {'sidebar': ['localtoc.html', 'sourcelink.html', 'searchbox.html']}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
