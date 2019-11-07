@@ -7,9 +7,9 @@ Refereed Journals and Conferences
 -------------------------------------------
 .. rst-class:: cardlist
     
-    - **No-regret algorithms for online k-submodular maximization** [`ArXiv <https://arxiv.org/abs/1807.04965>`_] 
+    - **No-regret algorithms for online k-submodular maximization** [`Proceedings <http://proceedings.mlr.press/v89/soma19a.html>`_] [`ArXiv <https://arxiv.org/abs/1807.04965>`_] 
     
-      `The 22nd International Conference on Artificial Intelligence and Statistics (AISTATS), 2019 <https://www.aistats.org/>`_, to appear.
+      `The 22nd International Conference on Artificial Intelligence and Statistics (AISTATS), 2019 <https://www.aistats.org/>`_.
 
     - **Spectral Sparsification of Hypergraphs** [`Proceedings <https://epubs.siam.org/doi/abs/10.1137/1.9781611975482.159>`_]
 

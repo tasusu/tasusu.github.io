@@ -17,7 +17,7 @@ Email: |mail|
 
 Research Areas
 ------------------------------
-**Submodular and/or algebraic techniques in optimization**.
+**Combinatorial Optimization ∩ Machine Learning**
 
 - Submodular optimization and its applications in machine learning 
 - Sparsification and spectral methods in algorithm design
@@ -45,5 +45,5 @@ Notes (in Japanese)
 Teaching (in Japanese)
 -----------------------------
 
-- `幾何数理工学演習(2018):問題と解答例 <https://www.dropbox.com/sh/50b7rqk4g1w1ha8/AABwtFqfiqBgTmqVweD9iuaUa?dl=0>`_
-- `演習第二講義ノート <algalg.pdf>`_
+- `演習第二2019ノート(Multiplicative Weight Update) <mwunote.pdf>`_ [`レポート問題 <mwu.pdf>`_]
+- `演習第二2018ノート(完全マッチングに対する代数的アルゴリズム) <algalg.pdf>`_
