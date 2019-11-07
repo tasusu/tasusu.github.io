@@ -44,6 +44,6 @@ Notes (in Japanese)
 
 Teaching (in Japanese)
 -----------------------------
-
+- `幾何数理工学演習2019 <https://www.dropbox.com/sh/ahunn6s5fjjboqq/AABNwBX9_Qn1fCADHMka5ZuAa?dl=0>`_
 - `演習第二2019ノート(Multiplicative Weight Update) <mwunote.pdf>`_ [`レポート問題 <mwu.pdf>`_]
 - `演習第二2018ノート(完全マッチングに対する代数的アルゴリズム) <algalg.pdf>`_
