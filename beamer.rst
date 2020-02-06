@@ -286,9 +286,11 @@ only/onslideの前後で配置が微妙にずれるのを防ぐ
 
 テンプレート
 --------------------------------------------------
-自分が使っているテンプレートを公開しておきます（MITライセンス）．
-uplatex+dvipdfmxでコンパイルすることを前提にしています．
-その他の環境は適宜修正してお使いください．
+自分が使っているテンプレートをOverleafで公開しておきます（MITライセンス）．
+[`Overleaf Gallery <https://www.overleaf.com/latex/templates/aqua-beamer-template-settings-for-japanese/mwqqbfrdhscg>`_ ]
+
+オフラインで使用する場合はuplatex+dvipdfmxでコンパイルしてください．
+また，Noto Sans CJK JPフォントを埋め込みますので，正しいディレクトリにフォントファイルを配置してください．
    
 サンプル
 ~~~~~~~~~~~~~~~~~~~
@@ -296,10 +298,6 @@ uplatex+dvipdfmxでコンパイルすることを前提にしています．
 .. raw:: html
 
     <iframe src="//www.slideshare.net/slideshow/embed_code/46359576" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
-
-ソースコード
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-.. literalinclude:: beamertemplete.tex
 
 
 参考文献
