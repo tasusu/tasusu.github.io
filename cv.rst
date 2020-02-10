@@ -7,7 +7,7 @@ Employment
 ------------------------------
 **Academic Position**
 
-- April 2016 -- now, Assistant Professor (助教), the university of Tokyo.
+- April 2016 -- now, Research Associate (助教), the university of Tokyo.
 
 **Research Fellowship**
 

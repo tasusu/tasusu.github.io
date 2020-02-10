@@ -6,7 +6,7 @@
 
 Tasuku Soma （相馬 輔）
 =================================================
-An assistant professor in `Graduate School of Information Science and Technology <http://www.i.u-tokyo.ac.jp/index_e.shtml>`_, `the University of Tokyo <http://www.u-tokyo.ac.jp/en/>`_.  I am currently in a reserch group of `Satoru Iwata <https://www.opt.mist.i.u-tokyo.ac.jp/~iwata>`_, who was also a superviser of my Ph.D course.
+Research associate, `Graduate School of Information Science and Technology <http://www.i.u-tokyo.ac.jp/index_e.shtml>`_, `the University of Tokyo <http://www.u-tokyo.ac.jp/en/>`_.  I am currently in a reserch group of `Satoru Iwata <https://www.opt.mist.i.u-tokyo.ac.jp/~iwata>`_, who was also a superviser of my Ph.D course.
 
 Email: |mail|
 
