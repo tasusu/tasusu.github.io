@@ -19,13 +19,25 @@ International Conference
 -----------------------------------------------------
 .. rst-class:: cardlist 
 
+    - **A New Approximation Guarantee for Monotone Submodular Function Maximization via Discrete Convexity**
+
+      `The 45th International Colloquium on Automata, Languages, and Programming (ICALP), 2018 <https://iuuk.mff.cuni.cz/events/icalp2018/>`_,
+
+      .. raw:: html
+    
+        <div style="max-width:480px">
+        <script async class="speakerdeck-embed" data-id="9f0d8cfcd96641c7a18b4bede026a138" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
+
     - **Regret Ratio Minimization in Multi-objective Submodular Function Maximization**
 
       `The 31st AAAI Conference on Artificial Inteligence, 2017 <http://www.aaai.org/Conferences/AAAI/aaai17.php>`_
 
       .. raw:: html
 
-        <iframe src="//www.slideshare.net/slideshow/embed_code/key/4c6yuXPlzjHYuv" width="340" height="290" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+        <div style="max-width:480px">
+        <script async class="speakerdeck-embed" data-id="6191e3216696464fad14ca7b318059bd" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
 
     - **Non-Convex Compressed Sensing with the Sum-of-Squares Method** 
 
@@ -33,7 +45,9 @@ International Conference
 
       .. raw:: html
 
-        <iframe src="//www.slideshare.net/slideshow/embed_code/key/IvpHTJyhWq5LjV" width="340" height="290" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+        <div style="max-width:480px">
+        <script async class="speakerdeck-embed" data-id="c686435b8b184af1a1adf009176cb6a7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
 
     - **The low-rank basis problem for a matrix subspace**
 
@@ -41,8 +55,9 @@ International Conference
 
       .. raw:: html
 
-           <iframe src="//www.slideshare.net/slideshow/embed_code/key/1QErppBx5pSlPh" width="340" height="290" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
-
+        <div style="max-width:480px">
+        <script async class="speakerdeck-embed" data-id="ae54498b596542259b542c9c3ff499dc" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
 
     - **Multicasting in Linear Deterministic Relay Network by Matrix Completion**
 
@@ -50,7 +65,9 @@ International Conference
 
       .. raw:: html
 
-           <iframe src="//www.slideshare.net/slideshow/embed_code/36818904" width="342" height="291" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+        <div style="max-width:480px">
+        <script async class="speakerdeck-embed" data-id="d6fb74a41d2a4fc892c1cb72e16c1fb3" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
 
     - **Optimal Budget Allocation: Theoretical Guarantee and Efficient Algorithm** [`Video <http://techtalks.tv/talks/optimal-budget-allocation-theoretical-guarantee-and-efficient-algorithm/61153/>`_]
 
@@ -58,7 +75,9 @@ International Conference
 
       .. raw:: html
 
-           <iframe src="//www.slideshare.net/slideshow/embed_code/41287381" width="340" height="290" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+        <div style="max-width:480px">
+        <script async class="speakerdeck-embed" data-id="b1b3114392694476a86c16898a5471d5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
 
     - **Fast Deterministic Algorithms for Matrix Completion Problems**
 
@@ -66,63 +85,6 @@ International Conference
 
       .. raw:: html
 
-         <iframe src="//www.slideshare.net/slideshow/embed_code/17714382" width="342" height="291" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-
-
-
-Domestic Conference (in Japanese)
------------------------------------------------------
-.. rst-class:: cardlist
-    
-    - **整数格子点上の劣モジュラ被覆に対する高速アルゴリズム**
-
-      with 𠮷田悠一
-
-      IBIS 企画セッション「博士課程学生招待講演」, 2015.
-
-    - **低ランク基底問題に対する高速アルゴリズム**
-
-      with 中務佑治, André Uschmajew
-
-      OR学会秋季研究発表会, 2015.
-
-
-    - **整数格子点上の劣モジュラ被覆に対する高速アルゴリズム** [`Slide <http://www.slideshare.net/tasukusoma/ss-52438952>`_]
-     
-      with 𠮷田悠一
-
-      OR学会春季研究発表会, 2015.
-
-    - **限界効用逓減性をもつ単調劣モジュラ関数の最大化**
-     
-      with 𠮷田悠一
-
-      SOTAつくば合宿, 2014.
-
-    - **行列補完を用いた無線マルチキャスト符号構成アルゴリズム** [`Slide <http://www.slideshare.net/tasukusoma/slide-33017160>`_]
-        
-      OR学会春季研究発表会, 2014. **プレゼンテーション賞**
-
-    - **最適予算配分問題に対する高速アルゴリズム**
-      
-      with 垣村尚徳, 河原林健一 
-      
-      OR学会秋季研究発表会, 2013.
-
-    - **ナップサック制約付きマルチセット単調劣モジュラ関数最大化**
-     
-      with 垣村尚徳, 河原林健一 
-
-      SOTAつくば合宿, 2013.
-      
-    - **行列補完に対する多項式時間決定的アルゴリズム**
-      
-      OR学会春季研究発表会, 2013.
-
-    - **Rank-1行列による行列補完アルゴリズム**
-      
-      KSMAP琵琶湖合宿, 2012, **優秀発表賞**
-
-    - **Faster deterministic algorithm for matrix completion by rank-one matrices**
-     
-      SOTAつくば合宿, 2012, **最優秀発表賞**
+        <div style="max-width:480px">
+        <script async class="speakerdeck-embed" data-id="6e6a2356faa4432a92d44c626f189dd9" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
