@@ -15,9 +15,33 @@ Video
         
          <iframe width="480" height="360" src="https://www.youtube.com/embed/9MPbhCdOHXk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-International Conference
+Slides
 -----------------------------------------------------
 .. rst-class:: cardlist 
+    
+    - **Information Geometry of Operator Scaling**
+
+      RIKEN iTHEMS math seminar, 2020
+      
+      .. raw:: html
+    
+        <div style="max-width:480px">
+        <script async class="speakerdeck-embed" data-id="cce84df7e9e74455b8e07153b42c9900" data-ratio="1.77966101694915" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
+        
+        <div style="max-width:480px">
+        <script async class="speakerdeck-embed" data-id="2dce5bcd856f40a6a32b89df22c86f26" data-ratio="1.77966101694915" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
+
+    - **No-regret algorithms for online k-submodular function maximization**
+
+      UBC algorithm seminar, 2019
+      
+      .. raw:: html
+    
+        <div style="max-width:480px">
+        <script async class="speakerdeck-embed" data-id="400d6d36441f448695d0aa39e2c871ff" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
 
     - **A New Approximation Guarantee for Monotone Submodular Function Maximization via Discrete Convexity**
 
