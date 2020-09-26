@@ -6,6 +6,18 @@ See also: `Google Scholar <https://scholar.google.com/citations?user=6XorTkcAAAA
 Refereed Journals and Conferences
 -------------------------------------------
 .. rst-class:: cardlist
+
+    - **Improved Algorithms for Online Submodular Maximization via First-order Regret Bounds** 
+
+      with Chris Liaw and Nich Harvey
+
+      `Advances in Neural Information Processing Systems (NeurIPS), 2020 <https://nips.cc/Conferences/2020>`_, to appear.
+    
+    - **Tight First- and Second-Order Regret Bounds for Adversarial Linear Bandits** 
+
+      with Shinji Ito, Shuichi Hirahara, and Yuichi Yoshida
+
+      `Advances in Neural Information Processing Systems (NeurIPS), 2020 <https://nips.cc/Conferences/2020>`_, **spotlight**, to appear.
     
     - **No-regret algorithms for online k-submodular maximization** [`Proceedings <http://proceedings.mlr.press/v89/soma19a.html>`_] [`ArXiv <https://arxiv.org/abs/1807.04965>`_] 
     
