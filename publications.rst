@@ -9,7 +9,7 @@ Refereed Journals and Conferences
 
     - **Improved Algorithms for Online Submodular Maximization via First-order Regret Bounds** 
 
-      with Chris Liaw and Nich Harvey
+      with Chris Liaw and Nick Harvey
 
       `Advances in Neural Information Processing Systems (NeurIPS), 2020 <https://nips.cc/Conferences/2020>`_, to appear.
     
