@@ -7,17 +7,17 @@ Refereed Journals and Conferences
 -------------------------------------------
 .. rst-class:: cardlist
 
-    - **Improved Algorithms for Online Submodular Maximization via First-order Regret Bounds** 
+    - **Improved Algorithms for Online Submodular Maximization via First-order Regret Bounds** [`Proceedings <https://papers.nips.cc/paper/2020/hash/0163cceb20f5ca7b313419c068abd9dc-Abstract.html>`_]
 
       with Chris Liaw and Nick Harvey
 
-      `Advances in Neural Information Processing Systems (NeurIPS), 2020 <https://nips.cc/Conferences/2020>`_, to appear.
+      `Advances in Neural Information Processing Systems (NeurIPS), 2020 <https://nips.cc/Conferences/2020>`_.
     
-    - **Tight First- and Second-Order Regret Bounds for Adversarial Linear Bandits** 
+    - **Tight First- and Second-Order Regret Bounds for Adversarial Linear Bandits** [`Proceedings <https://papers.nips.cc/paper/2020/hash/15bb63b28926cd083b15e3b97567bbea-Abstract.html>`_]
 
       with Shinji Ito, Shuichi Hirahara, and Yuichi Yoshida
 
-      `Advances in Neural Information Processing Systems (NeurIPS), 2020 <https://nips.cc/Conferences/2020>`_, **spotlight**, to appear.
+      `Advances in Neural Information Processing Systems (NeurIPS), 2020 <https://nips.cc/Conferences/2020>`_, **spotlight**.
     
     - **No-regret algorithms for online k-submodular maximization** [`Proceedings <http://proceedings.mlr.press/v89/soma19a.html>`_] [`ArXiv <https://arxiv.org/abs/1807.04965>`_] 
     
@@ -121,7 +121,6 @@ Preprints
 .. rst-class:: cardlist
 
     - **Information Geometry of Operator Scaling** [`ArXiv <https://arxiv.org/abs/2005.01453>`_]
-
 
       with Takeru Matsuda
 
