@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Beamer &#8212; Tasuku Soma&#39;s webpage</title>
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootswatch-3.3.6/cosmo/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="TikZ" href="tikz.html" />
+    <link rel="prev" title="Software" href="software.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3628029-8', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          Tasuku Soma</a>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            <li class="divider-vertical"></li>
+            
+                <li><a href="cv.pdf"><span class="glyphicon glyphicon-user"></span> C.V.</a></li>
+                <li><a href="publications.html"><span class="glyphicon glyphicon-th-list"></span> Publications</a></li>
+                <li><a href="talks.html"><span class="glyphicon glyphicon-facetime-video"></span> Talks</a></li>
+                <li><a href="software.html"><span class="glyphicon glyphicon-hdd"></span> Software</a></li>
+            
+            
+
+              
+            
+            
+            
+            
+            
+          </ul>
+
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 content">
+      
+  <div class="section" id="beamer">
+<h1>Beamer<a class="headerlink" href="#beamer" title="Permalink to this headline">¶</a></h1>
+<p>Beamerについての備忘録</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#id1" id="id15">はじめてのBeamer</a></p></li>
+<li><p><a class="reference internal" href="#id4" id="id16">Overlay Specification</a></p></li>
+<li><p><a class="reference internal" href="#tips" id="id17">もろもろのTips</a></p></li>
+<li><p><a class="reference internal" href="#id12" id="id18">テンプレート</a></p></li>
+<li><p><a class="reference internal" href="#id14" id="id19">参考文献</a></p></li>
+</ul>
+</div>
+<div class="section" id="id1">
+<h2>はじめてのBeamer<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>この文書は，Beamer Users GuideのTutorialから内容を抽出したものです．</p>
+<div class="section" id="get-started">
+<h3>Get Started<a class="headerlink" href="#get-started" title="Permalink to this headline">¶</a></h3>
+<p>Beamerを作る手順は，普段LaTeX文書を作るときとほとんど一緒です．違うのはdocument classに <code class="docutils literal notranslate"><span class="pre">beamer</span></code> を指定するところです:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\documentclass</span><span class="nb">{</span>beamer<span class="nb">}</span>
+</pre></div>
+</div>
+<p>次にタイトル・著者名・日付をプリアンブルに書きます．いつも通りですね:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\title</span><span class="nb">{</span>はじめてのBeamer<span class="nb">}</span>
+<span class="k">\author</span><span class="nb">{</span>高木貞治<span class="nb">}</span>
+<span class="k">\date</span><span class="nb">{</span><span class="k">\today</span><span class="nb">}</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">\begin{document}</span></code> の後には以下のように書いてみましょう:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+<span class="k">\maketitle</span>
+<span class="k">\begin</span><span class="nb">{</span>frame<span class="nb">}{</span>スライド<span class="nb">}</span>
+ スライドができたよ！やったね！
+<span class="k">\end</span><span class="nb">{</span>frame<span class="nb">}</span>
+<span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</pre></div>
+</div>
+<p>出来上がったら，普通の文書と同じようにコンパイルしてPDFを生成してみましょう．2枚のスライドからなるPDFが出来上がるはずです．しかも <code class="docutils literal notranslate"><span class="pre">\maketitle</span></code> のおかげで，かっこいいタイトルスライドが勝手に出来上がっています．すごい！</p>
+<p>frame環境はちょうど1枚のスライドに対応します．環境の中身に書いたものがスライドの中身になって出力されます．</p>
+</div>
+<div class="section" id="id2">
+<h3>目次を作る<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>目次も，LaTeXで文書の目次を作るときとほぼ同じ手順です．まずは2枚目のスライドの前に <code class="docutils literal notranslate"><span class="pre">\section{}</span></code> を追加しましょう:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\section</span><span class="nb">{</span>はじめに<span class="nb">}</span>
+</pre></div>
+</div>
+<p>次に <code class="docutils literal notranslate"><span class="pre">\section{}</span></code> の直後に以下のコードを追加します:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>frame<span class="nb">}{}</span>
+ <span class="k">\tableofcontents</span>
+<span class="k">\end</span><span class="nb">{</span>frame<span class="nb">}</span>
+</pre></div>
+</div>
+<p>2枚目に目次の入ったスライドが追加されました．</p>
+</div>
+<div class="section" id="id3">
+<h3>フレームの中を埋める<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>3枚目のスライドがすこし寂しいので，もっと中身を追加してみましょう．frame環境の中では，itemize環境やenumerate環境などの使い慣れたLaTeXの環境を使うことができます．また，amsmathの定理環境によく似たtheorem, lemma, proof, corollary, exampleといった環境がbeamerの中でデフォルトで定義されています．</p>
+<p>文字を強調したいときは <code class="docutils literal notranslate"><span class="pre">\emph</span></code> でも構いませんが，斜体になるだけなのでいまいち目立ちません．Beamerにはよく似た <code class="docutils literal notranslate"><span class="pre">\alert</span></code> コマンドがあり，こっちは文字を赤くしてくれます．</p>
+<p>3枚目のスライドはこんな感じでしょうか:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>frame<span class="nb">}</span>
+ <span class="k">\frametitle</span><span class="nb">{</span>はじめてのスライド<span class="nb">}</span>
+ <span class="k">\begin</span><span class="nb">{</span>definition<span class="nb">}</span>
+   1と自分自身しか約数を持たない数を<span class="k">\alert</span><span class="nb">{</span>素数<span class="nb">}</span>という．
+ <span class="k">\end</span><span class="nb">{</span>definition<span class="nb">}</span>
+ <span class="k">\begin</span><span class="nb">{</span>example<span class="nb">}</span>
+  <span class="k">\begin</span><span class="nb">{</span>itemize<span class="nb">}</span>
+   <span class="k">\item</span> 2 は素数．
+   <span class="k">\item</span> 3 も素数．
+   <span class="k">\item</span> 4 は素数ではない．
+  <span class="k">\end</span><span class="nb">{</span>itemize<span class="nb">}</span>
+ <span class="k">\end</span><span class="nb">{</span>example<span class="nb">}</span>
+ <span class="k">\end</span><span class="nb">{</span>frame<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="overlay">
+<h3>Overlayを作る<a class="headerlink" href="#overlay" title="Permalink to this headline">¶</a></h3>
+<p>よくPowerPointのスライドで，はじめは表示されていなかった文字がプレゼンターの操作によってパッと現れるのを見かけます．「アニメーション」と呼ばれる機能です．同様の機能が，Beamerでは <strong>Overlay</strong> と呼ばれます．</p>
+<p>Overlayを作るお手軽な方法は <code class="docutils literal notranslate"><span class="pre">\pause</span></code> を使うことです:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>itemize<span class="nb">}</span>
+ <span class="k">\item</span> 2 は素数．
+ <span class="k">\pause</span>
+ <span class="k">\item</span> 3 も素数．
+ <span class="k">\pause</span>
+ <span class="k">\item</span> 4 は素数ではない．
+<span class="k">\end</span><span class="nb">{</span>itemize<span class="nb">}</span>
+</pre></div>
+</div>
+<p>はじめは1個目の箇条書きしか表示されておらず，次に進むと2個目，さらに進むと3個目が表示されるようなスライドができます．PDFで見るとページ数が必要な分だけ増えます．3枚目のスライドは3コマのOverlayから成るので，PDFでは3ページ分になったはずです．</p>
+</div>
+<div class="section" id="overlay-specification">
+<h3>Overlay Specificationを使う<a class="headerlink" href="#overlay-specification" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">\pause</span></code> では上から順番に表示していくようなOverlayしか作れません．もっと細かく動作を指定するためには <strong>Overlay Specification</strong> という機能を使います．</p>
+<p>次のような新しいスライドを末尾に追加しましょう:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>frame<span class="nb">}{</span>素数は無限に存在する<span class="nb">}</span>
+<span class="k">\begin</span><span class="nb">{</span>theorem<span class="nb">}</span>
+素数は無限に存在する．
+<span class="k">\end</span><span class="nb">{</span>theorem<span class="nb">}</span>
+<span class="k">\begin</span><span class="nb">{</span>proof<span class="nb">}</span>
+ <span class="k">\begin</span><span class="nb">{</span>enumerate<span class="nb">}</span>
+  <span class="k">\item</span>&lt;1-&gt; <span class="s">$</span><span class="nb">p_</span><span class="m">1</span><span class="nb">, </span><span class="nv">\dots</span><span class="nb">, p_n</span><span class="s">$</span> がすべての素数だと仮定する．
+  <span class="k">\item</span>&lt;2-&gt; <span class="s">$</span><span class="nb">q:</span><span class="o">=</span><span class="nb">p_</span><span class="m">1</span><span class="nv">\dots</span><span class="nb"> p_n </span><span class="o">+</span><span class="nb"> </span><span class="m">1</span><span class="s">$</span> とおく．
+  <span class="k">\item</span>&lt;3-&gt; すると <span class="s">$</span><span class="nb">q</span><span class="s">$</span> はどの <span class="s">$</span><span class="nb">p_</span><span class="m">1</span><span class="nb">,</span><span class="nv">\dots</span><span class="nb">,p_n</span><span class="s">$</span> でも割り切れない．
+  <span class="k">\item</span>&lt;1-&gt; したがって，<span class="s">$</span><span class="nb">q</span><span class="s">$</span>は新たな素数を約数にもつことになって矛盾する．<span class="k">\qedhere</span>
+<span class="k">\end</span><span class="nb">{</span>enumerate<span class="nb">}</span>
+<span class="k">\end</span><span class="nb">{</span>proof<span class="nb">}</span>
+<span class="k">\uncover</span>&lt;4-&gt;<span class="nb">{</span>証明は<span class="k">\alert</span><span class="nb">{</span>背理法<span class="nb">}</span>を使った．<span class="nb">}</span>
+<span class="k">\end</span><span class="nb">{</span>frame<span class="nb">}</span>
+</pre></div>
+</div>
+<p>今度は，1番目と4番目の項目が最初から表示され，2番目の3番目が順に表示されたはずです． <code class="docutils literal notranslate"><span class="pre">\item</span></code> に付け加わった <code class="docutils literal notranslate"><span class="pre">&lt;1-&gt;</span></code> などがOverlay Specificationです． <code class="docutils literal notranslate"><span class="pre">&lt;2-&gt;</span></code> は「この要素は2コマ目以降に表示せよ」という意味になります． <code class="docutils literal notranslate"><span class="pre">\uncover</span></code> はBeamerのコマンドで，テキストに Overlay Specificationをつけたいときに使用します． 他にも <code class="docutils literal notranslate"><span class="pre">&lt;1&gt;</span></code> は「1コマ目だけ表示せよ」， <code class="docutils literal notranslate"><span class="pre">&lt;2-4&gt;</span></code> は「2〜4コマ目の間だけ表示せよ」という意味になります．</p>
+<p>これで自由自在にOverlayを作ることができますね！</p>
+</div>
+<div class="section" id="block">
+<h3>Blockを使う<a class="headerlink" href="#block" title="Permalink to this headline">¶</a></h3>
+<p>Beamerには， <strong>Block</strong> と呼ばれるテキストを囲うための箱があります．使い方は，書きたい中身をblock環境内に書くだけです:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>block<span class="nb">}</span>
+ これはBlockの中身です．
+<span class="k">\end</span><span class="nb">{</span>block<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="theme">
+<h3>Themeを使う<a class="headerlink" href="#theme" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">\usetheme</span></code> コマンドをプリアンブルに追加すると，スライドのThemeを変えることができます．また， <code class="docutils literal notranslate"><span class="pre">\usecolortheme</span></code> コマンドでThemeの配色も変えることができます:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\usetheme</span><span class="nb">{</span>Warsaw<span class="nb">}</span>
+<span class="k">\usecolortheme</span><span class="nb">{</span>rose<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>Overlay Specification<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>Overlay Specificationは，各要素につける <code class="docutils literal notranslate"><span class="pre">&lt;1-&gt;</span></code> のようなオプションで，Overlayの順序を設定するのに使います．</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 35%" />
+<col style="width: 65%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Overlay Specification</p></th>
+<th class="head"><p>意味</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">&lt;1&gt;</span></code></p></td>
+<td><p>1コマ目のみ表示</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">&lt;1-3&gt;</span></code></p></td>
+<td><p>1-3コマ目のみ表示</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">&lt;3-&gt;</span></code></p></td>
+<td><p>3コマ目以降表示</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">&lt;-5&gt;</span></code></p></td>
+<td><p>5コマ目まで表示</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">&lt;1-3,5,7-&gt;</span></code></p></td>
+<td><p>1-3コマ目と5コマ目と7コマ目以降表示</p></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="onslide">
+<h3>\onslide<a class="headerlink" href="#onslide" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">\onslide</span></code> で囲ったテキストやブロックは，消えているときでも表示されている時と同じスペースを占めます．使い方は <code class="docutils literal notranslate"><span class="pre">\pause</span></code> に似ています:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>frame<span class="nb">}</span>
+ ここは1コマ目から表示される
+ <span class="k">\onslide</span>&lt;2-3&gt;
+ ここは2-3コマ目に表示される
+ <span class="k">\begin</span><span class="nb">{</span>itemize<span class="nb">}</span>
+ <span class="k">\item</span>
+ ここも2-3コマ目に表示される
+ <span class="k">\onslide</span>+&lt;4-&gt;
+ <span class="k">\item</span>
+ ここは4枚目以降に表示される
+ <span class="k">\end</span><span class="nb">{</span>itemize<span class="nb">}</span>
+ ここは4枚目以降に表示される
+ <span class="k">\onslide</span>
+ ここはすべてのスライドで表示される
+ <span class="k">\end</span><span class="nb">{</span>frame<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="only-uncover">
+<h3>\only と \uncover<a class="headerlink" href="#only-uncover" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">\only{}</span></code> で囲った部分は消えているときにはスペースを占めず，完全に存在しないものとして扱われます． 逆に <code class="docutils literal notranslate"><span class="pre">\uncover{}</span></code> で囲った部分は，消えているときでも現れているときと同じだけのスペースを占めます．</p>
+</div>
+</div>
+<div class="section" id="tips">
+<h2>もろもろのTips<a class="headerlink" href="#tips" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id5">
+<h3>数式フォントをサンセリフ体にする<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>次のコマンドをプリアンブルに書く:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\renewcommand</span><span class="nb">{</span><span class="k">\familydefault</span><span class="nb">}{</span><span class="k">\sfdefault</span><span class="nb">}</span>
+</pre></div>
+</div>
+<p>お好みでTXフォントにしてもよい:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\usepackage</span><span class="nb">{</span>txfonts<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id6">
+<h3>日本語フォントをゴシック体にする<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p>次のコマンドをプリアンブルに書く:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\renewcommand</span><span class="nb">{</span><span class="k">\kanjifamilydefault</span><span class="nb">}{</span><span class="k">\gtdefault</span><span class="nb">}</span>
+</pre></div>
+</div>
+<p>さらに， OTFパッケージを読み込むことでゴシック体を多ウェイト化できる．
+すなわち， <cite>textbf</cite> や <cite>alert</cite> などが通常の文字より太いゴシック体になる:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\usepackage</span><span class="na">[deluxe, expert]</span><span class="nb">{</span>otf<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="pdf">
+<h3>PDFのしおりが文字化けする<a class="headerlink" href="#pdf" title="Permalink to this headline">¶</a></h3>
+<p>platexの場合は次のコマンドをプリアンブルに書く:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\usepackage</span><span class="nb">{</span>atbegshi<span class="nb">}</span>
+<span class="k">\ifnum</span> 42146=<span class="k">\euc</span>&quot;A4A2 <span class="k">\AtBeginShipoutFirst</span><span class="nb">{</span><span class="k">\special</span><span class="nb">{</span>pdf:tounicode EUC-UCS2<span class="nb">}}</span><span class="k">\else</span>
+<span class="k">\AtBeginShipoutFirst</span><span class="nb">{</span><span class="k">\special</span><span class="nb">{</span>pdf:tounicode 90ms-RKSJ-UCS2<span class="nb">}}</span><span class="k">\fi</span>
+</pre></div>
+</div>
+<p>uplatexの場合はpxjahyper.styを使う:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\usepackage</span><span class="nb">{</span>pxjahyper<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="theorem-lemma-example">
+<h3>定理環境(theorem, lemma, example)のラベルを日本語(定理, 補題, 例)にする<a class="headerlink" href="#theorem-lemma-example" title="Permalink to this headline">¶</a></h3>
+<p>自前で新しく環境を定義してしまうのも手だが，英語スライドを日本語にするときなどに手間である．
+BeamerはBabelに対応しているので，以下のように翻訳をプリアンブルに定義すれば良い:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\uselanguage</span><span class="nb">{</span>japanese<span class="nb">}</span>
+<span class="k">\languagepath</span><span class="nb">{</span>japanese<span class="nb">}</span>
+<span class="k">\deftranslation</span><span class="na">[to=japanese]</span><span class="nb">{</span>Theorem<span class="nb">}{</span>定理<span class="nb">}</span>
+<span class="k">\deftranslation</span><span class="na">[to=japanese]</span><span class="nb">{</span>Lemma<span class="nb">}{</span>補題<span class="nb">}</span>
+<span class="k">\deftranslation</span><span class="na">[to=japanese]</span><span class="nb">{</span>Example<span class="nb">}{</span>例<span class="nb">}</span>
+<span class="k">\deftranslation</span><span class="na">[to=japanese]</span><span class="nb">{</span>Examples<span class="nb">}{</span>例<span class="nb">}</span>
+<span class="k">\deftranslation</span><span class="na">[to=japanese]</span><span class="nb">{</span>Definition<span class="nb">}{</span>定義<span class="nb">}</span>
+<span class="k">\deftranslation</span><span class="na">[to=japanese]</span><span class="nb">{</span>Definitions<span class="nb">}{</span>定義<span class="nb">}</span>
+<span class="k">\deftranslation</span><span class="na">[to=japanese]</span><span class="nb">{</span>Problem<span class="nb">}{</span>問題<span class="nb">}</span>
+<span class="k">\deftranslation</span><span class="na">[to=japanese]</span><span class="nb">{</span>Solution<span class="nb">}{</span>解<span class="nb">}</span>
+<span class="k">\deftranslation</span><span class="na">[to=japanese]</span><span class="nb">{</span>Fact<span class="nb">}{</span>事実<span class="nb">}</span>
+<span class="k">\deftranslation</span><span class="na">[to=japanese]</span><span class="nb">{</span>Proof<span class="nb">}{</span>証明<span class="nb">}</span>
+<span class="k">\def\proofname</span><span class="nb">{</span>証明<span class="nb">}</span>
+</pre></div>
+</div>
+<p>フランス語やドイツ語はbeamer用の翻訳辞書があらかじめあるが，残念ながら日本語の辞書はまだないようだ．</p>
+<p>参考: <a class="reference internal" href="#okumurabook" id="id7"><span>[okumurabook]</span></a></p>
+</div>
+<div class="section" id="id8">
+<h3>下の方にある変なアイコン（ナビゲーションシンボル）を消す<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<p>次のコマンドをプリアンブルに書く:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\setbeamertemplate</span><span class="nb">{</span>navigation symbols<span class="nb">}{}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id9">
+<h3>フッターをスライド番号だけにする<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<p>次のコマンドをプリアンブルに書く:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\setbeamertemplate</span><span class="nb">{</span>footline<span class="nb">}</span>[frame number]
+</pre></div>
+</div>
+</div>
+<div class="section" id="id10">
+<h3>サブセクション名を自動的にスライドタイトルにする<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<p>スライドタイトルの部分に <code class="docutils literal notranslate"><span class="pre">\insertsubsection</span></code> を書く:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>frame<span class="nb">}{</span><span class="k">\insertsubsection</span><span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id11">
+<h3>セクションの後に目次スライドを入れる<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<p>次のコマンドをプリアンブルに書く:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\AtBeginSection</span><span class="na">[]</span><span class="nb">{</span>
+    <span class="k">\frame</span><span class="nb">{</span><span class="k">\tableofcontents</span><span class="na">[currentsection, hideallsubsections]</span><span class="nb">}</span> <span class="c">%目次スライド</span>
+<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="handout">
+<h3>handoutモードに表示させない要素を作る<a class="headerlink" href="#handout" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">handout</span></code> モードでオーバーレイを重ねて表示させると見栄えがよくないことがある．このとき，overlay specificationに <code class="docutils literal notranslate"><span class="pre">&lt;*|handout:0&gt;</span></code> をつけた要素は <code class="docutils literal notranslate"><span class="pre">handout</span></code> モードでは表示されなくなる．たとえば:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\onslide</span>&lt;2-|handout:0&gt;<span class="nb">{</span>...<span class="nb">}</span>
+</pre></div>
+</div>
+<p>で囲った要素は通常モードでは <code class="docutils literal notranslate"><span class="pre">&lt;2-&gt;</span></code> という overlay specification が適用されるが， <code class="docutils literal notranslate"><span class="pre">handout</span></code> モードでは表示されない．</p>
+</div>
+<div class="section" id="only-onslide">
+<h3>only/onslideの前後で配置が微妙にずれるのを防ぐ<a class="headerlink" href="#only-onslide" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">overprint</span></code> 環境を使うのが手っ取り早い．
+<code class="docutils literal notranslate"><span class="pre">itemize</span></code> 環境の <code class="docutils literal notranslate"><span class="pre">\item</span></code> を <code class="docutils literal notranslate"><span class="pre">\onslide&lt;&gt;</span></code> にした感じで使う:</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>overprint<span class="nb">}</span>
+    <span class="k">\onslide</span>&lt;1&gt; とある文章
+    <span class="k">\onslide</span>&lt;2&gt; なが〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜い文章
+    <span class="k">\onslide</span>&lt;3&gt; ほかの文章
+<span class="k">\end</span><span class="nb">{</span>overprint<span class="nb">}</span>
+</pre></div>
+</div>
+<p>上の例では， <code class="docutils literal notranslate"><span class="pre">overprint</span></code> 環境全体が，2つ目の長い文章の大きさにフィットするように自動的に調整される．</p>
+</div>
+</div>
+<div class="section" id="id12">
+<h2>テンプレート<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h2>
+<p>自分が使っているテンプレートをOverleafで公開しておきます（MITライセンス）．
+[<a class="reference external" href="https://www.overleaf.com/latex/templates/aqua-beamer-template-settings-for-japanese/mwqqbfrdhscg">Overleaf Gallery</a> ]</p>
+<p>オフラインで使用する場合はuplatex+dvipdfmxでコンパイルしてください．
+また，Noto Sans CJK JPフォントを埋め込みますので，正しいディレクトリにフォントファイルを配置してください．</p>
+<div class="section" id="id13">
+<h3>サンプル<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<iframe src="//www.slideshare.net/slideshow/embed_code/46359576" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe></div>
+</div>
+<div class="section" id="id14">
+<h2>参考文献<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h2>
+<dl class="citation">
+<dt class="label" id="okumurabook"><span class="brackets"><a class="fn-backref" href="#id7">okumurabook</a></span></dt>
+<dd><p><a class="reference external" href="http://oku.edu.mie-u.ac.jp/~okumura/bibun6/">奥村晴彦・黒木裕介 『［改訂第6版］LaTeX2e 美文書作成入門』</a></p>
+</dd>
+</dl>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+<div id="sourcelink">
+  <a href="_sources/beamer.rst.txt"
+     rel="nofollow">Source</a>
+</div>
+      
+    </p>
+    <p>
+        &copy; Copyright Tasuku Soma.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.2.1.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
