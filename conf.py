@@ -109,7 +109,7 @@ html_theme_options = {
     # Note the "1" or "True" value above as the third argument to indicate
     # an arbitrary url.
     'navbar_links': [
-         ('<span class="glyphicon glyphicon-user"></span> C.V.', "cv"),
+         ('<span class="glyphicon glyphicon-user"></span> C.V.', "cv.pdf", 1),
          ('<span class="glyphicon glyphicon-th-list"></span> Publications', "publications"),
          ('<span class="glyphicon glyphicon-facetime-video"></span> Talks', "talks"),
          ('<span class="glyphicon glyphicon-hdd"></span> Software', 'software')
