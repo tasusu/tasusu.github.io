@@ -7,11 +7,11 @@ Refereed Journals and Conferences
 -------------------------------------------
 .. rst-class:: cardlist
 
-    - **Online Risk-averse Submodular Maximization** 
+    - **Online Risk-averse Submodular Maximization** [`Proceedings <https://doi.org/10.24963/ijcai.2021/411>`_] [`ArXiv <https://arxiv.org/abs/2105.09838>`_]
 
       with Yuichi Yoshida
 
-      `The 30th International Joint Conference on Artificial Intelligence (IJCAI), 2021 <https://ijcai-21.org>`_, to appear.
+      `The 30th International Joint Conference on Artificial Intelligence (IJCAI), 2021 <https://ijcai-21.org>`_.
 
     - **Improved Algorithms for Online Submodular Maximization via First-order Regret Bounds** [`Proceedings <https://papers.nips.cc/paper/2020/hash/0163cceb20f5ca7b313419c068abd9dc-Abstract.html>`_]
 
