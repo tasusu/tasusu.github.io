@@ -7,6 +7,12 @@ Refereed Journals and Conferences
 -------------------------------------------
 .. rst-class:: cardlist
 
+    - **Polynomial-Time Algorithms for Submodular Laplacian Systems** [`ArXiv <https://arxiv.org/abs/1803.10923>`_]
+
+      with Kaito Fujii, Yuichi Yoshida
+       
+      Theoretical Computer Science, to appear.
+
     - **Online Risk-averse Submodular Maximization** [`Proceedings <https://doi.org/10.24963/ijcai.2021/411>`_] [`ArXiv <https://arxiv.org/abs/2105.09838>`_]
 
       with Yuichi Yoshida
@@ -138,21 +144,19 @@ Preprints
  
       arxiv, 2020. 
 
-    - **Polynomial-Time Algorithms for Submodular Laplacian Systems** [`ArXiv <https://arxiv.org/abs/1803.10923>`_]
-
-      with Kaito Fujii, Yuichi Yoshida
-       
-      arxiv, 2018.
-
 
 Thesis
 ------------------------------
 .. rst-class:: cardlist
 
-    - Master: "Faster Deterministic Algorithms for Matrix Completion Problems,” Kyoto University, 2013, supervised by Satoru Iwata.
+    - Master thesis: "Faster Deterministic Algorithms for Matrix Completion Problems,” 
+      
+      Kyoto University, 2013, supervised by Satoru Iwata.
 
       **Operation Research Society Japan Student Paper Award (第31回日本オペレーションズ・リサーチ学会学生論文賞)**
 
-    - Doctor: "Submodular and Sparse Optimization Methods for Machine Learning and Communication," 2016, supervised by Satoru Iwata.
+    - Doctoral dissertation: "Submodular and Sparse Optimization Methods for Machine Learning and Communication,"
 
-      **Department Award (情報理工学系研究科研究科長賞)**
+      Graduate School of Information Science and Technology, The University of Tokyo, 2016, supervised by Satoru Iwata.
+
+      **Graduate School Distiguished Doctoral Thesis Award (情報理工学系研究科研究科長賞)**
