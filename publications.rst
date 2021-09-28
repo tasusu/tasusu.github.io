@@ -7,11 +7,11 @@ Refereed Journals and Conferences
 -------------------------------------------
 .. rst-class:: cardlist
 
-    - **Polynomial-Time Algorithms for Submodular Laplacian Systems** [`ArXiv <https://arxiv.org/abs/1803.10923>`_]
+    - **Polynomial-Time Algorithms for Submodular Laplacian Systems** [`Journal <https://doi.org/10.1016/j.tcs.2021.09.019>`_] [`ArXiv <https://arxiv.org/abs/1803.10923>`_]
 
       with Kaito Fujii, Yuichi Yoshida
        
-      Theoretical Computer Science, to appear.
+      Theoretical Computer Science, 2021, online.
 
     - **Online Risk-averse Submodular Maximization** [`Proceedings <https://doi.org/10.24963/ijcai.2021/411>`_] [`ArXiv <https://arxiv.org/abs/2105.09838>`_]
 
