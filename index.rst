@@ -6,7 +6,7 @@
 
 Tasuku Soma （相馬 輔）
 =================================================
-Hi! I am a postdoctral fellow (JSPS) in the `department of mathematics, Massachusetts Institute of Technology <http://math.mit.edu>`_.  Before joining MIT, I was a research associate and a Ph.D student in `the University of Tokyo <http://www.u-tokyo.ac.jp/en/>`_, where I was fortunate to be mentored and supervised by `Satoru Iwata <https://www.opt.mist.i.u-tokyo.ac.jp/~iwata>`_.
+Hi! I am a postdoctral fellow (JSPS) in the `department of mathematics, Massachusetts Institute of Technology <https://math.mit.edu>`_, where I am fortunate to be mentored by `Michel Goemans <http://www-math.mit.edu/~goemans/>`_.  Before joining MIT, I was a research associate and a Ph.D student in `the University of Tokyo <http://www.u-tokyo.ac.jp/en/>`_, where I had the previledge of being mentored and supervised by `Satoru Iwata <https://www.opt.mist.i.u-tokyo.ac.jp/~iwata>`_.
 
 Email: |mail|
 
