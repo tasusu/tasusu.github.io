@@ -7,11 +7,11 @@ Refereed Journals and Conferences
 -------------------------------------------
 .. rst-class:: cardlist
 
-    - **Polynomial-Time Algorithms for Submodular Laplacian Systems** [`Journal <https://doi.org/10.1016/j.tcs.2021.09.019>`_] [`ArXiv <https://arxiv.org/abs/1803.10923>`_]
+    - **Polynomial-Time Algorithms for Submodular Laplacian Systems** [`ArXiv <https://arxiv.org/abs/1803.10923>`_]
 
       with Kaito Fujii, Yuichi Yoshida
        
-      Theoretical Computer Science, 2021, online.
+      `Theoretical Computer Science, 892, pp. 170--186, 2021. <https://doi.org/10.1016/j.tcs.2021.09.019>`_
 
     - **Online Risk-averse Submodular Maximization** [`Proceedings <https://doi.org/10.24963/ijcai.2021/411>`_] [`ArXiv <https://arxiv.org/abs/2105.09838>`_]
 
@@ -101,7 +101,7 @@ Refereed Journals and Conferences
 
     - **Multicasting in Linear Deterministic Relay Network by Matrix Completion** [`PDF(technical report) <http://www.keisu.t.u-tokyo.ac.jp/research/techrep/data/2013/METR13-34.pdf>`_]
 
-      `IEEE Transactions on Information Theory, 62(2), pp. 870--875, 2016 <http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7358153>`_.
+      `IEEE Transactions on Information Theory, 62(2), pp. 870--875, 2016 <https://doi.org/10.1109/TIT.2015.2509240>`_.
 
       `IEEE International Symposium on Information Theory (ISIT), 2014 <http://www.isit2014.org>`_
 
