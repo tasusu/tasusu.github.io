@@ -6,6 +6,12 @@ See also: `Google Scholar <https://scholar.google.com/citations?user=6XorTkcAAAA
 Refereed Journals and Conferences
 -------------------------------------------
 .. rst-class:: cardlist
+    
+    - **Information Geometry of Operator Scaling** [`ArXiv <https://arxiv.org/abs/2005.01453>`_]
+
+      with Takeru Matsuda
+
+      Linear Algebra and its Applications, to appear. 
 
     - **Polynomial-Time Algorithms for Submodular Laplacian Systems** [`ArXiv <https://arxiv.org/abs/1803.10923>`_]
 
@@ -132,11 +138,6 @@ Preprints
 ------------------------------
 .. rst-class:: cardlist
 
-    - **Information Geometry of Operator Scaling** [`ArXiv <https://arxiv.org/abs/2005.01453>`_]
-
-      with Takeru Matsuda
-
-      arxiv, 2020. 
 
     - **Statistical Learning with Conditional Value at Risk** [`ArXiv <https://arxiv.org/abs/2002.05826>`_]
       
