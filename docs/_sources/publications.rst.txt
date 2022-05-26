@@ -11,7 +11,7 @@ Refereed Journals and Conferences
 
       with Takeru Matsuda
 
-      Linear Algebra and its Applications, to appear. 
+      `Linear Algebra and its Applications, 649, pp. 240--267, 2021 <https://doi.org/10.1016/j.laa.2022.04.022>`_. 
 
     - **Polynomial-Time Algorithms for Submodular Laplacian Systems** [`ArXiv <https://arxiv.org/abs/1803.10923>`_]
 
