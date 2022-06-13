@@ -7,6 +7,14 @@ Refereed Journals and Conferences
 -------------------------------------------
 .. rst-class:: cardlist
     
+    - **Online Risk-averse Submodular Maximization**  [`ArXiv <https://arxiv.org/abs/2105.09838>`_]
+
+      with Yuichi Yoshida
+
+      Annals of Operations Research, to appear.
+
+      `The 30th International Joint Conference on Artificial Intelligence (IJCAI), 2021 <https://ijcai-21.org>`_. [`Proceedings <https://doi.org/10.24963/ijcai.2021/411>`_]
+    
     - **Information Geometry of Operator Scaling** [`ArXiv <https://arxiv.org/abs/2005.01453>`_]
 
       with Takeru Matsuda
@@ -18,12 +26,6 @@ Refereed Journals and Conferences
       with Kaito Fujii, Yuichi Yoshida
        
       `Theoretical Computer Science, 892, pp. 170--186, 2021. <https://doi.org/10.1016/j.tcs.2021.09.019>`_
-
-    - **Online Risk-averse Submodular Maximization** [`Proceedings <https://doi.org/10.24963/ijcai.2021/411>`_] [`ArXiv <https://arxiv.org/abs/2105.09838>`_]
-
-      with Yuichi Yoshida
-
-      `The 30th International Joint Conference on Artificial Intelligence (IJCAI), 2021 <https://ijcai-21.org>`_.
 
     - **Improved Algorithms for Online Submodular Maximization via First-order Regret Bounds** [`Proceedings <https://papers.nips.cc/paper/2020/hash/0163cceb20f5ca7b313419c068abd9dc-Abstract.html>`_]
 
