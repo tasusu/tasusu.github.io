@@ -17,7 +17,8 @@ import sphinx_bootstrap_theme
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 # Disabled: , 'sphinx.ext.intersphinx'
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.todo', 'sphinx.ext.ifconfig', 'sphinx.ext.viewcode']
+extensions = ['sphinx.ext.autodoc', 'sphinx.ext.todo', 'sphinx.ext.ifconfig', 'sphinx.ext.viewcode',
+              'sphinxemoji.sphinxemoji']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -82,6 +83,9 @@ highlight_language = 'latex'
 # Enable todo output
 todo_include_todos = True
 
+# Sphinx Emoji Codes
+sphinxemoji_style = 'twemoji'
+
 # -- Options for HTML output ---------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
@@ -112,8 +116,8 @@ html_theme_options = {
          ('<span class="glyphicon glyphicon-user"></span> C.V.', "cv.pdf", 1),
          ('<span class="glyphicon glyphicon-th-list"></span> Publications', "publications"),
          ('<span class="glyphicon glyphicon-facetime-video"></span> Talks', "talks"),
-         ('<span class="glyphicon glyphicon-hdd"></span> Software', 'software')
-         
+         ('<span class="glyphicon glyphicon-hdd"></span> Software', 'software'),
+         ('&#x1f1ef;&#x1f1f5;日本語', 'https://researchmap.jp/tasuku', 1)
     ],
 
     # Global TOC depth for "site" navbar tab. (Default: 1)
