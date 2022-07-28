@@ -140,12 +140,23 @@ Preprints
 ------------------------------
 .. rst-class:: cardlist
 
+    - **Shrunk subspaces via operator Sinkhorn iteration** [`ArXiv <https://arxiv.org/abs/2207.08311>`_]
+
+      with Cole Franks, Michel X. Goemans,
+
+      ArXiv, 2022. 
+
+    - **Algebraic Algorithms for Fractional Linear Matroid Parity via Non-commutative Rank** [`ArXiv <https://arxiv.org/abs/2207.07946>`_]
+
+      with Taihei Oki,
+
+      ArXiv, 2022.
 
     - **Statistical Learning with Conditional Value at Risk** [`ArXiv <https://arxiv.org/abs/2002.05826>`_]
       
       with Yuichi Yoshida
  
-      arxiv, 2020. 
+      ArXiv, 2020. 
 
 
 Thesis
