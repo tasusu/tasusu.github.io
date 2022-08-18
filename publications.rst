@@ -158,6 +158,20 @@ Preprints
  
       ArXiv, 2020. 
 
+Book
+------------------------------
+.. rst-class:: cardlist
+    
+    - **組合せ最適化から機械学習へ: 劣モジュラ最適化とグラフマイニング (From Combinatorial Optimization to Machine Learning: Submodular Optimization and Graph Mining)** [`Publisher <https://www.saiensu.co.jp/search/?isbn=978-4-7819-1545-6&y=2022>`_]
+      
+      with Kaito Fujii, Atsushi Miyauchi,
+
+      Science-sha, 2022.
+
+      .. image :: /_static/img/COMLbook.jpg
+         :width: 100
+
+
 
 Thesis
 ------------------------------
