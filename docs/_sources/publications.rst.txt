@@ -170,7 +170,7 @@ Book
 
       .. image :: /_static/img/COMLbook.jpg
          :width: 100
-
+         :class: no-scaled-link
 
 
 Thesis
