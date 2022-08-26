@@ -7,19 +7,19 @@ Refereed Journals and Conferences
 -------------------------------------------
 .. rst-class:: cardlist
     
-    - **Online Risk-averse Submodular Maximization**  [`ArXiv <https://arxiv.org/abs/2105.09838>`_]
+    - **Online Risk-averse Submodular Maximization**  [`Open Access <https://doi.org/10.1007/s10479-022-04835-9>`_]
 
       with Yuichi Yoshida
 
-      Annals of Operations Research, to appear.
+      Annals of Operations Research, 2022, online available.
 
       `The 30th International Joint Conference on Artificial Intelligence (IJCAI), 2021 <https://ijcai-21.org>`_. [`Proceedings <https://doi.org/10.24963/ijcai.2021/411>`_]
     
-    - **Information Geometry of Operator Scaling** [`ArXiv <https://arxiv.org/abs/2005.01453>`_]
+    - **Information Geometry of Operator Scaling** [`Open Access <https://doi.org/10.1016/j.laa.2022.04.022>`_]
 
       with Takeru Matsuda
 
-      `Linear Algebra and its Applications, 649, pp. 240--267, 2022 <https://doi.org/10.1016/j.laa.2022.04.022>`_. 
+      Linear Algebra and its Applications, 649, pp. 240--267, 2022. 
 
     - **Polynomial-Time Algorithms for Submodular Laplacian Systems** [`ArXiv <https://arxiv.org/abs/1803.10923>`_]
 
@@ -69,11 +69,6 @@ Refereed Journals and Conferences
        
       `The 45th International Colloquium on Automata, Languages, and Programming (ICALP), 2018 <https://iuuk.mff.cuni.cz/~icalp2018>`_.
 
-    - **Maximally Invariant Data Perturbation as Explanation** [`ArXiv <https://arxiv.org/abs/1806.07004>`_]
-
-      with Satoshi Hara, Kouichi Ikeno, and Takanori Maehara
-
-      ICML Workshop on Human Interpretability in Machine Learning (WHI), 2018
     
     - **On orthogonal tensors and best rank-one approximation ratio** [`ArXiv <https://arxiv.org/abs/1707.02569>`_]
 
@@ -135,6 +130,15 @@ Refereed Journals and Conferences
       
       `Integer Programming and Combinatorial Optimization (IPCO), 2013 <https://www.cec.uchile.cl/~ipco2013>`_
 
+Refereed Workshop
+------------------------------
+.. rst-class:: cardlist
+
+    - **Maximally Invariant Data Perturbation as Explanation** [`ArXiv <https://arxiv.org/abs/1806.07004>`_]
+
+      with Satoshi Hara, Kouichi Ikeno, and Takanori Maehara
+
+      ICML Workshop on Human Interpretability in Machine Learning (WHI), 2018
 
 Preprints
 ------------------------------
@@ -166,7 +170,7 @@ Book
       
       with Kaito Fujii, Atsushi Miyauchi,
 
-      Science-sha, 2022.
+      SAIENSU-SHA Co.,Ltd, 2022.
 
       .. image :: /_static/img/COMLbook.jpg
          :width: 100
