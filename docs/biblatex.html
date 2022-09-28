@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>BibLaTeX &#8212; Tasuku Soma&#39;s webpage</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/bootstrap-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="_static/twemoji.css" />
+    <link rel="stylesheet" href="_static/bootswatch-3.3.7/cosmo/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"></script>
+    <script src="_static/twemoji.js"></script>
+    <script src="_static/js/jquery-1.11.0.min.js"></script>
+    <script src="_static/js/jquery-fix.js"></script>
+    <script src="_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script src="_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="TikZ" href="tikz.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3628029-8', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          Tasuku Soma</a>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            <li class="divider-vertical"></li>
+            
+                <li><a href="cv.pdf"><span class="glyphicon glyphicon-user"></span> C.V.</a></li>
+                <li><a href="publications.html"><span class="glyphicon glyphicon-th-list"></span> Publications</a></li>
+                <li><a href="talks.html"><span class="glyphicon glyphicon-facetime-video"></span> Talks</a></li>
+                <li><a href="software.html"><span class="glyphicon glyphicon-hdd"></span> Software</a></li>
+                <li><a href="https://researchmap.jp/tasuku">&#x1f1ef;&#x1f1f5;日本語</a></li>
+            
+            
+
+              
+            
+            
+            
+            
+            
+          </ul>
+
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 content">
+      
+  <section id="biblatex">
+<h1>BibLaTeX<a class="headerlink" href="#biblatex" title="Permalink to this heading">¶</a></h1>
+<p>申請書・公募書類作成のためのBibLaTeX活用術</p>
+<nav class="contents local" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#id1" id="id17">準備</a></p></li>
+<li><p><a class="reference internal" href="#id6" id="id18">出力に含める業績の種類をフィルタする</a></p></li>
+<li><p><a class="reference internal" href="#id7" id="id19">主要業績のみ出力する</a></p></li>
+<li><p><a class="reference internal" href="#id8" id="id20">主要業績にマークを付ける</a></p></li>
+<li><p><a class="reference internal" href="#id9" id="id21">自分の名前に下線を引く</a></p></li>
+<li><p><a class="reference internal" href="#id13" id="id22">補足事項をつける</a></p></li>
+</ul>
+</nav>
+<section id="id1">
+<h2>準備<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h2>
+<p>まず，自分の業績を一覧にしたbibファイルを作り，書類と同じディレクトリや <code class="docutils literal notranslate"><span class="pre">$TEXMF/bibtex/bib/</span></code> 以下など，TeXから参照できる場所に置きます．その際，雑誌論文は <code class="docutils literal notranslate"><span class="pre">&#64;article</span></code> ，国際会議プロシーディングスは <code class="docutils literal notranslate"><span class="pre">&#64;inproceedings</span></code> など，分類ごとにエントリの種類を変えておきます．DOIなど，含める可能性のある情報はすべて書いておき，出力時にBibLaTeX側のオプションで消すのがよいと思います．</p>
+<section id="id2">
+<h3>BibLaTeXの基礎<a class="headerlink" href="#id2" title="Permalink to this heading">¶</a></h3>
+<p>BibLaTeXを使うには，以下のコードをプリアンブルに書きます．</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\usepackage</span><span class="na">[backend=biber,style=alphabetic]</span><span class="nb">{</span>biblatex<span class="nb">}</span>
+<span class="k">\addbibresource</span><span class="nb">{</span>sample.bib<span class="nb">}</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">backend=biber</span></code> はBibTeXではなくBiberというエンジンで処理せよという指定です．Overleafでは特に気にする必要はありませんが，オフライン環境でlatexmkを呼んでコンパイルしたり，手動でコンパイルしている場合は，BibTeXではなくBiberが呼ばれていることを確かめてください．</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">style=alphabetic</span></code> は”alphabetic”スタイルを使用せよという意味です．Overleafのページに <a class="reference external" href="https://www.overleaf.com/learn/latex/Biblatex_bibliography_styles">利用可能なスタイル一覧</a> があります．</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">\addbibresource{sample.bib}</span></code> は <code class="docutils literal notranslate"><span class="pre">sample.bib</span></code> というファイルを読み込むという意味です． <strong>拡張子が必要であることに注意．</strong></p></li>
+</ul>
+<p>読み込んだbibファイルのすべてのエントリを対象とするには，BibTeX同様 <code class="docutils literal notranslate"><span class="pre">\nocite{*}</span></code> を書きます．</p>
+<p>文献リストを表示するには <code class="docutils literal notranslate"><span class="pre">\printbibliography</span></code> を書きます．</p>
+</section>
+<section id="id4">
+<h3>応募書類の書式用オプション<a class="headerlink" href="#id4" title="Permalink to this heading">¶</a></h3>
+<p>応募書類でよくある書式（各リストは出版年の降順に並べ，業績には通し番号を付け，著者は省略せず全て表示する）は，以下のようにオプション指定すると良いと思います．</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\usepackage</span><span class="na">[backend=biber,style=numeric,defernumbers=true,sorting=ydnt,giveninits=true,maxbibnames=99]</span><span class="nb">{</span>biblatex<span class="nb">}</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">defernumbers=true</span></code> は業績リストに現れる順番で通し番号を付けるという意味</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sorting=ydnt</span></code> は <code class="docutils literal notranslate"><span class="pre">year</span></code> の降順(<strong>d</strong> ecending)→ <code class="docutils literal notranslate"><span class="pre">author</span></code> の辞書順→ <code class="docutils literal notranslate"><span class="pre">title</span></code> の辞書順，の順番でソートするという意味</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">giveninits=true</span></code> は著者名をイニシャルで省略するという意味</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">maxbibnames=99</span></code> は99人までは”et al.”で省略せず著者を表示するという意味</p></li>
+</ul>
+<p>ソート順を変えたい場合など，細かいカスタマイズは <a class="reference external" href="https://www.overleaf.com/learn/latex/Bibliography_management_in_LaTeX#Reference_guide">Overleafの解説</a> か <a class="reference external" href="https://ctan.org/pkg/biblatex">公式マニュアル</a> を参照してください．</p>
+</section>
+</section>
+<section id="id6">
+<h2>出力に含める業績の種類をフィルタする<a class="headerlink" href="#id6" title="Permalink to this heading">¶</a></h2>
+<p>BibLaTeXでは <code class="docutils literal notranslate"><span class="pre">\printbibliography</span></code> の出力に含める項目をフィルタできます．例えば，書類の様式で「主著論文，国際会議論文，．．．」等，分類が指定されているときに，BibTeXの出力から手で1つ1つコピペする必要がなくなります．また，分類方法の指定が変わったとしても，コードを書き換えるだけで柔軟に対応できます．</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">&#64;article</span></code> のみを出力したい場合</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\printbibliography</span><span class="na">[type=article]</span>
+</pre></div>
+</div>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&#64;article</span></code> <strong>以外を全て</strong> 含める場合</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\printbibliography</span><span class="na">[nottype=article]</span>
+</pre></div>
+</div>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&#64;article</span></code> と <code class="docutils literal notranslate"><span class="pre">&#64;proceedings</span></code> 以外を全て含める場合</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\printbibliography</span><span class="na">[nottype=article,nottype=proceedings]</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">nottype</span></code> は複数指定できるので，「その他」の業績リストを作るのに便利です．</p>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">&#64;article</span></code> と <code class="docutils literal notranslate"><span class="pre">&#64;proceedings</span></code> など複数の種類を含めたり，複数の条件で指定される複雑なフィルタを作りたい場合は <code class="docutils literal notranslate"><span class="pre">\defbibfilter</span></code> を使います．たとえば</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\defbibfilter</span><span class="nb">{</span>papers<span class="nb">}{</span>
+  type=article or
+  type=inproceedings
+<span class="nb">}</span>
+</pre></div>
+</div>
+<p>とすると， <code class="docutils literal notranslate"><span class="pre">&#64;article</span></code> と <code class="docutils literal notranslate"><span class="pre">&#64;proceedings</span></code> のいずれかにマッチする <code class="docutils literal notranslate"><span class="pre">papers</span></code> フィルタが作成されます．その上で，</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\printbibliography</span><span class="na">[filter=papers]</span>
+</pre></div>
+</div>
+<p>と書くと，フィルタにマッチしたエントリのみが出力されます．</p>
+</li>
+</ul>
+</section>
+<section id="id7">
+<h2>主要業績のみ出力する<a class="headerlink" href="#id7" title="Permalink to this heading">¶</a></h2>
+<p>主要業績のみ出力した業績リストを作成したい場合があるかと思います．そのときは，bibファイルのエントリーに <code class="docutils literal notranslate"><span class="pre">keywords</span></code> フィールドを追加して対応すると便利です．たとえば，主要業績のエントリーには</p>
+<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">Soma2000</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Awesome Paper}</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Soma, Tasuku}</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="na">keywords</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{selected}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<p>のように， <code class="docutils literal notranslate"><span class="pre">keywords</span></code> フィールドに <code class="docutils literal notranslate"><span class="pre">selected</span></code> 等，主要業績であることを示す要素を追加しておきます．その上で</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\printbibliography</span><span class="na">[keyword=selected]</span>
+</pre></div>
+</div>
+<p>とすれば，主要業績のみが出力されます．</p>
+</section>
+<section id="id8">
+<h2>主要業績にマークを付ける<a class="headerlink" href="#id8" title="Permalink to this heading">¶</a></h2>
+<p>主要業績には★などのマークをつけよと指定されることもあるかと思います．その場合も，上の応用で， <code class="docutils literal notranslate"><span class="pre">keywords</span></code> フィールドに <code class="docutils literal notranslate"><span class="pre">selected</span></code> が含まれる場合に <code class="docutils literal notranslate"><span class="pre">begentry</span></code> （業績リストの各項目の先頭を表すマクロ）に★を挿入するコードを書けばOKです．</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\renewbibmacro*</span><span class="nb">{</span>begentry<span class="nb">}{</span><span class="c">%</span>
+  <span class="k">\ifkeyword</span><span class="nb">{</span>selected<span class="nb">}</span>
+    <span class="nb">{</span><span class="k">\textbf</span><span class="nb">{</span>★<span class="nb">}}</span>
+    <span class="nb">{}</span><span class="c">%</span>
+<span class="nb">}</span>
+</pre></div>
+</div>
+</section>
+<section id="id9">
+<h2>自分の名前に下線を引く<a class="headerlink" href="#id9" title="Permalink to this heading">¶</a></h2>
+<p>業績リストで面倒なのが，自分（応募者・申請者）の名前に下線を引けという指示です．これも，BibLaTeXのdata annotation
+機能を使うと簡単に対応できます．</p>
+<section id="id10">
+<h3>基本編<a class="headerlink" href="#id10" title="Permalink to this heading">¶</a></h3>
+<p>まずは，bibファイルに <code class="docutils literal notranslate"><span class="pre">author+an</span></code> というフィールドを追加して，自分が何番目の著者かを書き，<code class="docutils literal notranslate"><span class="pre">me</span></code> というアノテーションを付けます．</p>
+<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">Soma2000</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Another Awesome Paper}</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Satomi, Shuji and Soma, Tasuku and Zaizen, Goro}</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="na">author+an</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{2=me}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<p>その上で， <code class="docutils literal notranslate"><span class="pre">me</span></code> というアノテーションがついた著者名に下線を引くコードをLaTeX文書側に書きます．</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\renewcommand*</span><span class="nb">{</span><span class="k">\mkbibcompletename</span><span class="nb">}</span>[1]<span class="nb">{</span><span class="c">%</span>
+  <span class="k">\ifitemannotation</span><span class="nb">{</span>me<span class="nb">}</span>
+  <span class="nb">{</span><span class="k">\underline</span><span class="nb">{</span>#1<span class="nb">}}</span>
+  <span class="nb">{</span>#1<span class="nb">}</span>
+<span class="nb">}</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">\mkbibcompletename</span></code> は各著者名全体の書式を処理するコマンドです．</p>
+</section>
+<section id="id11">
+<h3>応用編<a class="headerlink" href="#id11" title="Permalink to this heading">¶</a></h3>
+<p>アノテーションは複数書けます．したがって，自分を下線にした上で，さらに責任著者は太字にせよという場合は，責任著者を表す <code class="docutils literal notranslate"><span class="pre">corresp</span></code> というアノテーションを付けてやります． <strong>アノテーションの区切りはセミコロンであることに注意．</strong></p>
+<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">Soma2000</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Another Awesome Paper}</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Satomi, Shuji and Soma, Tasuku and Zaizen, Goro}</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="na">author+an</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{2=me; 1=corresp}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<p>その上で， <code class="docutils literal notranslate"><span class="pre">corresp</span></code> がついた著者名を太字にするコードを上の要領で書けばOKです．ここで注意したいのが， アノテーションが <code class="docutils literal notranslate"><span class="pre">me</span></code> と <code class="docutils literal notranslate"><span class="pre">corresp</span></code> の2種類あるので， <code class="docutils literal notranslate"><span class="pre">\mkbibcompletename</span></code> の定義の条件分岐が入れ子になる点です．</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\renewcommand*</span><span class="nb">{</span><span class="k">\mkbibcompletename</span><span class="nb">}</span>[1]<span class="nb">{</span><span class="c">%</span>
+  <span class="k">\ifitemannotation</span><span class="nb">{</span>me<span class="nb">}</span>
+  <span class="nb">{</span><span class="k">\underline</span><span class="nb">{</span>#1<span class="nb">}}</span> <span class="c">% me</span>
+  <span class="nb">{</span><span class="k">\ifitemannotation</span><span class="nb">{</span>corresp<span class="nb">}</span>
+    <span class="nb">{</span><span class="k">\textbf</span><span class="nb">{</span>#1<span class="nb">}}</span> <span class="c">% corresp</span>
+    <span class="nb">{</span>#1<span class="nb">}</span> <span class="c">% me でも corresp でもない</span>
+  <span class="nb">}</span>
+<span class="nb">}</span>
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>残念ながら，同じ著者に複数のアノテーションをつけることはできないようです．自分が責任著者の場合に下線かつ太字にしたい場合は，それを表すアノテーション（ <code class="docutils literal notranslate"><span class="pre">mecorresp</span></code> 等）を別個作る必要があります．したがって，アノテーションの種類が増えると <a class="reference external" href="https://www.youtube.com/watch?v=Q4gTV4r0zRs">組合せ爆発</a> で大変なことになるので，ほどほどに．</p>
+</div>
+</section>
+</section>
+<section id="id13">
+<h2>補足事項をつける<a class="headerlink" href="#id13" title="Permalink to this heading">¶</a></h2>
+<p>アピール事項や引用数などの補足事項を付け足す方法をいくつか紹介します．</p>
+<section id="id14">
+<h3>基本編<a class="headerlink" href="#id14" title="Permalink to this heading">¶</a></h3>
+<p>まずは簡単な方法から． <code class="docutils literal notranslate"><span class="pre">note</span></code> や <code class="docutils literal notranslate"><span class="pre">addendum</span></code> フィールドをbibファイルのエントリに書くと，その内容はそのまま出力されます． <code class="docutils literal notranslate"><span class="pre">note</span></code> は後半あたりに， <code class="docutils literal notranslate"><span class="pre">addendum</span></code> は末尾に出力されるという違いがあります．
+よって，末尾に”best paper”と太字で書きたければ</p>
+<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">Soma2000</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Awesome Paper}</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Soma, Tasuku}</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="na">addendum</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{\textbf{best paper}}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<p>と書けばOKです．その他にも， <a class="reference external" href="https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex#Reference_guide">bibLaTeXには様々なフィールドが定義されている</a> ので，用途に合うフィールドがあれば，それを使うのが一番手っ取り早いでしょう．</p>
+</section>
+<section id="id16">
+<h3>応用編<a class="headerlink" href="#id16" title="Permalink to this heading">¶</a></h3>
+<p>まれに，インパクトファクターや引用数を書けという指定もあるようです．残念ながら，bibLaTeXにはこれらに相当するフィールドは定義されていません．かといって，応募先に応じて毎回 <code class="docutils literal notranslate"><span class="pre">note</span></code> や <code class="docutils literal notranslate"><span class="pre">addendum</span></code> の内容を変えていては大変です．ここではbibファイルに独自フィールドを足して，それを出力するコードを追加することにします．このようにすれば，応募先に応じて表示する内容をカスタマイズできます．</p>
+<p>ここでは，bibファイルのエントリに <code class="docutils literal notranslate"><span class="pre">citation</span></code> という引用数を表す独自フィールドを足してみましょう．</p>
+<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">Soma2000</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Awesome Paper}</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Soma, Tasuku}</span><span class="p">,</span><span class="w"></span>
+<span class="w">    </span><span class="na">citation</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{10}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<p>もちろん， <code class="docutils literal notranslate"><span class="pre">citation</span></code> は勝手に定義したフィールドなので，このままだとBibLaTeXに無視されて表示されません．そこで，
+① <code class="docutils literal notranslate"><span class="pre">citation</span></code> の中身をユーザーが使用できるカスタムフィールド <code class="docutils literal notranslate"><span class="pre">usera</span></code> に代入するよう <code class="docutils literal notranslate"><span class="pre">\DeclareSourcemap</span></code> で指定， ② <code class="docutils literal notranslate"><span class="pre">usera</span></code> フィールドの表示法を <code class="docutils literal notranslate"><span class="pre">\DeclareFieldFormat</span></code> で指定， ③末尾を表す <code class="docutils literal notranslate"><span class="pre">finentry</span></code> マクロを書き換えて <code class="docutils literal notranslate"><span class="pre">usera</span></code> フィールドを表示させるようにします．</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\DeclareSourcemap</span><span class="nb">{</span>
+  <span class="k">\maps</span><span class="na">[datatype=bibtex]</span><span class="nb">{</span>
+    <span class="k">\map</span><span class="nb">{</span>
+      <span class="k">\step</span><span class="na">[fieldsource=citation, fieldtarget=usera]</span> <span class="c">% citation -&gt; usera</span>
+    <span class="nb">}</span>
+  <span class="nb">}</span>
+<span class="nb">}</span>
+<span class="k">\DeclareFieldFormat</span><span class="nb">{</span>usera<span class="nb">}{</span>（引用数:~#1）<span class="nb">}</span>
+<span class="k">\renewbibmacro*</span><span class="nb">{</span>finentry<span class="nb">}{</span><span class="k">\printfield</span><span class="nb">{</span>usera<span class="nb">}</span><span class="k">\finentry</span><span class="nb">}</span>
+</pre></div>
+</div>
+<p>このようにすれば， <code class="docutils literal notranslate"><span class="pre">citation</span></code> が定義されたエントリには，引用数が（引用数: 10）と表示され，それ以外のエントリでは単に無視されるようになります．</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>BibLaTeXでは，ユーザーが使用できるカスタムフィールド <code class="docutils literal notranslate"><span class="pre">usera</span></code> ～ <code class="docutils literal notranslate"><span class="pre">userf</span></code> があらかじめ定義されています．したがって，その他の <code class="docutils literal notranslate"><span class="pre">impactfactor</span></code> などの独自フィールドを6つまでは表示できます．</p>
+</div>
+</section>
+</section>
+</section>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+<div id="sourcelink">
+  <a href="_sources/biblatex.rst.txt"
+     rel="nofollow">Source</a>
+</div>
+      
+    </p>
+    <p>
+        &copy; Copyright Tasuku Soma.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.0.1.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

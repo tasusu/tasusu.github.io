@@ -42,6 +42,7 @@ Notes (in Japanese)
 
     beamer
     tikz
+    biblatex
 
 Teaching (in Japanese)
 -----------------------------
