@@ -25,6 +25,10 @@ border-bottom: 1px #CCC solid;
   transform-origin:top left;
 }
 
+div.body{
+  max-width: none !important;
+}
+
 /* ------------------------------------
  * Clearfix フロートの調整用
  -------------------------------------*/ 

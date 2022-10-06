@@ -204,6 +204,10 @@ html_title = u"Tasuku Soma's webpage"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
+html_css_files = [
+    'custom.css',
+]
+
 html_extra_path = ["_extra"]
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
