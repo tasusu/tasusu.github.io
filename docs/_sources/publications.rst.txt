@@ -7,6 +7,18 @@ Refereed Journals and Conferences
 -------------------------------------------
 .. rst-class:: cardlist
     
+    - **Shrunk subspaces via operator Sinkhorn iteration** [`ArXiv <https://arxiv.org/abs/2207.08311>`_]
+
+      with Cole Franks and Michel X. Goemans
+
+      `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2023 <https://www.siam.org/conferences/cm/conference/soda23>`_, to appear.
+
+    - **Algebraic Algorithms for Fractional Linear Matroid Parity via Non-commutative Rank** [`ArXiv <https://arxiv.org/abs/2207.07946>`_]
+
+      with Taihei Oki
+
+      `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2023 <https://www.siam.org/conferences/cm/conference/soda23>`_, to appear.
+
     - **Online Risk-averse Submodular Maximization**  [`Open Access <https://doi.org/10.1007/s10479-022-04835-9>`_]
 
       with Yuichi Yoshida
@@ -23,7 +35,7 @@ Refereed Journals and Conferences
 
     - **Polynomial-Time Algorithms for Submodular Laplacian Systems** [`ArXiv <https://arxiv.org/abs/1803.10923>`_]
 
-      with Kaito Fujii, Yuichi Yoshida
+      with Kaito Fujii and Yuichi Yoshida
        
       `Theoretical Computer Science, 892, pp. 170--186, 2021. <https://doi.org/10.1016/j.tcs.2021.09.019>`_
 
@@ -72,7 +84,7 @@ Refereed Journals and Conferences
     
     - **On orthogonal tensors and best rank-one approximation ratio** [`ArXiv <https://arxiv.org/abs/1707.02569>`_]
 
-      with Zhening Li, Yuji Nakatsukasa, André Uschmajew
+      with Zhening Li, Yuji Nakatsukasa, and André Uschmajew
        
       `SIAM Jounal on Matrix Analysis and Applications, 39 (1), pp. 400--425, 2018 <https://epubs.siam.org/doi/abs/10.1137/17M1144349>`_.
 
@@ -118,7 +130,7 @@ Refereed Journals and Conferences
 
     - **Optimal Budget Allocation: Theoretical Guarantee and Efficient Algorithm**  [`PDF(extended version) <papers/icml2014.pdf>`_]
       
-      with Naonori Kakimura, Kazuhiro Inaba, Ken-ichi Kawarabayashi
+      with Naonori Kakimura, Kazuhiro Inaba, and Ken-ichi Kawarabayashi
       
       `International Conference on Machine Learning (ICML), 2014, <http://icml.cc/2014>`_ **Cycle 1 (acceptance rate: 27%)**
 
@@ -143,18 +155,6 @@ Refereed Workshop
 Preprints
 ------------------------------
 .. rst-class:: cardlist
-
-    - **Shrunk subspaces via operator Sinkhorn iteration** [`ArXiv <https://arxiv.org/abs/2207.08311>`_]
-
-      with Cole Franks, Michel X. Goemans,
-
-      ArXiv, 2022. 
-
-    - **Algebraic Algorithms for Fractional Linear Matroid Parity via Non-commutative Rank** [`ArXiv <https://arxiv.org/abs/2207.07946>`_]
-
-      with Taihei Oki,
-
-      ArXiv, 2022.
 
     - **Statistical Learning with Conditional Value at Risk** [`ArXiv <https://arxiv.org/abs/2002.05826>`_]
       
