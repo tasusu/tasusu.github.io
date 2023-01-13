@@ -19,19 +19,19 @@ Refereed Journals and Conferences
 
       `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2023 <https://www.siam.org/conferences/cm/conference/soda23>`_, to appear.
 
-    - **Online Risk-averse Submodular Maximization**  [`Open Access <https://doi.org/10.1007/s10479-022-04835-9>`_]
+    - **Online Risk-averse Submodular Maximization** 
 
       with Yuichi Yoshida
 
-      Annals of Operations Research, 2022, online available.
+      `Annals of Operations Research, 320, pp. 393--414, 2023. <https://doi.org/10.1007/s10479-022-04835-9>`_
 
       `The 30th International Joint Conference on Artificial Intelligence (IJCAI), 2021 <https://ijcai-21.org>`_. [`Proceedings <https://doi.org/10.24963/ijcai.2021/411>`_]
     
-    - **Information Geometry of Operator Scaling** [`Open Access <https://doi.org/10.1016/j.laa.2022.04.022>`_]
+    - **Information Geometry of Operator Scaling** 
 
       with Takeru Matsuda
 
-      Linear Algebra and its Applications, 649, pp. 240--267, 2022. 
+      `Linear Algebra and its Applications, 649, pp. 240--267, 2022. <https://doi.org/10.1016/j.laa.2022.04.022>`_
 
     - **Polynomial-Time Algorithms for Submodular Laplacian Systems** [`ArXiv <https://arxiv.org/abs/1803.10923>`_]
 
@@ -155,6 +155,12 @@ Refereed Workshop
 Preprints
 ------------------------------
 .. rst-class:: cardlist
+
+    - **Optimal algorithms for group distributionally robust optimization and beyond** [`ArXiv <https://arxiv.org/abs/2212.13669>`_]
+
+      with Khashayar Gatmiry, Stefanie Jegelka
+
+      ArXiv, 2022.
 
     - **Statistical Learning with Conditional Value at Risk** [`ArXiv <https://arxiv.org/abs/2002.05826>`_]
       
