@@ -11,13 +11,13 @@ Refereed Journals and Conferences
 
       with Cole Franks and Michel X. Goemans
 
-      `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2023 <https://www.siam.org/conferences/cm/conference/soda23>`_, to appear.
+      `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2023 <https://www.siam.org/conferences/cm/conference/soda23>`_. [`Proceedings <https://doi.org/10.1137/1.9781611977554.ch62>`_]
 
     - **Algebraic Algorithms for Fractional Linear Matroid Parity via Non-commutative Rank** [`ArXiv <https://arxiv.org/abs/2207.07946>`_]
 
       with Taihei Oki
 
-      `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2023 <https://www.siam.org/conferences/cm/conference/soda23>`_, to appear.
+      `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2023 <https://www.siam.org/conferences/cm/conference/soda23>`_. [`Proceedings <https://doi.org/10.1137/1.9781611977554.ch161>`_]
 
     - **Online Risk-averse Submodular Maximization** 
 
