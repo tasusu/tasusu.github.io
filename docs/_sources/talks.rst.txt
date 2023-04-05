@@ -19,6 +19,16 @@ Slides
 -----------------------------------------------------
 .. rst-class:: cardlist 
     
+    - **Shrunk subspace via operator Sinkhorn iteration**
+
+      SODA23, 2023
+      
+      .. raw:: html
+
+        <div style="max-width:480px">
+        <script async class="speakerdeck-embed" data-id="3d7c2115cc81443b9ca3b1d45a83a1e3" data-ratio="1.77966101694915" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
+    
     - **Information Geometry of Operator Scaling**
 
       RIKEN iTHEMS math seminar, 2020
