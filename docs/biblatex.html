@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <meta property="article:modified_time" content="2022-09-29T06:43:56+09:00" />
     <title>BibLaTeX &#8212; Tasuku Soma&#39;s webpage</title>
@@ -12,9 +12,6 @@
     <link rel="stylesheet" type="text/css" href="_static/twemoji.css" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css" />
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/sphinx_highlight.js"></script>
     <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"></script>
@@ -170,11 +167,11 @@
 <section id="id7">
 <h2>主要業績のみ出力する<a class="headerlink" href="#id7" title="Permalink to this heading">¶</a></h2>
 <p>主要業績のみ出力した業績リストを作成したい場合があるかと思います．そのときは，bibファイルのエントリーに <code class="docutils literal notranslate"><span class="pre">keywords</span></code> フィールドを追加して対応すると便利です．たとえば，主要業績のエントリーには</p>
-<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">Soma2000</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Awesome Paper}</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Soma, Tasuku}</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="na">keywords</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{selected}</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">Soma2000</span><span class="p">,</span>
+<span class="w">    </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Awesome Paper}</span><span class="p">,</span>
+<span class="w">    </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Soma, Tasuku}</span><span class="p">,</span>
+<span class="w">    </span><span class="na">keywords</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{selected}</span>
+<span class="p">}</span>
 </pre></div>
 </div>
 <p>のように， <code class="docutils literal notranslate"><span class="pre">keywords</span></code> フィールドに <code class="docutils literal notranslate"><span class="pre">selected</span></code> 等，主要業績であることを示す要素を追加しておきます．その上で</p>
@@ -201,11 +198,11 @@
 <section id="id10">
 <h3>基本編<a class="headerlink" href="#id10" title="Permalink to this heading">¶</a></h3>
 <p>まずは，bibファイルに <code class="docutils literal notranslate"><span class="pre">author+an</span></code> というフィールドを追加して，自分が何番目の著者かを書き，<code class="docutils literal notranslate"><span class="pre">me</span></code> というアノテーションを付けます．</p>
-<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">Soma2000</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Another Awesome Paper}</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Satomi, Shuji and Soma, Tasuku and Zaizen, Goro}</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="na">author+an</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{2=me}</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">Soma2000</span><span class="p">,</span>
+<span class="w">    </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Another Awesome Paper}</span><span class="p">,</span>
+<span class="w">    </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Satomi, Shuji and Soma, Tasuku and Zaizen, Goro}</span><span class="p">,</span>
+<span class="w">    </span><span class="na">author+an</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{2=me}</span>
+<span class="p">}</span>
 </pre></div>
 </div>
 <p>その上で， <code class="docutils literal notranslate"><span class="pre">me</span></code> というアノテーションがついた著者名に下線を引くコードをLaTeX文書側に書きます．</p>
@@ -221,11 +218,11 @@
 <section id="id11">
 <h3>応用編<a class="headerlink" href="#id11" title="Permalink to this heading">¶</a></h3>
 <p>アノテーションは複数書けます．したがって，自分を下線にした上で，さらに責任著者は太字にせよという場合は，責任著者を表す <code class="docutils literal notranslate"><span class="pre">corresp</span></code> というアノテーションを付けてやります． <strong>アノテーションの区切りはセミコロンであることに注意．</strong></p>
-<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">Soma2000</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Another Awesome Paper}</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Satomi, Shuji and Soma, Tasuku and Zaizen, Goro}</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="na">author+an</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{2=me; 1=corresp}</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">Soma2000</span><span class="p">,</span>
+<span class="w">    </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Another Awesome Paper}</span><span class="p">,</span>
+<span class="w">    </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Satomi, Shuji and Soma, Tasuku and Zaizen, Goro}</span><span class="p">,</span>
+<span class="w">    </span><span class="na">author+an</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{2=me; 1=corresp}</span>
+<span class="p">}</span>
 </pre></div>
 </div>
 <p>その上で， <code class="docutils literal notranslate"><span class="pre">corresp</span></code> がついた著者名を太字にするコードを上の要領で書けばOKです．ここで注意したいのが， アノテーションが <code class="docutils literal notranslate"><span class="pre">me</span></code> と <code class="docutils literal notranslate"><span class="pre">corresp</span></code> の2種類あるので， <code class="docutils literal notranslate"><span class="pre">\mkbibcompletename</span></code> の定義の条件分岐が入れ子になる点です．</p>
@@ -252,11 +249,11 @@
 <h3>基本編<a class="headerlink" href="#id14" title="Permalink to this heading">¶</a></h3>
 <p>まずは簡単な方法から． <code class="docutils literal notranslate"><span class="pre">note</span></code> や <code class="docutils literal notranslate"><span class="pre">addendum</span></code> フィールドをbibファイルのエントリに書くと，その内容はそのまま出力されます． <code class="docutils literal notranslate"><span class="pre">note</span></code> は後半あたりに， <code class="docutils literal notranslate"><span class="pre">addendum</span></code> は末尾に出力されるという違いがあります．
 よって，末尾に”best paper”と太字で書きたければ</p>
-<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">Soma2000</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Awesome Paper}</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Soma, Tasuku}</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="na">addendum</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{\textbf{best paper}}</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">Soma2000</span><span class="p">,</span>
+<span class="w">    </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Awesome Paper}</span><span class="p">,</span>
+<span class="w">    </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Soma, Tasuku}</span><span class="p">,</span>
+<span class="w">    </span><span class="na">addendum</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{\textbf{best paper}}</span>
+<span class="p">}</span>
 </pre></div>
 </div>
 <p>と書けばOKです．その他にも， <a class="reference external" href="https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex#Reference_guide">bibLaTeXには様々なフィールドが定義されている</a> ので，用途に合うフィールドがあれば，それを使うのが一番手っ取り早いでしょう．</p>
@@ -265,11 +262,11 @@
 <h3>応用編<a class="headerlink" href="#id16" title="Permalink to this heading">¶</a></h3>
 <p>まれに，インパクトファクターや引用数を書けという指定もあるようです．残念ながら，bibLaTeXにはこれらに相当するフィールドは定義されていません．かといって，応募先に応じて毎回 <code class="docutils literal notranslate"><span class="pre">note</span></code> や <code class="docutils literal notranslate"><span class="pre">addendum</span></code> の内容を変えていては大変です．ここではbibファイルに独自フィールドを足して，それを出力するコードを追加することにします．このようにすれば，応募先に応じて表示する内容をカスタマイズできます．</p>
 <p>ここでは，bibファイルのエントリに <code class="docutils literal notranslate"><span class="pre">citation</span></code> という引用数を表す独自フィールドを足してみましょう．</p>
-<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">Soma2000</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Awesome Paper}</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Soma, Tasuku}</span><span class="p">,</span><span class="w"></span>
-<span class="w">    </span><span class="na">citation</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{10}</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@article</span><span class="p">{</span><span class="nl">Soma2000</span><span class="p">,</span>
+<span class="w">    </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Awesome Paper}</span><span class="p">,</span>
+<span class="w">    </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Soma, Tasuku}</span><span class="p">,</span>
+<span class="w">    </span><span class="na">citation</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{10}</span>
+<span class="p">}</span>
 </pre></div>
 </div>
 <p>もちろん， <code class="docutils literal notranslate"><span class="pre">citation</span></code> は勝手に定義したフィールドなので，このままだとBibLaTeXに無視されて表示されません．そこで，
@@ -315,7 +312,7 @@
     <p>
         &copy; Copyright Tasuku Soma.<br/>
       Last updated on Sep 29, 2022.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.2.3.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 7.0.1.<br/>
     </p>
   </div>
 </footer>

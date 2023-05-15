@@ -6,7 +6,7 @@
 
 Tasuku Soma （相馬 輔）
 =================================================
-Hi! I am an associate professor in `the Instutite of Statistical Mathematics, Japan <https://www.ism.ac.jp>`_. 
+Hi! I am an associate professor in `the Institute of Statistical Mathematics <https://www.ism.ac.jp/index_e.html>`_ and `the Graduate Univerisity for Advanced Studies, SOKENDAI <https://www.soken.ac.jp/en>`_, Tokyo, Japan. 
 
 
 |:e-mail:| Email: |mail|
