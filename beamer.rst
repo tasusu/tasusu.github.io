@@ -286,20 +286,22 @@ only/onslideの前後で配置が微妙にずれるのを防ぐ
 
 テンプレート
 --------------------------------------------------
-自分が使っているテンプレートをOverleafで公開しておきます（MITライセンス）．
+自分が使っているテンプレートをOverleafで公開しておきます．
 [`Overleaf Gallery <https://www.overleaf.com/latex/templates/aqua-beamer-template-settings-for-japanese/mwqqbfrdhscg>`_ ]
 
-オフラインで使用する場合はuplatex+dvipdfmxでコンパイルしてください．
-また，Noto Sans CJK JPフォントを埋め込みますので，正しいディレクトリにフォントファイルを配置してください．
-   
+Overleafからは"Open as template"ボタンを押すだけですぐに使えます．
+
+オフラインで使用する場合はuplatex+dvipdfmxでコンパイルしてください．数式フォントの関係上，TeX Live 2021以降が必要です．
+
 サンプル
 ~~~~~~~~~~~~~~~~~~~
-      
+
 .. raw:: html
 
-    <iframe src="//www.slideshare.net/slideshow/embed_code/46359576" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
-
-
+     <div style="max-width:800px">
+     <script defer class="speakerdeck-embed" data-id="17cb232a08924fae82ebb46744cde3ed" data-ratio="1.77966101694915" src="//speakerdeck.com/assets/embed.js"></script>
+     </div>
+      
 参考文献
 --------------------------------------------------
 .. [okumurabook] `奥村晴彦・黒木裕介 『［改訂第6版］LaTeX2e 美文書作成入門』 <http://oku.edu.mie-u.ac.jp/~okumura/bibun6/>`_
