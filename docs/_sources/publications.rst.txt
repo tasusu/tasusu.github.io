@@ -156,6 +156,12 @@ Preprints
 ------------------------------
 .. rst-class:: cardlist
 
+    - **Online Algorithms for Spectral Hypergraph Sparsification** [`ArXiv <https://arxiv.org/abs/2310.02643>`_]
+
+      with Kam Chuen Tung, Yuichi Yoshida
+
+      ArXiv, 2023.
+
     - **Optimal algorithms for group distributionally robust optimization and beyond** [`ArXiv <https://arxiv.org/abs/2212.13669>`_]
 
       with Khashayar Gatmiry, Stefanie Jegelka
