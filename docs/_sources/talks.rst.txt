@@ -15,6 +15,20 @@ Video
         
          <iframe width="480" height="360" src="https://www.youtube.com/embed/9MPbhCdOHXk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
+Tutorial
+-----------------------------------------------------
+.. rst-class:: cardlist 
+
+    - **A crash course on graph theory**
+
+      iTHEMS Graph-Theory meeting 2023
+
+      .. raw:: html
+
+        <div style="max-width:480px">
+        <script defer class="speakerdeck-embed" data-id="4c0417fd38bf4f56a67dcbec51a61c98" data-ratio="1.7796610169491525" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
+
 Slides
 -----------------------------------------------------
 .. rst-class:: cardlist 
