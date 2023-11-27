@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <meta property="article:modified_time" content="2023-11-27T11:48:17+09:00" />
+    <title>Graphs in TikZ &#8212; Tasuku Soma&#39;s webpage</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b76e3c8a" />
+    <link rel="stylesheet" type="text/css" href="_static/bootstrap-sphinx.css?v=9f61996d" />
+    <link rel="stylesheet" type="text/css" href="_static/twemoji.css?v=2199c511" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=072d1131" />
+    <script src="_static/documentation_options.js?v=ec16d22d"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"></script>
+    <script src="_static/twemoji.js?v=a4381b3f"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="BibLaTeX" href="biblatex.html" />
+    <link rel="prev" title="TikZ" href="tikz.html" />
+
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script type="text/javascript" src="_static/js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+<script type="text/javascript" src="_static/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3628029-8', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          Tasuku Soma</a>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            <li class="divider-vertical"></li>
+            
+                <li><a href="cv.pdf"><span class="glyphicon glyphicon-user"></span> C.V.</a></li>
+                <li><a href="publications.html"><span class="glyphicon glyphicon-th-list"></span> Publications</a></li>
+                <li><a href="talks.html"><span class="glyphicon glyphicon-facetime-video"></span> Talks</a></li>
+                <li><a href="software.html"><span class="glyphicon glyphicon-hdd"></span> Software</a></li>
+                <li><a href="https://researchmap.jp/tasuku">&#x1f1ef;&#x1f1f5;日本語</a></li>
+            
+            
+
+              
+            
+            
+            
+            
+            
+          </ul>
+
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="body col-md-12 content" role="main">
+      
+  <section class="tex2jax_ignore mathjax_ignore" id="graphs-in-tikz">
+<h1>Graphs in TikZ<a class="headerlink" href="#graphs-in-tikz" title="Link to this heading">¶</a></h1>
+<p>TikZでグラフ（ネットワーク）を簡単に描く</p>
+<nav class="contents local" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#graph" id="id10">Graph記法とは</a></p></li>
+<li><p><a class="reference internal" href="#id1" id="id11">デフォルトスタイルの設定</a></p></li>
+<li><p><a class="reference internal" href="#id2" id="id12">Graph記法いろいろ</a></p></li>
+<li><p><a class="reference internal" href="#graphs-standard" id="id13">Graphs.standardライブラリとグラフマクロ</a></p></li>
+<li><p><a class="reference internal" href="#id6" id="id14">配置の調整</a></p></li>
+<li><p><a class="reference internal" href="#tips" id="id15">Tips</a></p></li>
+</ul>
+</nav>
+<section id="graph">
+<h2>Graph記法とは<a class="headerlink" href="#graph" title="Link to this heading">¶</a></h2>
+<p>TikZの<code class="docutils literal notranslate"><span class="pre">graph</span></code>ライブラリには，グラフを簡単に描くための<code class="docutils literal notranslate"><span class="pre">\graph</span></code>がある．まずはプリアンブルで以下のようにライブラリを読み込む．</p>
+<div class="highlight-tex notranslate"><div class="highlight"><pre><span></span><span class="k">\usetikzlibrary</span><span class="nb">{</span>graphs<span class="nb">}</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">\graph</span></code>記法はTikZ環境内で使えるマクロで以下のように使う．</p>
+<div class="highlight-tex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>tikzpicture<span class="nb">}</span>
+<span class="k">\graph</span><span class="nb">{</span>
+    1 -- 2 -- 3 -- 4;
+    1 -- 5;
+<span class="nb">}</span>;
+<span class="k">\end</span><span class="nb">{</span>tikzpicture<span class="nb">}</span>
+</pre></div>
+</div>
+<p>すると次のグラフができる．</p>
+<p><img alt="グラフ1" src="_images/tikzgraph-figure0.pdf.png" /></p>
+<p><code class="docutils literal notranslate"><span class="pre">\graph</span></code>内に新しく現れた頂点には，新たにTikZの<code class="docutils literal notranslate"><span class="pre">node</span></code>が生成される．
+他方，すでに現れた頂点と同じ名前には，同じ<code class="docutils literal notranslate"><span class="pre">node</span></code>が使いまわされる．
+上では，<code class="docutils literal notranslate"><span class="pre">1</span></code>は1行目で生成されるが，2行目では1行目で生成された<code class="docutils literal notranslate"><span class="pre">1</span></code>が使いまわされている．</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>graph記法の内部で<code class="docutils literal notranslate"><span class="pre">\foreach</span></code>や<code class="docutils literal notranslate"><span class="pre">\onslide</span></code>等を使うとバグることがある．あまり複雑なコードは書かないほうが良い．</p>
+</div>
+<p><strong>以下では，<code class="docutils literal notranslate"><span class="pre">tikzpicture</span></code>環境は省略する．</strong></p>
+</section>
+<section id="id1">
+<h2>デフォルトスタイルの設定<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">graph</span></code>環境のオプションでスタイルを設定できる．通常のTikZのノードやパスと同じようにスタイルの指定が可能である．</p>
+<div class="highlight-tex notranslate"><div class="highlight"><pre><span></span><span class="k">\graph</span><span class="na">[nodes={&lt;node style&gt;}, edges={&lt;edge style&gt;}]</span><span class="nb">{</span>...<span class="nb">}</span>;
+</pre></div>
+</div>
+<p>グラフごとにいちいち指定するのは面倒なので，<code class="docutils literal notranslate"><span class="pre">graphs/every</span> <span class="pre">graph/.style</span></code>を用いて，デフォルトスタイルを以下のように指定すると便利である．</p>
+<div class="highlight-tex notranslate"><div class="highlight"><pre><span></span><span class="k">\tikzset</span><span class="nb">{</span>mynodes/.style=<span class="nb">{</span>circle,white,fill=UniBlue!90,text width=.8em,inner sep=0pt,text centered,font=<span class="k">\footnotesize</span><span class="nb">}}</span> <span class="c">% 頂点のスタイル</span>
+<span class="k">\tikzset</span><span class="nb">{</span>myedges/.style=<span class="nb">{</span>thick<span class="nb">}}</span> <span class="c">% 枝のスタイル</span>
+<span class="k">\tikzset</span><span class="nb">{</span>graphs/every graph/.style=<span class="nb">{</span>nodes=<span class="nb">{</span>mynodes<span class="nb">}</span>, edges=<span class="nb">{</span>myedges<span class="nb">}}}</span> <span class="c">% グラフのデフォルトスタイル</span>
+<span class="k">\tikzset</span><span class="nb">{</span>graphs/digraph/.style=<span class="nb">{</span>edges=<span class="nb">{</span>myedges,-latex<span class="nb">}}}</span> <span class="c">% 有向グラフのデフォルトスタイル</span>
+</pre></div>
+</div>
+<p>上のスタイルを用いると，先の例のグラフは以下のようになる．</p>
+<p><img alt="グラフ2" src="_images/tikzgraph-figure1.pdf.png" /></p>
+<p>デフォルトでは頂点名がそのまま頂点内テキストとして描画される．
+以下のオプションを追加で<code class="docutils literal notranslate"><span class="pre">every</span> <span class="pre">graph./style</span></code>に指定するとこれを変更できる．</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>オプション</p></th>
+<th class="head"><p>説明</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">empty</span> <span class="pre">nodes</span></code></p></td>
+<td><p>頂点内テキストを描画しない</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">math</span> <span class="pre">nodes</span></code></p></td>
+<td><p>頂点内テキストを数式モード<code class="docutils literal notranslate"><span class="pre">$...$</span></code>として解釈</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id2">
+<h2>Graph記法いろいろ<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">\graph</span></code>内では色々な略記法が使えるので，通常のTikZより楽である．</p>
+<section id="id3">
+<h3>まとめて枝をひく<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">{}</span></code>で頂点をグループ化すると，まとめて枝をひくことができる．</p>
+<div class="highlight-tex notranslate"><div class="highlight"><pre><span></span><span class="k">\graph</span><span class="nb">{</span>
+    1 -- <span class="nb">{</span>2, 3, 4<span class="nb">}</span> -- 5;
+<span class="nb">}</span>;
+</pre></div>
+</div>
+<p><img alt="まとめて枝をひく例" src="_images/tikzgraph-figure2.pdf.png" /></p>
+<p>2つのグループ間に枝をひくこともできる．<code class="docutils literal notranslate"><span class="pre">complete</span> <span class="pre">bipartite</span></code>をつけると，その上の完全二部グラフが作れる．</p>
+<div class="highlight-tex notranslate"><div class="highlight"><pre><span></span><span class="k">\graph</span><span class="nb">{</span>
+    <span class="nb">{</span>1, 2, 3<span class="nb">}</span> --[complete bipartite] <span class="nb">{</span>4, 5, 6<span class="nb">}</span>;
+<span class="nb">}</span>;
+</pre></div>
+</div>
+<p><img alt="complete bipartiteの例" src="_images/tikzgraph-figure3.pdf.png" /></p>
+</section>
+<section id="tikz">
+<h3>既存のTikZノードを使う<a class="headerlink" href="#tikz" title="Link to this heading">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">\graph</span></code>外で定義したTikZのノードを使うには，その座標を書く．
+以下は，すでに定義されたTikZノード<code class="docutils literal notranslate"><span class="pre">a</span></code>と新しいグラフ頂点のノード<code class="docutils literal notranslate"><span class="pre">1</span></code>に枝を引く例．</p>
+<div class="highlight-tex notranslate"><div class="highlight"><pre><span></span><span class="k">\graph</span><span class="nb">{</span>
+    (a) -- 1;
+<span class="nb">}</span>;
+</pre></div>
+</div>
+<p><img alt="TikZノードを使う例" src="_images/tikzgraph-figure4.pdf.png" /></p>
+</section>
+<section id="id4">
+<h3>頂点に文字を書く<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">as={}</span></code>を書くことで，頂点内のテキストを指定できる．</p>
+<div class="highlight-tex notranslate"><div class="highlight"><pre><span></span><span class="k">\graph</span><span class="nb">{</span>
+    1[as=<span class="nb">{</span><span class="s">$</span><span class="nb">s</span><span class="s">$</span><span class="nb">}</span>];
+<span class="nb">}</span>
+</pre></div>
+</div>
+<p><img alt="asを使う例" src="_images/tikzgraph-figure5.pdf.png" /></p>
+</section>
+</section>
+<section id="graphs-standard">
+<h2>Graphs.standardライブラリとグラフマクロ<a class="headerlink" href="#graphs-standard" title="Link to this heading">¶</a></h2>
+<p>完全グラフやサイクルグラフなどのよく使うグラフは，グラフマクロとしてTikZ内に登録されている．これらを使うためには，<code class="docutils literal notranslate"><span class="pre">graphs.standard</span></code>を読み込む．</p>
+<div class="highlight-tex notranslate"><div class="highlight"><pre><span></span><span class="k">\usetikzlibrary</span><span class="nb">{</span>graphs.standard<span class="nb">}</span>
+</pre></div>
+</div>
+<p>例えば，<span class="math notranslate nohighlight">\(n\)</span>頂点完全グラフ(<span class="math notranslate nohighlight">\(K_n\)</span>)は<code class="docutils literal notranslate"><span class="pre">K_n</span></code>で作れる．<code class="docutils literal notranslate"><span class="pre">n=</span></code>で頂点数を指定できる．</p>
+<div class="highlight-tex notranslate"><div class="highlight"><pre><span></span><span class="k">\graph</span><span class="nb">{</span>subgraph K<span class="nb">_</span>n[n=5, clockwise]<span class="nb">}</span>;
+</pre></div>
+</div>
+<p><img alt="K_nの例" src="_images/tikzgraph-figure6.pdf.png" /></p>
+<p>ここで，<code class="docutils literal notranslate"><span class="pre">clockwise</span></code>は頂点を時計回りに配置するオプションである．
+デフォルトでは，ノード名は<code class="docutils literal notranslate"><span class="pre">1</span></code>, <code class="docutils literal notranslate"><span class="pre">2</span></code>, …, <code class="docutils literal notranslate"><span class="pre">n</span></code>になる．</p>
+<p><span class="math notranslate nohighlight">\(m\)</span>頂点と<span class="math notranslate nohighlight">\(n\)</span>頂点をもつ完全二部グラフ(<span class="math notranslate nohighlight">\(K_{nm}\)</span>)は<code class="docutils literal notranslate"><span class="pre">K_nm</span></code>を使う．</p>
+<div class="highlight-tex notranslate"><div class="highlight"><pre><span></span><span class="k">\graph</span><span class="nb">{</span>subgraph K<span class="nb">_</span>nm[n=5, m=3]<span class="nb">}</span>;
+</pre></div>
+</div>
+<p>デフォルトでは左側ノード名が<code class="docutils literal notranslate"><span class="pre">V</span> <span class="pre">1</span></code>, <code class="docutils literal notranslate"><span class="pre">V</span> <span class="pre">2</span></code>, …, <code class="docutils literal notranslate"><span class="pre">V</span> <span class="pre">n</span></code>となり，右側ノード名が<code class="docutils literal notranslate"><span class="pre">W</span> <span class="pre">1</span></code>, <code class="docutils literal notranslate"><span class="pre">W</span> <span class="pre">2</span></code>, …, <code class="docutils literal notranslate"><span class="pre">W</span> <span class="pre">m</span></code>となる．</p>
+<p><img alt="K_nmの例" src="_images/tikzgraph-figure7.pdf.png" /></p>
+<p>以下が<code class="docutils literal notranslate"><span class="pre">graphs.standard</span></code>ライブラリに定義されているグラフ一覧である．</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>グラフ</p></th>
+<th class="head"><p>マクロ名</p></th>
+<th class="head"><p>補足</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>完全グラフ(<span class="math notranslate nohighlight">\(C_n\)</span>)</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">K_n</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>完全二部グラフ(<span class="math notranslate nohighlight">\(K_{nm}\)</span>)</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">K_nm</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>サイクルグラフ(<span class="math notranslate nohighlight">\(C_n\)</span>)</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">C_n</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>パスグラフ(<span class="math notranslate nohighlight">\(P_n\)</span>)</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">P_n</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>独立集合</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">I_n</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">K_n</span></code>の枝なし版</p></td>
+</tr>
+<tr class="row-odd"><td><p>二部独立集合</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">I_nm</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">K_nm</span></code>の枝なし版</p></td>
+</tr>
+<tr class="row-even"><td><p>グリッドグラフ</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Grid_n</span></code></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<section id="id5">
+<h3>自作グラフマクロを登録する<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h3>
+<p>デフォルトのグラフマクロは種類が少ないので，よく使うグラフは自作グラフマクロとして登録しておくと便利である．TikZのスタイル同様に
+<code class="docutils literal notranslate"><span class="pre">\tikzgraphset{declare={&lt;グラフ名&gt;}{&lt;中身&gt;}}</span></code>
+で登録できる．以下はPetersenグラフを自作マクロ<code class="docutils literal notranslate"><span class="pre">Petersen</span></code>として登録する例である．参考: <a class="reference external" href="https://tex.stackexchange.com/questions/207953/petersen-graph-with-new-tikz-graph-library">Petersen graph with new tikz graph library</a></p>
+<div class="highlight-tex notranslate"><div class="highlight"><pre><span></span><span class="k">\tikzgraphsset</span><span class="nb">{</span>declare=<span class="nb">{</span>Petersen<span class="nb">}{</span><span class="c">%</span>
+    subgraph C<span class="nb">_</span>n [n=5, name=A, radius=1.5cm]; 
+    subgraph I<span class="nb">_</span>n [n=5, name=B, radius=.8cm];
+    <span class="k">\foreach</span> <span class="k">\i</span> [evaluate=<span class="nb">{</span><span class="k">\j</span>=int(mod(<span class="k">\i</span>+2,5)+1);<span class="nb">}</span>] in <span class="nb">{</span>1,...,5<span class="nb">}{</span>
+        A <span class="k">\i</span> -- B <span class="k">\i</span>;
+        B <span class="k">\i</span> -- B <span class="k">\j</span>;
+<span class="nb">}}}</span>
+</pre></div>
+</div>
+<p>登録後は以下のようにして簡単に呼び出せる.</p>
+<div class="highlight-tex notranslate"><div class="highlight"><pre><span></span><span class="k">\graph</span><span class="na">[clockwise]</span><span class="nb">{</span>Petersen<span class="nb">}</span>;
+</pre></div>
+</div>
+<p><img alt="Petersenグラフの例" src="_images/tikzgraph-figure8.pdf.png" /></p>
+</section>
+</section>
+<section id="id6">
+<h2>配置の調整<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h2>
+<section id="id7">
+<h3>手動で座標を指定<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h3>
+<p>デフォルトでは，<code class="docutils literal notranslate"><span class="pre">grid</span> <span class="pre">placement</span></code>という配置規則に従ってノードが配置される．これを無効にし，自分で座標を指定したい場合は，<code class="docutils literal notranslate"><span class="pre">no</span> <span class="pre">placement</span></code>を利用し，頂点ごとに<code class="docutils literal notranslate"><span class="pre">at={}</span></code>を用いて座標を指定する．<code class="docutils literal notranslate"><span class="pre">at</span></code>を指定しない頂点は原点に配置される．</p>
+<div class="highlight-tex notranslate"><div class="highlight"><pre><span></span><span class="k">\graph</span><span class="na">[no placement]</span><span class="nb">{</span>
+    a;
+    b[at=<span class="nb">{</span>(1,0)<span class="nb">}</span>];
+<span class="nb">}</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="tips">
+<h2>Tips<a class="headerlink" href="#tips" title="Link to this heading">¶</a></h2>
+<section id="id8">
+<h3>枝を消す<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">\graph</span></code>に<code class="docutils literal notranslate"><span class="pre">simple</span></code>オプションを指定すると，同じ頂点対間に枝が複数回ひかれた場合には，<strong>最後にひいた枝のみが残る</strong>．これを応用すると，後から枝を消すことができる．例えば，<span class="math notranslate nohighlight">\(K_5\)</span>から1本だけ枝を削除したグラフは，いちいち枝を指定することなく以下のように簡潔に書ける．</p>
+<div class="highlight-tex notranslate"><div class="highlight"><pre><span></span><span class="k">\graph</span><span class="na">[simple]</span><span class="nb">{</span>
+    subgraph K<span class="nb">_</span>n[n=5, clockwise];
+    3 -!- 5;
+<span class="nb">}</span>;
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">-!-</span></code>は空の枝をひく記法である．<code class="docutils literal notranslate"><span class="pre">simple</span></code>がない場合は，<code class="docutils literal notranslate"><span class="pre">-!-</span></code>は何もしない．</p>
+</section>
+<section id="id9">
+<h3>枝を細分する<a class="headerlink" href="#id9" title="Link to this heading">¶</a></h3>
+<p>枝の細分(subdivision)も簡単に作れる．</p>
+<div class="highlight-tex notranslate"><div class="highlight"><pre><span></span><span class="k">\newcommand</span><span class="nb">{</span><span class="k">\subdivision</span><span class="nb">}</span>[3]<span class="nb">{</span><span class="c">%</span>
+    <span class="k">\path</span> (#1) -- (#2)
+    <span class="k">\foreach</span> <span class="k">\i</span> in <span class="nb">{</span>1,...,#3<span class="nb">}</span> <span class="nb">{</span>
+        node[mynodes, text width=.5em, pos=<span class="k">\i</span>/(#3+1)] <span class="nb">{}</span>
+    <span class="nb">}</span>;
+<span class="nb">}</span>
+</pre></div>
+</div>
+<p>使い方は，<code class="docutils literal notranslate"><span class="pre">\subdivision{&lt;始点&gt;}{&lt;終点&gt;}{&lt;細分した枝に追加される頂点数&gt;}</span></code>である．始点と終点にはノード名を指定する．</p>
+<p>例: <span class="math notranslate nohighlight">\(K_5\)</span>の細分は以下のように作れる．<a class="reference external" href="https://en.wikipedia.org/wiki/Kuratowski%27s_theorem">Kuratowskiの定理</a>を紹介するときに便利だと思う．</p>
+<div class="highlight-tex notranslate"><div class="highlight"><pre><span></span><span class="k">\graph</span><span class="nb">{</span>subgraph K<span class="nb">_</span>n[n=5,clockwise,radius=2cm]<span class="nb">}</span>;
+<span class="k">\subdivision</span><span class="nb">{</span>1<span class="nb">}{</span>2<span class="nb">}{</span>2<span class="nb">}</span>;
+<span class="k">\subdivision</span><span class="nb">{</span>2<span class="nb">}{</span>3<span class="nb">}{</span>4<span class="nb">}</span>;
+<span class="k">\subdivision</span><span class="nb">{</span>3<span class="nb">}{</span>4<span class="nb">}{</span>2<span class="nb">}</span>;
+<span class="k">\subdivision</span><span class="nb">{</span>4<span class="nb">}{</span>5<span class="nb">}{</span>1<span class="nb">}</span>;
+<span class="k">\subdivision</span><span class="nb">{</span>5<span class="nb">}{</span>1<span class="nb">}{</span>1<span class="nb">}</span>;
+<span class="k">\subdivision</span><span class="nb">{</span>5<span class="nb">}{</span>2<span class="nb">}{</span>3<span class="nb">}</span>;
+</pre></div>
+</div>
+<p><img alt="K_5の細分" src="_images/tikzgraph-figure9.pdf.png" /></p>
+</section>
+</section>
+</section>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+<div id="sourcelink">
+  <a href="_sources/tikzgraph.md.txt"
+     rel="nofollow">Source</a>
+</div>
+      
+    </p>
+    <p>
+        &copy; Copyright Tasuku Soma.<br/>
+      Last updated on Nov 27, 2023.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 7.2.6.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

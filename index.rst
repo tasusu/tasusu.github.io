@@ -45,6 +45,7 @@ Notes (in Japanese)
 
     beamer
     tikz
+    tikzgraph
     biblatex
 
 Teaching (in Japanese)

@@ -1,2 +1,12 @@
 _build/*
 old/*
+latex/*.pdf
+latex/*.log
+latex/*.aux
+latex/*.dpth
+latex/*.md5
+latex/*.auxlock
+latex/*.fls
+latex/*.fdb_latexmk
+latex/*.gz
+latex/*.png

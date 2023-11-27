@@ -1,0 +1,93 @@
+\documentclass{article}
+\usepackage{fullpage}
+\usepackage{tikz}
+\usetikzlibrary{positioning,shapes,arrows,quotes,shapes.callouts,calc,graphs,graphs.standard,backgrounds,fit,external}
+% \usetikzlibrary{graphdrawing}
+% \usegdlibrary{trees,layered,force}
+\usepackage{xcolor}
+\definecolor{UniBlue}{RGB}{0,150,200} 
+\definecolor{AlertOrange}{RGB}{255,76,0}
+\definecolor{AlmostBlack}{RGB}{38,38,38}
+\tikzexternalize
+\begin{document}
+\tikz{%color
+\graph{
+    1 -- 2 -- 3 -- 4;
+    1 -- 5;
+};
+}
+
+% vertex
+\tikzset{mynodes/.style={circle,white,fill=UniBlue!90,text width=.8em,inner sep=0pt,text centered,font=\footnotesize}}
+\tikzset{myedges/.style={thick}}
+\tikzset{mypath/.style={ultra thick, draw=AlertOrange}}
+\tikzset{mysubset/.style={draw,UniBlue,dotted,thick,fill=UniBlue!10}}
+\tikzset{graphs/every graph/.style={nodes={mynodes}, edges={myedges}}}
+\tikzset{every loop/.style={looseness=30}}
+\tikzset{graphs/digraph/.style={edges={myedges,-latex}}}
+
+\tikz{%color
+\graph{
+    1 -- 2 -- 3 -- 4;
+    1 -- 5;
+};
+}
+
+\tikz{
+\graph{
+    1 -- {2, 3, 4} -- 5;
+};
+}
+
+\tikz{
+\graph{
+    {1, 2, 3} --[complete bipartite] {4, 5, 6};
+};
+}
+
+\tikz{%color
+\node(a) at (-1, 0) {a};
+\graph{
+    (a) -- 1;
+};
+}
+
+\tikz{
+\graph{
+    1[as={$s$}];
+};
+}
+
+\tikz{
+\graph{subgraph K_n[n=5, clockwise]};
+}
+
+\tikz{
+\graph{subgraph K_nm[n=5, m=3]};
+}
+
+\tikzgraphsset{declare={Petersen}{%
+    subgraph C_n [n=5, name=A, radius=1.5cm]; 
+    subgraph I_n [n=5, name=B, radius=.8cm];
+    \foreach \i [evaluate={\j=int(mod(\i+2,5)+1);}] in {1,...,5}{
+        A \i -- B \i;
+        B \i -- B \j;
+}}}
+\tikz{ \graph[clockwise]{Petersen}; }
+
+\newcommand{\subdivision}[3]{%
+    \path (#1) -- (#2)
+    \foreach \i in {1,...,#3} {
+        node[mynodes, text width=.5em, pos=\i/(#3+1)] {}
+    };
+}
+\tikz{
+\graph{subgraph K_n[n=5,clockwise,radius=2cm]};
+\subdivision{1}{2}{2};
+\subdivision{2}{3}{4};
+\subdivision{3}{4}{2};
+\subdivision{4}{5}{1};
+\subdivision{5}{1}{1};
+\subdivision{5}{2}{3};
+}
+\end{document}

@@ -18,13 +18,20 @@ import sphinx_bootstrap_theme
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 # Disabled: , 'sphinx.ext.intersphinx'
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.todo', 'sphinx.ext.ifconfig', 'sphinx.ext.viewcode',
-              'sphinxemoji.sphinxemoji', 'sphinx_last_updated_by_git']
+              'sphinxemoji.sphinxemoji', 'sphinx_last_updated_by_git', 'myst_parser']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
 # The suffix of source filenames.
-source_suffix = '.rst'
+# source_suffix = '.rst'
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
+
+# myst config
+myst_enable_extensions = ["dollarmath", "amsmath"]
 
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'

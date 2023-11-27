@@ -2,3 +2,4 @@ sphinx
 sphinx_bootstrap_theme
 sphinxemoji
 sphinx-last-updated-by-git
+myst-parser
