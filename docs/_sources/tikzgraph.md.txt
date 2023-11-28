@@ -2,13 +2,13 @@
 TikZでグラフ（ネットワーク）を簡単に描く
 
 ```{contents}
-:depth: 1
+:depth: 2
 :local:
 :backlinks: none
 ```
 
 ## Graph記法とは
-TikZの`graph`ライブラリには，グラフを簡単に描くための`\graph`がある．まずはプリアンブルで以下のようにライブラリを読み込む．
+TikZの`graphs`ライブラリには，グラフを簡単に描くための`\graph`がある．まずはプリアンブルで以下のように`graphs`ライブラリを読み込む．
 ```tex
 \usetikzlibrary{graphs}
 ```
@@ -49,6 +49,7 @@ graph記法の内部で`\foreach`や`\onslide`等を使うとバグることが�
 \tikzset{myedges/.style={thick}} % 枝のスタイル
 \tikzset{graphs/every graph/.style={nodes={mynodes}, edges={myedges}}} % グラフのデフォルトスタイル
 \tikzset{graphs/digraph/.style={edges={myedges,-latex}}} % 有向グラフのデフォルトスタイル
+\tikzset{every loop/.style={looseness=30}} % ループのスタイル
 ```
 
 上のスタイルを用いると，先の例のグラフは以下のようになる．
@@ -66,6 +67,30 @@ graph記法の内部で`\foreach`や`\onslide`等を使うとバグることが�
 
 ## Graph記法いろいろ
 `\graph`内では色々な略記法が使えるので，通常のTikZより楽である．
+
+### 有向枝をひく
+有向枝は`->`でひく．下の例の`digraph`は上で定義した有向グラフのデフォルトスタイルである．
+```tex
+\graph[digraph]{
+    1 -> 2 -> 3 -> 4;
+    1 -> 5;
+};
+```
+![有向グラフの例](./_static/img/tikzgraph-figure10.pdf.png)
+
+`<->`を使うと両向きの有向枝もひける．
+
+### ループ・多重辺
+ループや多重辺は枝にオプションをつけることで実現できる．ループはTikZにある`loop above`を用い，多重辺は`bend left`, `bend right`で調整する．なお，ループの大きさは`every loop/.style`の`looseness`で調整できる．
+```tex
+\graph{
+    1 --[loop above] 1;
+    2 -- 3;
+    2 --[bend left] 3;
+    2 --[bend right] 3;
+};
+```
+![ループ・多重辺の例](./_static/img/tikzgraph-figure11.pdf.png)
 
 ### まとめて枝をひく
 `{}`で頂点をグループ化すると，まとめて枝をひくことができる．
@@ -170,8 +195,22 @@ $m$頂点と$n$頂点をもつ完全二部グラフ($K_{nm}$)は`K_nm`を使う�
 
 ## 配置の調整
 
+### デフォルトの配置規則
+デフォルトでは，`Cartesian placement`という配置規則に従ってノードが配置される．これは，大雑把に言うと，左から右，上から下に順番に頂点を配置する．オプションを指定すると方向を変えることもできる．
+
+| オプション | 効果 |
+| ---------- | ---- |
+| `grow down`  | 上から下に配置される（デフォルト） |
+| `grow up`  | 下から上に配置される |
+| `grow left` | 右から左に配置される |
+| `grow right` | 左から右に配置される（デフォルト） |
+
+各オプションでは`grow down=<値>`のように，頂点の間隔を指定できる．デフォルトでは全て`1`である．
+
+
+
 ### 手動で座標を指定
-デフォルトでは，`grid placement`という配置規則に従ってノードが配置される．これを無効にし，自分で座標を指定したい場合は，`no placement`を利用し，頂点ごとに`at={}`を用いて座標を指定する．`at`を指定しない頂点は原点に配置される．
+`Cartesian placement`を無効にし，自分で座標を指定したい場合は，`no placement`を利用し，頂点ごとに`at={}`を用いて座標を指定する．`at`を指定しない頂点は原点に配置される．
 ```tex
 \graph[no placement]{
     a;
@@ -179,6 +218,17 @@ $m$頂点と$n$頂点をもつ完全二部グラフ($K_{nm}$)は`K_nm`を使う�
 }
 ```
 
+`x=<値>`, `y=<値>`を用いて，$x$座標と$y$座標を別々に指定することもできる．これをグループ`{}`を組み合わせると，座標指定が多少楽になる．
+```tex
+\graph[no placement]{
+    a; % (0,0) に配置される
+    {[x=1]
+        b[y=0], c[y=-1] % (1,0), (1,-1) に配置される
+    };
+}
+```
+
+残念ながら，通常のTikZの`left=1cm of a`のような他ノードからの相対的な位置の指定はできないようである．どうしても相対位置指定をしたい場合は，`\graph`の外でノードを作り，枝だけ`\graph`内で作ることになる．
 
 ## Tips
 ### 枝を消す
