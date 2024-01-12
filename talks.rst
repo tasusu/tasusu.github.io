@@ -29,10 +29,20 @@ Tutorial
         <script defer class="speakerdeck-embed" data-id="4c0417fd38bf4f56a67dcbec51a61c98" data-ratio="1.7796610169491525" src="//speakerdeck.com/assets/embed.js"></script>
         </div>
 
-Slides
+Technical talks
 -----------------------------------------------------
 .. rst-class:: cardlist 
     
+    - **Algebraic combinatorial optimization on the degree of determinants of noncommutative symbolic matrices**
+
+      The 26th Aussois Combinatorial Optimization Workshop 2024
+
+      .. raw:: html
+
+        <div style="max-width:480px">
+        <script defer class="speakerdeck-embed" data-id="6df019c039c24061876167f4c9bc7da5" data-ratio="1.7796610169491525" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
+
     - **Shrunk subspace via operator Sinkhorn iteration**
 
       SODA23, 2023

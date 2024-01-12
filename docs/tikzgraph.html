@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <meta property="article:modified_time" content="2023-11-28T15:47:44+09:00" />
+    <meta property="article:modified_time" content="2024-01-12T13:40:16+01:00" />
     <title>Graphs in TikZ &#8212; Tasuku Soma&#39;s webpage</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/bootstrap-sphinx.css" />
@@ -331,7 +331,7 @@
 <h2>配置の調整<a class="headerlink" href="#id8" title="Permalink to this heading">¶</a></h2>
 <section id="id9">
 <h3>デフォルトの配置規則<a class="headerlink" href="#id9" title="Permalink to this heading">¶</a></h3>
-<p>デフォルトでは，<code class="docutils literal notranslate"><span class="pre">Cartesian</span> <span class="pre">placement</span></code>という配置規則に従ってノードが配置される．これは，大雑把に言うと，左から右，上から下に順番に頂点を配置する．オプションを指定すると方向を変えることもできる．</p>
+<p>デフォルトでは，<code class="docutils literal notranslate"><span class="pre">Cartesian</span> <span class="pre">placement</span></code>という配置規則に従ってノードが配置される．これは，大雑把に言うと，パス内では左から右に頂点が配置され，パスどうしは上から下に配置される．オプションを指定すると方向を変えることもできる．<code class="docutils literal notranslate"><span class="pre">grow</span> <span class="pre">*</span></code>がパス内の頂点配置，<code class="docutils literal notranslate"><span class="pre">branch</span> <span class="pre">*</span></code>がパスどうしの配置を指定する．</p>
 <table class="docutils align-default">
 <thead>
 <tr class="row-odd"><th class="head"><p>オプション</p></th>
@@ -339,17 +339,17 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">grow</span> <span class="pre">down</span></code></p></td>
-<td><p>上から下に配置される（デフォルト）</p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">grow</span> <span class="pre">down</span></code> , <code class="docutils literal notranslate"><span class="pre">branch</span> <span class="pre">down</span></code></p></td>
+<td><p>上から下</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">grow</span> <span class="pre">up</span></code></p></td>
-<td><p>下から上に配置される</p></td>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">grow</span> <span class="pre">up</span></code>   , <code class="docutils literal notranslate"><span class="pre">branch</span> <span class="pre">up</span></code></p></td>
+<td><p>下から上</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">grow</span> <span class="pre">left</span></code></p></td>
-<td><p>右から左に配置される</p></td>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">grow</span> <span class="pre">left</span></code> , <code class="docutils literal notranslate"><span class="pre">branch</span> <span class="pre">left</span></code></p></td>
+<td><p>右から左</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">grow</span> <span class="pre">right</span></code></p></td>
-<td><p>左から右に配置される（デフォルト）</p></td>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">grow</span> <span class="pre">right</span></code>, <code class="docutils literal notranslate"><span class="pre">branch</span> <span class="pre">right</span></code></p></td>
+<td><p>左から右</p></td>
 </tr>
 </tbody>
 </table>
@@ -436,7 +436,7 @@
     </p>
     <p>
         &copy; Copyright Tasuku Soma.<br/>
-      Last updated on Nov 28, 2023.<br/>
+      Last updated on Jan 12, 2024.<br/>
       Created using <a href="http://sphinx-doc.org/">Sphinx</a> 6.2.1.<br/>
     </p>
   </div>
