@@ -7,6 +7,12 @@ Refereed Journals and Conferences
 -------------------------------------------
 .. rst-class:: cardlist
     
+    - **Online Algorithms for Spectral Hypergraph Sparsification** [`ArXiv <https://arxiv.org/abs/2310.02643>`_]
+
+      with Kam Chuen Tung, Yuichi Yoshida
+
+      `Integer Programming and Combinatorial Optimization (IPCO), 2024 <https://ipco2024.ii.uni.wroc.pl>`_, to appear.
+
     - **Shrunk subspaces via operator Sinkhorn iteration** [`ArXiv <https://arxiv.org/abs/2207.08311>`_]
 
       with Cole Franks and Michel X. Goemans
@@ -159,12 +165,6 @@ Preprints
     - **Algebraic combinatorial optimization on the degree of determinants of noncommutative symbolic matrices** [`ArXiv <https://arxiv.org/abs/2310.15502>`_]
 
       with Hiroshi Hirai, Yuni Iwamasa, Taihei Oki
-
-      ArXiv, 2023.
-
-    - **Online Algorithms for Spectral Hypergraph Sparsification** [`ArXiv <https://arxiv.org/abs/2310.02643>`_]
-
-      with Kam Chuen Tung, Yuichi Yoshida
 
       ArXiv, 2023.
 
