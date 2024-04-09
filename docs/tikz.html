@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" data-content_root="./">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <meta property="article:modified_time" content="2023-11-28T15:47:44+09:00" />
     <title>TikZ &#8212; Tasuku Soma&#39;s webpage</title>
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/bootstrap-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/bootstrap-sphinx.css?v=9f61996d" />
     <link rel="stylesheet" type="text/css" href="_static/twemoji.css" />
-    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/sphinx_highlight.js"></script>
-    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=072d1131" />
+    <script src="_static/documentation_options.js?v=ec16d22d"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js"></script>
     <script src="_static/twemoji.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -84,7 +84,7 @@
     <div class="body col-md-12 content" role="main">
       
   <section id="tikz">
-<h1>TikZ<a class="headerlink" href="#tikz" title="Permalink to this heading">¶</a></h1>
+<h1>TikZ<a class="headerlink" href="#tikz" title="Link to this heading">¶</a></h1>
 <p>BeamerのためのTikZ</p>
 <nav class="contents local" id="contents">
 <ul class="simple">
@@ -130,11 +130,11 @@
 </ul>
 </nav>
 <section id="id1">
-<h2>TikZとは<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h2>
+<h2>TikZとは<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
 <p>Beamerは便利なのですが，図を描いたり絵を貼るのは苦手なので，どうしても文字を箇条書きしたようなスライドになりがちです．
 TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル性の高いプレゼンテーション</strong> を行うことができます．また，Beamer自体がTikZの機能を利用して作られているので，Beamerとの親和性は最高です．</p>
 <section id="id2">
-<h3>準備<a class="headerlink" href="#id2" title="Permalink to this heading">¶</a></h3>
+<h3>準備<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
 <p>まずは，TikZをプリアンブルでロードします．同時に <code class="docutils literal notranslate"><span class="pre">\usetikzlibrary</span></code> コマンドで”positioning”ライブラリをロードしておくと便利です．:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\usepackage</span><span class="nb">{</span>tikz<span class="nb">}</span>
 <span class="k">\usetikzlibrary</span><span class="nb">{</span>positioning<span class="nb">}</span>
@@ -154,11 +154,11 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 </section>
 </section>
 <section id="id3">
-<h2>模式図を作る<a class="headerlink" href="#id3" title="Permalink to this heading">¶</a></h2>
+<h2>模式図を作る<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h2>
 <p>木構造を表す模式図をTikZで作ってみましょう．</p>
 <img alt="_images/tikz-tree.png" src="_images/tikz-tree.png" />
 <section id="id4">
-<h3>テキストボックスを配置する<a class="headerlink" href="#id4" title="Permalink to this heading">¶</a></h3>
+<h3>テキストボックスを配置する<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">\node</span></code> コマンドはPowerPointの「テキストボックス」のような使い方ができます．まずは，一番上のテキストを配置してみましょう:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>tikzpicture<span class="nb">}</span>
     <span class="k">\node</span><span class="nb">{</span>root<span class="nb">}</span>;
@@ -202,7 +202,7 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 </div>
 </section>
 <section id="id5">
-<h3>子ノードを配置する<a class="headerlink" href="#id5" title="Permalink to this heading">¶</a></h3>
+<h3>子ノードを配置する<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">child</span></code> 構文を使うと，現在のノードの子ノードを作ることができます:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>tikzpicture<span class="nb">}</span>
     <span class="k">\tikzset</span><span class="nb">{</span>block/.style=<span class="nb">{</span>rectangle, fill=cyan!10, text width=3cm, text centered, rounded corners, minimum height=1.5cm<span class="nb">}}</span>;
@@ -247,11 +247,11 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 </section>
 </section>
 <section id="id6">
-<h2>グラフを作る<a class="headerlink" href="#id6" title="Permalink to this heading">¶</a></h2>
+<h2>グラフを作る<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h2>
 <p>よくある有向グラフを作ってみましょう．</p>
 <img alt="_images/tikz-network.png" src="_images/tikz-network.png" />
 <section id="id7">
-<h3>ノードの配置<a class="headerlink" href="#id7" title="Permalink to this heading">¶</a></h3>
+<h3>ノードの配置<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h3>
 <p>まずは “s” というラベルのノードを配置してみましょう．これは <code class="docutils literal notranslate"><span class="pre">\node</span></code> コマンドを使います．文字 “s” だけだとグラフノードっぽくないので，丸で囲って色を塗っておきます．:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>tikzpicture<span class="nb">}</span>
     <span class="k">\node</span><span class="na">[circle,fill=cyan,white]</span><span class="nb">{</span>s<span class="nb">}</span>;
@@ -290,7 +290,7 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 <p><code class="docutils literal notranslate"><span class="pre">right=1.5cm</span> <span class="pre">of</span> <span class="pre">a</span></code> で「aの1.5cm右」を指定しています．こんな感じで，ノードを配置することが出来ました．</p>
 </section>
 <section id="id8">
-<h3>デフォルトスタイルを指定する<a class="headerlink" href="#id8" title="Permalink to this heading">¶</a></h3>
+<h3>デフォルトスタイルを指定する<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h3>
 <p>さて，ノードを追加したはいいものの，新しいノードはまたしても文字だけです．ここでは <strong>全てのノードに自動で適応されるデフォルトスタイルを指定してみます．</strong> そのためには， <code class="docutils literal notranslate"><span class="pre">tikzpicture</span></code> 環境のオプションに <code class="docutils literal notranslate"><span class="pre">every</span> <span class="pre">node/.style={...}</span></code> の形でデフォルトオプションを指定します:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>tikzpicture<span class="nb">}</span>[every node/.style=<span class="nb">{</span>circle,fill=cyan,white<span class="nb">}</span>]
     <span class="k">\node</span> (s) <span class="nb">{</span>s<span class="nb">}</span>;
@@ -305,7 +305,7 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 <p>これで， <code class="docutils literal notranslate"><span class="pre">tikzpicture</span></code> 環境内の全てのノードに同じスタイルが指定されるようになりました．</p>
 </section>
 <section id="id9">
-<h3>枝を引く<a class="headerlink" href="#id9" title="Permalink to this heading">¶</a></h3>
+<h3>枝を引く<a class="headerlink" href="#id9" title="Link to this heading">¶</a></h3>
 <p>次は枝を引いてみましょう．枝（というかパス）は <code class="docutils literal notranslate"><span class="pre">\draw</span></code> コマンドで引きます:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>tikzpicture<span class="nb">}</span>[every node/.style=<span class="nb">{</span>circle,fill=cyan,white<span class="nb">}</span>]
     <span class="k">\node</span> (s) <span class="nb">{</span>s<span class="nb">}</span>;
@@ -322,7 +322,7 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 <p>オプション <code class="docutils literal notranslate"><span class="pre">-&gt;</span></code> は終点に矢印をおくオプションです．無向枝の場合は要りません． <code class="docutils literal notranslate"><span class="pre">(s)</span> <span class="pre">--</span> <span class="pre">(a)</span></code> でノード “s” からノード “a” へのパスを表しています．</p>
 </section>
 <section id="foreach">
-<h3>foreach 構文で枝を一気に引く<a class="headerlink" href="#foreach" title="Permalink to this heading">¶</a></h3>
+<h3>foreach 構文で枝を一気に引く<a class="headerlink" href="#foreach" title="Link to this heading">¶</a></h3>
 <p>これを全枝分繰り返せばグラフは完成ですが，面倒なのでもっと便利な <code class="docutils literal notranslate"><span class="pre">\foreach</span></code> 構文を使って枝をひくことにします:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>tikzpicture<span class="nb">}</span>[every node/.style=<span class="nb">{</span>circle,fill=cyan,white<span class="nb">}</span>]
     <span class="k">\node</span> (s) <span class="nb">{</span>s<span class="nb">}</span>;
@@ -342,11 +342,11 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 </section>
 </section>
 <section id="id10">
-<h2>数式にマーカーを引く・説明をつける<a class="headerlink" href="#id10" title="Permalink to this heading">¶</a></h2>
+<h2>数式にマーカーを引く・説明をつける<a class="headerlink" href="#id10" title="Link to this heading">¶</a></h2>
 <p>数式の一部分にマーカーを引いて，その下に説明をつけることができます．数式の意味や役割を分かりやすく伝えるのに役に立ちます．</p>
 <img alt="_images/tikz-highlight.png" src="_images/tikz-highlight.png" />
 <section id="id11">
-<h3>tikzコマンド<a class="headerlink" href="#id11" title="Permalink to this heading">¶</a></h3>
+<h3>tikzコマンド<a class="headerlink" href="#id11" title="Link to this heading">¶</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">\tikz</span></code> コマンドを利用すると文中にTikZの描画を入れることが出来ます．これを利用して，以下のように書いてみます（いきなり全部書くのは大変なので，第2項だけ書きます）:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>align*<span class="nb">}</span>
     f(<span class="k">\mathbf</span><span class="nb">{</span>w<span class="nb">}</span>, b) =
@@ -368,7 +368,7 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 <p>中の <code class="docutils literal notranslate"><span class="pre">blue</span></code> を <code class="docutils literal notranslate"><span class="pre">red</span></code> に変えれば，もちろん色が赤くなります．</p>
 </section>
 <section id="highlight">
-<h3>highlight マクロ<a class="headerlink" href="#highlight" title="Permalink to this heading">¶</a></h3>
+<h3>highlight マクロ<a class="headerlink" href="#highlight" title="Link to this heading">¶</a></h3>
 <p>これを毎回書くのは大変なので， <code class="docutils literal notranslate"><span class="pre">\newcommand</span></code> を使ってマクロを作りましょう:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\newcommand</span><span class="nb">{</span><span class="k">\highlight</span><span class="nb">}</span>[2][yellow]<span class="nb">{</span><span class="k">\tikz</span><span class="na">[baseline=(x.base)]</span><span class="nb">{</span><span class="k">\node</span><span class="na">[rectangle,rounded corners,fill=#1!10]</span>(x)<span class="nb">{</span>#2<span class="nb">}</span>;<span class="nb">}}</span>
 <span class="k">\newcommand</span><span class="nb">{</span><span class="k">\highlightcap</span><span class="nb">}</span>[3][yellow]<span class="nb">{</span><span class="k">\tikz</span><span class="na">[baseline=(x.base)]</span><span class="nb">{</span><span class="k">\node</span><span class="na">[rectangle,rounded corners,fill=#1!10]</span>(x)<span class="nb">{</span>#2<span class="nb">}</span> node[below of=x, color=#1]<span class="nb">{</span>#3<span class="nb">}</span>;<span class="nb">}}</span>
@@ -389,18 +389,18 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 </section>
 </section>
 <section id="id12">
-<h2>ふきだしを作る<a class="headerlink" href="#id12" title="Permalink to this heading">¶</a></h2>
+<h2>ふきだしを作る<a class="headerlink" href="#id12" title="Link to this heading">¶</a></h2>
 <p>Beamerのプレゼンに便利なふきだしを作ってみましょう．</p>
 <img alt="_images/tikz-balloon.png" src="_images/tikz-balloon.png" />
 <section id="remember-picture">
-<h3>remember picture<a class="headerlink" href="#remember-picture" title="Permalink to this heading">¶</a></h3>
+<h3>remember picture<a class="headerlink" href="#remember-picture" title="Link to this heading">¶</a></h3>
 <p>以下では <code class="docutils literal notranslate"><span class="pre">remember</span> <span class="pre">picute</span></code> と呼ばれる <code class="docutils literal notranslate"><span class="pre">tikzpicture</span></code> 環境間でノードの名前を共有する機能を使用します．pdftexやluatexを使っている場合は何もしなくても大丈夫ですが，(u)platex+dvipdfmxを使っている場合はpxpgfmarkパッケージを読み込む必要があります:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\usepackage</span><span class="nb">{</span>pxpgfmark<span class="nb">}</span>   <span class="c">% TikZを読み込む後に書く</span>
 </pre></div>
 </div>
 </section>
 <section id="shapes">
-<h3>shapesライブラリ<a class="headerlink" href="#shapes" title="Permalink to this heading">¶</a></h3>
+<h3>shapesライブラリ<a class="headerlink" href="#shapes" title="Link to this heading">¶</a></h3>
 <p>吹き出しの形を使うためにshapesライブラリを利用します:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\usetikzlibrary</span><span class="nb">{</span>shapes.callouts<span class="nb">}</span>
 </pre></div>
@@ -433,15 +433,15 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 </section>
 </section>
 <section id="id13">
-<h2>Tikzの基礎<a class="headerlink" href="#id13" title="Permalink to this heading">¶</a></h2>
+<h2>Tikzの基礎<a class="headerlink" href="#id13" title="Link to this heading">¶</a></h2>
 <p>もっと色んな絵を描いてみたい人向けの解説です．</p>
 <section id="id14">
-<h3>座標<a class="headerlink" href="#id14" title="Permalink to this heading">¶</a></h3>
+<h3>座標<a class="headerlink" href="#id14" title="Link to this heading">¶</a></h3>
 <p>位置指定で最も基本的なのは座標による方法です．おなじみの2次元直交座標を使うと，原点は <code class="docutils literal notranslate"><span class="pre">(0,0)</span></code> のように表せます．ちょっと面白いのが極座標表示です． 例えば，r=1, θ=30° で定まる点は <code class="docutils literal notranslate"><span class="pre">(30:1)</span></code> のように表せます．円や回転対称な図を描く場合には極座標表示の方が楽です．
 さらに，ノードの名前を使って間接的に座標指定することもできます．</p>
 </section>
 <section id="id15">
-<h3>パス<a class="headerlink" href="#id15" title="Permalink to this heading">¶</a></h3>
+<h3>パス<a class="headerlink" href="#id15" title="Link to this heading">¶</a></h3>
 <p>TikZの基本となる概念が <strong>パス</strong> です．だいたい曲線や直線のようなものだと思ってもらえればOKです．ただし，TikZでのパスは線をひくためだけのものではありません．例えば，閉じたパスを使って，パスの内部を塗り潰したり，別の図形を切り取ったりもできます．このようなパスの使い方は，PhotoshopやIllustratorを使ったことがある人なら馴染みのあるものでしょう．</p>
 <p>パスを定義するには <code class="docutils literal notranslate"><span class="pre">\path</span></code> コマンドを使います．原点から点(0,1)まで線分からなるパスは以下のように書けます:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\path</span> (0,0) -- (0,1);
@@ -470,7 +470,7 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 <p>詳しいオプションは TikZ/PGF マニュアルを読んで下さい．</p>
 </section>
 <section id="id16">
-<h3>ノード<a class="headerlink" href="#id16" title="Permalink to this heading">¶</a></h3>
+<h3>ノード<a class="headerlink" href="#id16" title="Link to this heading">¶</a></h3>
 <p>ノードは，PowerPointで言うところの「テキストボックス」や「図形」のような役割をします．文字や図形を配置することができます．ノードは <code class="docutils literal notranslate"><span class="pre">\node</span></code> コマンドで定義します:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\node</span> at (座標) <span class="nb">{</span>ノードの中身の文章<span class="nb">}</span> (ノードの名前);
 </pre></div>
@@ -482,7 +482,7 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 <p>となります．座標を省略すると自動的に原点に置かれます．</p>
 </section>
 <section id="id17">
-<h3>パス中にノードを配置する<a class="headerlink" href="#id17" title="Permalink to this heading">¶</a></h3>
+<h3>パス中にノードを配置する<a class="headerlink" href="#id17" title="Link to this heading">¶</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">\path</span></code> コマンドの途中でノードを作ることもできます．実際， <code class="docutils literal notranslate"><span class="pre">\node</span></code> コマンドは <code class="docutils literal notranslate"><span class="pre">\path</span> <span class="pre">node</span></code> の省略形です:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\path</span><span class="na">[-&gt;,draw]</span> (0,0) -- node[above]<span class="nb">{</span>my path<span class="nb">}</span> (3,0);
 </pre></div>
@@ -517,7 +517,7 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
     <p>
         &copy; Copyright Tasuku Soma.<br/>
       Last updated on Nov 28, 2023.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 6.2.1.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 7.2.6.<br/>
     </p>
   </div>
 </footer>
