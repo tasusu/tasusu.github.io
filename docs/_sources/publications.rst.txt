@@ -9,9 +9,9 @@ Refereed Journals and Conferences
     
     - **Online Algorithms for Spectral Hypergraph Sparsification** [`ArXiv <https://arxiv.org/abs/2310.02643>`_]
 
-      with Kam Chuen Tung, Yuichi Yoshida
+      with Kam Chuen Tung and Yuichi Yoshida
 
-      `Integer Programming and Combinatorial Optimization (IPCO), 2024 <https://ipco2024.ii.uni.wroc.pl>`_, to appear.
+      `Integer Programming and Combinatorial Optimization (IPCO), 2024. <https://ipco2024.ii.uni.wroc.pl>`_ [`Proceedings <https://doi.org/10.1007/978-3-031-59835-7_30>`_]
 
     - **Shrunk subspaces via operator Sinkhorn iteration** [`ArXiv <https://arxiv.org/abs/2207.08311>`_]
 
