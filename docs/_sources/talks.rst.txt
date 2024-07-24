@@ -33,6 +33,16 @@ Technical talks
 -----------------------------------------------------
 .. rst-class:: cardlist 
     
+    - **Spectral Sparsification of Hypergraphs**
+
+      ISMP 2024 (also presented at IPCO 2024 for our paper "Online Algorithms for Spectral Hypergraph Sparsification")
+
+      .. raw:: html
+
+        <div style="max-width:480px">
+        <script defer class="speakerdeck-embed" data-id="117bcb203bfe4b70b8332d6501ebc90a" data-ratio="1.7796610169491525" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
+
     - **Algebraic combinatorial optimization on the degree of determinants of noncommutative symbolic matrices**
 
       The 26th Aussois Combinatorial Optimization Workshop 2024
