@@ -13,7 +13,10 @@ Video
 
       .. raw:: html
         
-         <iframe width="480" height="360" src="https://www.youtube.com/embed/9MPbhCdOHXk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        <style>.embed-container { position: relative; height: 0; padding-bottom: 56.25%; overflow: hidden; max-width: 480px; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } @media only screen and (min-width: 749px) { .embed-container { padding-bottom: 315px !important; } }</style>
+        <div class="embed-container">
+        <iframe src="https://www.youtube.com/embed/9MPbhCdOHXk?si=aDX6oVDnScFlUpEH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
 
 Tutorial
 -----------------------------------------------------
@@ -60,7 +63,7 @@ Technical talks
       .. raw:: html
 
         <div style="max-width:480px">
-        <script async class="speakerdeck-embed" data-id="3d7c2115cc81443b9ca3b1d45a83a1e3" data-ratio="1.77966101694915" src="//speakerdeck.com/assets/embed.js"></script>
+        <script defer class="speakerdeck-embed" data-id="3d7c2115cc81443b9ca3b1d45a83a1e3" data-ratio="1.77966101694915" src="//speakerdeck.com/assets/embed.js"></script>
         </div>
     
     - **Information Geometry of Operator Scaling**
@@ -70,11 +73,11 @@ Technical talks
       .. raw:: html
     
         <div style="max-width:480px">
-        <script async class="speakerdeck-embed" data-id="cce84df7e9e74455b8e07153b42c9900" data-ratio="1.77966101694915" src="//speakerdeck.com/assets/embed.js"></script>
+        <script defer class="speakerdeck-embed" data-id="cce84df7e9e74455b8e07153b42c9900" data-ratio="1.77966101694915" src="//speakerdeck.com/assets/embed.js"></script>
         </div>
         
         <div style="max-width:480px">
-        <script async class="speakerdeck-embed" data-id="2dce5bcd856f40a6a32b89df22c86f26" data-ratio="1.77966101694915" src="//speakerdeck.com/assets/embed.js"></script>
+        <script defer class="speakerdeck-embed" data-id="2dce5bcd856f40a6a32b89df22c86f26" data-ratio="1.77966101694915" src="//speakerdeck.com/assets/embed.js"></script>
         </div>
 
     - **No-regret algorithms for online k-submodular function maximization**
@@ -84,7 +87,7 @@ Technical talks
       .. raw:: html
     
         <div style="max-width:480px">
-        <script async class="speakerdeck-embed" data-id="400d6d36441f448695d0aa39e2c871ff" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+        <script defer class="speakerdeck-embed" data-id="400d6d36441f448695d0aa39e2c871ff" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
         </div>
 
     - **A New Approximation Guarantee for Monotone Submodular Function Maximization via Discrete Convexity**
@@ -94,7 +97,7 @@ Technical talks
       .. raw:: html
     
         <div style="max-width:480px">
-        <script async class="speakerdeck-embed" data-id="9f0d8cfcd96641c7a18b4bede026a138" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+        <script defer class="speakerdeck-embed" data-id="9f0d8cfcd96641c7a18b4bede026a138" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
         </div>
 
     - **Regret Ratio Minimization in Multi-objective Submodular Function Maximization**
@@ -104,7 +107,7 @@ Technical talks
       .. raw:: html
 
         <div style="max-width:480px">
-        <script async class="speakerdeck-embed" data-id="6191e3216696464fad14ca7b318059bd" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+        <script defer class="speakerdeck-embed" data-id="6191e3216696464fad14ca7b318059bd" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
         </div>
 
     - **Non-Convex Compressed Sensing with the Sum-of-Squares Method** 
@@ -114,7 +117,7 @@ Technical talks
       .. raw:: html
 
         <div style="max-width:480px">
-        <script async class="speakerdeck-embed" data-id="c686435b8b184af1a1adf009176cb6a7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+        <script defer class="speakerdeck-embed" data-id="c686435b8b184af1a1adf009176cb6a7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
         </div>
 
     - **The low-rank basis problem for a matrix subspace**
@@ -124,7 +127,7 @@ Technical talks
       .. raw:: html
 
         <div style="max-width:480px">
-        <script async class="speakerdeck-embed" data-id="ae54498b596542259b542c9c3ff499dc" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+        <script defer class="speakerdeck-embed" data-id="ae54498b596542259b542c9c3ff499dc" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
         </div>
 
     - **Multicasting in Linear Deterministic Relay Network by Matrix Completion**
@@ -134,7 +137,7 @@ Technical talks
       .. raw:: html
 
         <div style="max-width:480px">
-        <script async class="speakerdeck-embed" data-id="d6fb74a41d2a4fc892c1cb72e16c1fb3" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+        <script defer class="speakerdeck-embed" data-id="d6fb74a41d2a4fc892c1cb72e16c1fb3" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
         </div>
 
     - **Optimal Budget Allocation: Theoretical Guarantee and Efficient Algorithm** [`Video <http://techtalks.tv/talks/optimal-budget-allocation-theoretical-guarantee-and-efficient-algorithm/61153/>`_]
@@ -144,7 +147,7 @@ Technical talks
       .. raw:: html
 
         <div style="max-width:480px">
-        <script async class="speakerdeck-embed" data-id="b1b3114392694476a86c16898a5471d5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+        <script defer class="speakerdeck-embed" data-id="b1b3114392694476a86c16898a5471d5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
         </div>
 
     - **Fast Deterministic Algorithms for Matrix Completion Problems**
@@ -154,5 +157,5 @@ Technical talks
       .. raw:: html
 
         <div style="max-width:480px">
-        <script async class="speakerdeck-embed" data-id="6e6a2356faa4432a92d44c626f189dd9" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+        <script defer class="speakerdeck-embed" data-id="6e6a2356faa4432a92d44c626f189dd9" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
         </div>
