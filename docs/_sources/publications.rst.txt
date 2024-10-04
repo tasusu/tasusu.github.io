@@ -161,6 +161,12 @@ Refereed Workshop
 Preprints
 ------------------------------
 .. rst-class:: cardlist
+    
+    - **Algorithmic aspects of semistability of quiver representations** [`ArXiv <https://arxiv.org/abs/2407.06493>`_]
+
+      with Yuni Iwamasa, Taihei Oki
+
+      ArXiv, 2024.
 
     - **Algebraic combinatorial optimization on the degree of determinants of noncommutative symbolic matrices** [`ArXiv <https://arxiv.org/abs/2310.15502>`_]
 

@@ -38,7 +38,7 @@ Technical talks
     
     - **Spectral Sparsification of Hypergraphs**
 
-      ISMP 2024 (also presented at IPCO 2024 for our paper "Online Algorithms for Spectral Hypergraph Sparsification")
+      ISMP 2024 (same as "Online Algorithms for Spectral Hypergraph Sparsification" at IPCO 2024)
 
       .. raw:: html
 
