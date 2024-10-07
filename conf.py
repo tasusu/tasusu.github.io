@@ -92,6 +92,7 @@ todo_include_todos = True
 
 # Sphinx Emoji Codes
 sphinxemoji_style = 'twemoji'
+sphinxemoji_source = 'https://cdn.jsdelivr.net/npm/@twemoji/api@latest/dist/twemoji.min.js'
 
 # -- Options for HTML output ---------------------------------------------------
 
