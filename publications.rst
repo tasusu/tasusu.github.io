@@ -7,6 +7,12 @@ Refereed Journals and Conferences
 -------------------------------------------
 .. rst-class:: cardlist
     
+    - **Algebraic combinatorial optimization on the degree of determinants of noncommutative symbolic matrices** [`ArXiv <https://arxiv.org/abs/2310.15502>`_]
+
+      with Hiroshi Hirai, Yuni Iwamasa, Taihei Oki
+
+      Mathematical Programming, to appear.
+
     - **Online Algorithms for Spectral Hypergraph Sparsification** [`ArXiv <https://arxiv.org/abs/2310.02643>`_]
 
       with Kam Chuen Tung and Yuichi Yoshida
@@ -167,12 +173,6 @@ Preprints
       with Yuni Iwamasa, Taihei Oki
 
       ArXiv, 2024.
-
-    - **Algebraic combinatorial optimization on the degree of determinants of noncommutative symbolic matrices** [`ArXiv <https://arxiv.org/abs/2310.15502>`_]
-
-      with Hiroshi Hirai, Yuni Iwamasa, Taihei Oki
-
-      ArXiv, 2023.
 
     - **Optimal algorithms for group distributionally robust optimization and beyond** [`ArXiv <https://arxiv.org/abs/2212.13669>`_]
 
