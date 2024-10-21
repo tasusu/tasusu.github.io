@@ -3,6 +3,21 @@ Publications
 
 See also: `Google Scholar <https://scholar.google.com/citations?user=6XorTkcAAAAJ>`_, `DBLP <https://dblp.uni-trier.de/pers/hd/s/Soma:Tasuku>`_, `Researchmap <https://researchmap.jp/tasuku>`_
 
+Book
+------------------------------
+.. rst-class:: cardlist
+    
+    - **組合せ最適化から機械学習へ: 劣モジュラ最適化とグラフマイニング (From Combinatorial Optimization to Machine Learning: Submodular Optimization and Graph Mining)** [`Publisher <https://www.saiensu.co.jp/search/?isbn=978-4-7819-1545-6&y=2022>`_]
+      
+      with Kaito Fujii, Atsushi Miyauchi,
+
+      SAIENSU-SHA Co.,Ltd, 2022.
+
+      .. image :: /_static/img/COMLbook.jpg
+         :width: 100
+         :class: no-scaled-link
+
+
 Refereed Journals and Conferences
 -------------------------------------------
 .. rst-class:: cardlist
@@ -169,6 +184,13 @@ Refereed Workshop
 Preprints
 ------------------------------
 .. rst-class:: cardlist
+
+    - **Accelerating operator Sinkhorn iteration with overrelaxation** [`ArXiv <https://arxiv.org/abs/2410.14104>`_]
+
+      with André Uschmajew
+
+      ArXiv, 2024.
+
     
     - **Algorithmic aspects of semistability of quiver representations** [`ArXiv <https://arxiv.org/abs/2407.06493>`_]
 
@@ -187,20 +209,6 @@ Preprints
       with Yuichi Yoshida
  
       ArXiv, 2020. 
-
-Book
-------------------------------
-.. rst-class:: cardlist
-    
-    - **組合せ最適化から機械学習へ: 劣モジュラ最適化とグラフマイニング (From Combinatorial Optimization to Machine Learning: Submodular Optimization and Graph Mining)** [`Publisher <https://www.saiensu.co.jp/search/?isbn=978-4-7819-1545-6&y=2022>`_]
-      
-      with Kaito Fujii, Atsushi Miyauchi,
-
-      SAIENSU-SHA Co.,Ltd, 2022.
-
-      .. image :: /_static/img/COMLbook.jpg
-         :width: 100
-         :class: no-scaled-link
 
 
 Thesis
