@@ -18,7 +18,7 @@ Book
          :class: no-scaled-link
 
 
-Refereed Journals and Conferences
+Refereed Journal and Conference Articles
 -------------------------------------------
 .. rst-class:: cardlist
     
@@ -171,7 +171,7 @@ Refereed Journals and Conferences
       
       `Integer Programming and Combinatorial Optimization (IPCO), 2013 <https://www.cec.uchile.cl/~ipco2013>`_
 
-Refereed Workshop
+Refereed Workshop Article
 ------------------------------
 .. rst-class:: cardlist
 
@@ -211,7 +211,7 @@ Preprints
       ArXiv, 2020. 
 
 
-Thesis
+Theses
 ------------------------------
 .. rst-class:: cardlist
 
