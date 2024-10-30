@@ -57,5 +57,8 @@ Notes (in Japanese)
 Teaching (in Japanese)
 -----------------------------
 - `総研大統計科学コース 計算数理基礎（相馬担当分「組合せ最適化」） <https://github.com/tasusu/keisansuuri>`_ 
-- `東大計数 演習第二2019ノート(Multiplicative Weight Update) <mwunote.pdf>`_ [`レポート問題 <mwu.pdf>`_]
-- `東大計数 演習第二2018ノート(完全マッチングに対する代数的アルゴリズム) <algalg.pdf>`_
+
+  講義資料 [`多面体的組合せ論 <polyhedra.pdf>`_] [`二部マッチング <bipartite.pdf>`_]
+
+- `東大計数 演習第二2019講義ノート(Multiplicative Weight Update) <mwunote.pdf>`_ [`レポート問題 <mwu.pdf>`_]
+- `東大計数 演習第二2018講義ノート(完全マッチングに対する代数的アルゴリズム) <algalg.pdf>`_
