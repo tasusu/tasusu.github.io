@@ -30,11 +30,11 @@ Refereed Journal and Conference Articles
 
       `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2023 <https://www.siam.org/conferences/cm/conference/soda23>`_. [`Proceedings <https://doi.org/10.1137/1.9781611977554.ch161>`_]
     
-    - **Algebraic combinatorial optimization on the degree of determinants of noncommutative symbolic matrices** [`ArXiv <https://arxiv.org/abs/2310.15502>`_]
+    - **Algebraic combinatorial optimization on the degree of determinants of noncommutative symbolic matrices** 
 
       with Hiroshi Hirai, Yuni Iwamasa, Taihei Oki
 
-      Mathematical Programming, to appear.
+      `Mathematical Programming, 2024 <https://doi.org/10.1007/s10107-024-02158-0>`_.
 
     - **Online Algorithms for Spectral Hypergraph Sparsification** [`ArXiv <https://arxiv.org/abs/2310.02643>`_]
 
