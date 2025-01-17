@@ -26,7 +26,7 @@ Refereed Journal and Conference Articles
 
       with Taihei Oki
 
-      SIAM Jounal on Computing, to appear.
+      `SIAM Journal on Computing, 2025 <https://doi.org/10.1137/22M1537096>`_.
 
       `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2023 <https://www.siam.org/conferences/cm/conference/soda23>`_. [`Proceedings <https://doi.org/10.1137/1.9781611977554.ch161>`_]
     
@@ -115,7 +115,7 @@ Refereed Journal and Conference Articles
 
       with Zhening Li, Yuji Nakatsukasa, and André Uschmajew
        
-      `SIAM Jounal on Matrix Analysis and Applications, 39 (1), pp. 400--425, 2018 <https://epubs.siam.org/doi/abs/10.1137/17M1144349>`_.
+      `SIAM Journal on Matrix Analysis and Applications, 39 (1), pp. 400--425, 2018 <https://epubs.siam.org/doi/abs/10.1137/17M1144349>`_.
 
     - **Regret Ratio Minimization in Multi-objective Submodular Function Maximization** [`PDF <http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14477/13859>`_]
 
