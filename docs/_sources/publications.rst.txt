@@ -22,11 +22,17 @@ Refereed Journal and Conference Articles
 -------------------------------------------
 .. rst-class:: cardlist
     
+    - **Difference-of-submodular Bregman Divergence** 
+
+      with Masanari Kimura, Takahio Kawashima, and Hideitsu Hino
+
+      `The 13th International Conference on Learning Representations (ICLR), 2025 <https://iclr.cc>`_, to appear.
+    
     - **Algebraic Algorithms for Fractional Linear Matroid Parity via Non-commutative Rank** [`ArXiv <https://arxiv.org/abs/2207.07946>`_]
 
       with Taihei Oki
 
-      `SIAM Journal on Computing, 2025 <https://doi.org/10.1137/22M1537096>`_.
+      `SIAM Journal on Computing, 54(1), 2025 <https://doi.org/10.1137/22M1537096>`_.
 
       `ACM-SIAM Symposium on Discrete Algorithms (SODA), 2023 <https://www.siam.org/conferences/cm/conference/soda23>`_. [`Proceedings <https://doi.org/10.1137/1.9781611977554.ch161>`_]
     
