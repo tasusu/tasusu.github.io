@@ -22,6 +22,12 @@ Refereed Journal and Conference Articles
 -------------------------------------------
 .. rst-class:: cardlist
     
+    - **Algorithmic aspects of semistability of quiver representations** [`ArXiv <https://arxiv.org/abs/2407.06493>`_]
+
+      with Yuni Iwamasa, Taihei Oki
+
+      `The 52nd EATCS International Colloquium on Automata, Languages, and Programming (ICALP), 2025 <https://conferences.au.dk/icalp2025>`_, to appear.
+    
     - **Difference-of-submodular Bregman Divergence** 
 
       with Masanari Kimura, Takahio Kawashima, and Hideitsu Hino
@@ -194,13 +200,6 @@ Preprints
     - **Accelerating operator Sinkhorn iteration with overrelaxation** [`ArXiv <https://arxiv.org/abs/2410.14104>`_]
 
       with André Uschmajew
-
-      ArXiv, 2024.
-
-    
-    - **Algorithmic aspects of semistability of quiver representations** [`ArXiv <https://arxiv.org/abs/2407.06493>`_]
-
-      with Yuni Iwamasa, Taihei Oki
 
       ArXiv, 2024.
 
