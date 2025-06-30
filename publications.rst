@@ -22,17 +22,17 @@ Refereed Journal and Conference Articles
 -------------------------------------------
 .. rst-class:: cardlist
     
-    - **Algorithmic aspects of semistability of quiver representations** [`ArXiv <https://arxiv.org/abs/2407.06493>`_]
+    - **Algorithmic aspects of semistability of quiver representations** [`Proceedings <https://doi.org/10.4230/LIPIcs.ICALP.2025.99>`_] [`ArXiv <https://arxiv.org/abs/2407.06493>`_]
 
       with Yuni Iwamasa, Taihei Oki
 
-      `The 52nd EATCS International Colloquium on Automata, Languages, and Programming (ICALP), 2025 <https://conferences.au.dk/icalp2025>`_, to appear.
+      `The 52nd International Colloquium on Automata, Languages, and Programming (ICALP), 2025 <https://conferences.au.dk/icalp2025>`_.
     
-    - **Difference-of-submodular Bregman Divergence** 
+    - **Difference-of-submodular Bregman Divergence** [`Proceedings <https://openreview.net/forum?id=vr1QdCNJmN>`_]
 
       with Masanari Kimura, Takahio Kawashima, and Hideitsu Hino
 
-      `The 13th International Conference on Learning Representations (ICLR), 2025 <https://iclr.cc>`_, to appear.
+      `The 13th International Conference on Learning Representations (ICLR), 2025 <https://iclr.cc>`_.
     
     - **Algebraic Algorithms for Fractional Linear Matroid Parity via Non-commutative Rank** [`ArXiv <https://arxiv.org/abs/2207.07946>`_]
 
