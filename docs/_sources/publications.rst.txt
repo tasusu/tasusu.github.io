@@ -197,6 +197,12 @@ Preprints
 ------------------------------
 .. rst-class:: cardlist
 
+    - **Cut-Matching Games for Bipartiteness Ratio of Undirected Graphs** [`ArXiv <https://arxiv.org/abs/2507.12847>`_]
+      
+      with Mingquan Ye, Yuichi Yoshida
+ 
+      ArXiv, 2025. 
+
     - **Accelerating operator Sinkhorn iteration with overrelaxation** [`ArXiv <https://arxiv.org/abs/2410.14104>`_]
 
       with André Uschmajew
