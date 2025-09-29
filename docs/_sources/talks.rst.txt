@@ -36,6 +36,26 @@ Technical talks
 -----------------------------------------------------
 .. rst-class:: cardlist 
     
+    - **Accelerating operator Sinkhorn iteration with overrelaxation**
+
+      The 9th ISM-IIR-ZIB-NUS-NII-MODAL Workshop on Optimization, 2025
+
+      .. raw:: html
+
+        <div style="max-width:480px">
+        <script defer class="speakerdeck-embed" data-id="8b803082521540dc9b06a5beace8b475" data-ratio="1.7784313725490195" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
+    
+    - **Algorithmic aspects of semistability of quiver representations**
+
+      The 13th Hungarian-Japanese Symposium on Discrete Mathematics and Its Applications, 2025 (shorter ver at ICALP 2025)
+
+      .. raw:: html
+
+        <div style="max-width:480px">
+        <script defer class="speakerdeck-embed" data-id="957fac92013f44e580e19a832c04ec5f" data-ratio="1.7784313725490195" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
+    
     - **Spectral Sparsification of Hypergraphs**
 
       ISMP 2024 (same as "Online Algorithms for Spectral Hypergraph Sparsification" at IPCO 2024)

@@ -10,3 +10,4 @@ latex/*.fls
 latex/*.fdb_latexmk
 latex/*.gz
 latex/*.png
+.vscode/*
