@@ -32,7 +32,16 @@ Research Areas
 
 - Submodular optimization and its applications in machine learning
 - Linear algebra in combinatorial optimization and algorithm design
-- Convex optimization, online learning, and compressed sensing 
+- Convex optimization, online learning, and compressed sensing
+
+See also: :doc:`publications` and :doc:`talks`.
+
+For prospective graduate students and interns
+------------------------------
+- **Graduate PhD Program**: ISM has `its own graduate PhD program at SOKENDAI <https://www.ism.ac.jp/senkou_eng/index.html>`_. If you are interested in pursuing a PhD under my supervision, please do not hesitate to contact me. Please note that applicants must contact supervisor(s) **before** formal application.
+- **Internship**: ISM offers an international internship program for graduate students. The call for applications is usually made in October or November. The details are available upon request.
+
+Currently, I am not accepting postdocs.
 
 Contents
 ------------------------------
