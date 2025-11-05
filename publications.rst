@@ -197,11 +197,13 @@ Preprints
 ------------------------------
 .. rst-class:: cardlist
 
-    - **Cut-Matching Games for Bipartiteness Ratio of Undirected Graphs** [`ArXiv <https://arxiv.org/abs/2507.12847>`_]
+    - **O(log n)-Approximation Algorithms for Bipartiteness Ratio** [`ArXiv <https://arxiv.org/abs/2507.12847>`_]
       
       with Mingquan Ye, Yuichi Yoshida
  
       ArXiv, 2025. 
+
+      (Previous title: "Cut-Matching Games for Bipartiteness Ratio of Undirected Graphs")
 
     - **Accelerating operator Sinkhorn iteration with overrelaxation** [`ArXiv <https://arxiv.org/abs/2410.14104>`_]
 
