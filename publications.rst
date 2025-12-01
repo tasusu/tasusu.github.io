@@ -22,6 +22,14 @@ Refereed Journal and Conference Articles
 -------------------------------------------
 .. rst-class:: cardlist
     
+    - **Online Algorithms for Spectral Hypergraph Sparsification** [`ArXiv <https://arxiv.org/abs/2310.02643>`_]
+
+      with Kam Chuen Tung and Yuichi Yoshida
+
+      Mathematical Programming, to appear.
+
+      `Integer Programming and Combinatorial Optimization (IPCO), 2024. <https://ipco2024.ii.uni.wroc.pl>`_ [`Proceedings <https://doi.org/10.1007/978-3-031-59835-7_30>`_]
+
     - **Algorithmic aspects of semistability of quiver representations** [`Proceedings <https://doi.org/10.4230/LIPIcs.ICALP.2025.99>`_] [`ArXiv <https://arxiv.org/abs/2407.06493>`_]
 
       with Yuni Iwamasa, Taihei Oki
@@ -46,13 +54,7 @@ Refereed Journal and Conference Articles
 
       with Hiroshi Hirai, Yuni Iwamasa, Taihei Oki
 
-      `Mathematical Programming, 2024 <https://doi.org/10.1007/s10107-024-02158-0>`_.
-
-    - **Online Algorithms for Spectral Hypergraph Sparsification** [`ArXiv <https://arxiv.org/abs/2310.02643>`_]
-
-      with Kam Chuen Tung and Yuichi Yoshida
-
-      `Integer Programming and Combinatorial Optimization (IPCO), 2024. <https://ipco2024.ii.uni.wroc.pl>`_ [`Proceedings <https://doi.org/10.1007/978-3-031-59835-7_30>`_]
+      `Mathematical Programming, 213, pp. 941--984, 2025 <https://doi.org/10.1007/s10107-024-02158-0>`_.
 
     - **Shrunk subspaces via operator Sinkhorn iteration** [`ArXiv <https://arxiv.org/abs/2207.08311>`_]
 
