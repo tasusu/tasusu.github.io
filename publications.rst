@@ -22,11 +22,11 @@ Refereed Journal and Conference Articles
 -------------------------------------------
 .. rst-class:: cardlist
     
-    - **Online Algorithms for Spectral Hypergraph Sparsification** [`ArXiv <https://arxiv.org/abs/2310.02643>`_]
+    - **Online Algorithms for Spectral Hypergraph Sparsification** [`full text <https://rdcu.be/eT2vM>`_] [`ArXiv <https://arxiv.org/abs/2310.02643>`_]
 
       with Kam Chuen Tung and Yuichi Yoshida
 
-      Mathematical Programming, to appear.
+      `Mathematical Programming, 2025 (online) <https://doi.org/10.1007/s10107-025-02315-z>`_.
 
       `Integer Programming and Combinatorial Optimization (IPCO), 2024. <https://ipco2024.ii.uni.wroc.pl>`_ [`Proceedings <https://doi.org/10.1007/978-3-031-59835-7_30>`_]
 
@@ -110,7 +110,7 @@ Refereed Journal and Conference Articles
 
       `Advances in Neural Information Processing Systems (NeurIPS), 2018 <https://nips.cc/Conferences/2018>`_, **spotlight**.
     
-    - **Maximizing Monotone Submodular Functions over the Integer Lattice** [`ArXiv <http://arxiv.org/abs/1503.01218v2>`_] [`full text <https://rdcu.be/5thr>`_]
+    - **Maximizing Monotone Submodular Functions over the Integer Lattice** [`full text <https://rdcu.be/5thr>`_] [`ArXiv <http://arxiv.org/abs/1503.01218v2>`_] 
 
       with Yuichi Yoshida
       
