@@ -22,6 +22,15 @@ Refereed Journal and Conference Articles
 -------------------------------------------
 .. rst-class:: cardlist
     
+    - **O(log n)-Approximation Algorithms for Bipartiteness Ratio** [`ArXiv <https://arxiv.org/abs/2507.12847>`_]
+      
+      with Mingquan Ye, Yuichi Yoshida
+ 
+      `Integer Programming and Combinatorial Optimization (IPCO), 2026 <https://events.math.unipd.it/ipco2026>`_, to appear. 
+
+      (Previous title: "Cut-Matching Games for Bipartiteness Ratio of Undirected Graphs")
+
+    
     - **Online Algorithms for Spectral Hypergraph Sparsification** [`full text <https://rdcu.be/eT2vM>`_] [`ArXiv <https://arxiv.org/abs/2310.02643>`_]
 
       with Kam Chuen Tung and Yuichi Yoshida
@@ -198,14 +207,6 @@ Refereed Workshop Article
 Preprints
 ------------------------------
 .. rst-class:: cardlist
-
-    - **O(log n)-Approximation Algorithms for Bipartiteness Ratio** [`ArXiv <https://arxiv.org/abs/2507.12847>`_]
-      
-      with Mingquan Ye, Yuichi Yoshida
- 
-      ArXiv, 2025. 
-
-      (Previous title: "Cut-Matching Games for Bipartiteness Ratio of Undirected Graphs")
 
     - **Accelerating operator Sinkhorn iteration with overrelaxation** [`ArXiv <https://arxiv.org/abs/2410.14104>`_]
 
