@@ -207,6 +207,12 @@ Refereed Workshop Article
 Preprints
 ------------------------------
 .. rst-class:: cardlist
+    
+    - **Numerically stable variants of overrelaxation for operator Sinkhorn iteration** [`ArXiv <https://arxiv.org/abs/2603.12955>`_]
+
+      with Henrik Eisenmann, Xun Tang, and André Uschmajew
+
+      ArXiv, 2026.
 
     - **Accelerating operator Sinkhorn iteration with overrelaxation** [`ArXiv <https://arxiv.org/abs/2410.14104>`_]
 
