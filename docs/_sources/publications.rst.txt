@@ -22,6 +22,12 @@ Refereed Journal and Conference Articles
 -------------------------------------------
 .. rst-class:: cardlist
     
+    - **Accelerating operator Sinkhorn iteration with overrelaxation** [`ArXiv <https://arxiv.org/abs/2410.14104>`_]
+
+      with André Uschmajew
+
+      Mathematical Programming, 2026, to appear.
+    
     - **O(log n)-Approximation Algorithms for Bipartiteness Ratio** [`ArXiv <https://arxiv.org/abs/2507.12847>`_]
       
       with Mingquan Ye, Yuichi Yoshida
@@ -29,7 +35,6 @@ Refereed Journal and Conference Articles
       `Integer Programming and Combinatorial Optimization (IPCO), 2026 <https://events.math.unipd.it/ipco2026>`_, to appear. 
 
       (Previous title: "Cut-Matching Games for Bipartiteness Ratio of Undirected Graphs")
-
     
     - **Online Algorithms for Spectral Hypergraph Sparsification** [`full text <https://rdcu.be/eT2vM>`_] [`ArXiv <https://arxiv.org/abs/2310.02643>`_]
 
@@ -213,12 +218,6 @@ Preprints
       with Henrik Eisenmann, Xun Tang, and André Uschmajew
 
       ArXiv, 2026.
-
-    - **Accelerating operator Sinkhorn iteration with overrelaxation** [`ArXiv <https://arxiv.org/abs/2410.14104>`_]
-
-      with André Uschmajew
-
-      ArXiv, 2024.
 
     - **Optimal algorithms for group distributionally robust optimization and beyond** [`ArXiv <https://arxiv.org/abs/2212.13669>`_]
 
