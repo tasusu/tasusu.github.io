@@ -26,7 +26,7 @@ Refereed Journal and Conference Articles
 
       with André Uschmajew
 
-      Mathematical Programming, 2026, to appear.
+      `Mathematical Programming, 2026 (online) <https://doi.org/10.1007/s10107-026-02361-1>`_.
     
     - **O(log n)-Approximation Algorithms for Bipartiteness Ratio** [`ArXiv <https://arxiv.org/abs/2507.12847>`_]
       
@@ -40,7 +40,7 @@ Refereed Journal and Conference Articles
 
       with Kam Chuen Tung and Yuichi Yoshida
 
-      `Mathematical Programming, 2025 (online) <https://doi.org/10.1007/s10107-025-02315-z>`_.
+      `Mathematical Programming, Volume 216, pp. 627--650, 2026 <https://doi.org/10.1007/s10107-025-02315-z>`_.
 
       `Integer Programming and Combinatorial Optimization (IPCO), 2024. <https://ipco2024.ii.uni.wroc.pl>`_ [`Proceedings <https://doi.org/10.1007/978-3-031-59835-7_30>`_]
 
