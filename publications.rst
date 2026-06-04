@@ -22,7 +22,7 @@ Refereed Journal and Conference Articles
 -------------------------------------------
 .. rst-class:: cardlist
     
-    - **Accelerating operator Sinkhorn iteration with overrelaxation** [`ArXiv <https://arxiv.org/abs/2410.14104>`_]
+    - **Accelerating operator Sinkhorn iteration with overrelaxation**
 
       with André Uschmajew
 
@@ -90,7 +90,7 @@ Refereed Journal and Conference Articles
 
       `Linear Algebra and its Applications, 649, pp. 240--267, 2022. <https://doi.org/10.1016/j.laa.2022.04.022>`_
 
-    - **Polynomial-Time Algorithms for Submodular Laplacian Systems** [`ArXiv <https://arxiv.org/abs/1803.10923>`_]
+    - **Polynomial-Time Algorithms for Submodular Laplacian Systems**
 
       with Kaito Fujii and Yuichi Yoshida
        
