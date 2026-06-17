@@ -32,7 +32,7 @@ Refereed Journal and Conference Articles
       
       with Mingquan Ye, Yuichi Yoshida
  
-      `Integer Programming and Combinatorial Optimization (IPCO), 2026 <https://events.math.unipd.it/ipco2026>`_, to appear. 
+      `Integer Programming and Combinatorial Optimization (IPCO), 2026 <https://events.math.unipd.it/ipco2026>`_. [`Proceedings <https://doi.org/10.1007/978-3-032-28691-8_7>`_]
 
       (Previous title: "Cut-Matching Games for Bipartiteness Ratio of Undirected Graphs")
     

@@ -36,6 +36,16 @@ Technical talks
 -----------------------------------------------------
 .. rst-class:: cardlist 
     
+    - **O(log n)-Approximation Algorithms for Bipartiteness Ratio**
+
+      IPCO 2026
+        
+      .. raw:: html
+
+        <div style="max-width:480px">
+        <script defer class="speakerdeck-embed" data-id="98a17cdd9d8b453e9786f30450c7bd0e" data-ratio="1.7784313725490195" src="//speakerdeck.com/assets/embed.js"></script>
+        </div>
+
     - **Accelerating operator Sinkhorn iteration with overrelaxation**
 
       The 9th ISM-IIR-ZIB-NUS-NII-MODAL Workshop on Optimization, 2025
