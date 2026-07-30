@@ -112,7 +112,7 @@ Refereed Journal and Conference Articles
     
       `The 22nd International Conference on Artificial Intelligence and Statistics (AISTATS), 2019 <https://www.aistats.org/>`_.
 
-    - **Spectral Sparsification of Hypergraphs** [`Proceedings <https://epubs.siam.org/doi/abs/10.1137/1.9781611975482.159>`_]
+    - **Spectral Sparsification of Hypergraphs** [`PDF <papers/soda2019.pdf>`_] [`Proceedings <https://epubs.siam.org/doi/abs/10.1137/1.9781611975482.159>`_]
 
       with Yuichi Yoshida
 
