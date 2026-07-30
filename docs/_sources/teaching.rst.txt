@@ -57,7 +57,7 @@
    - サーキット
    - アルゴリズム
 
-9. `劣モジュラ最小化 <tokuron/sfmin1.pdf>`_ [`補足資料 <tokuron/sfmin2.pdf>`_]
+9. `劣モジュラ最小化 <tokuron/sfmin.pdf>`_ 
 
    - 劣モジュラ関数の例
    - Lovász拡張
@@ -68,6 +68,12 @@
     - 定式化
     - モデリング例
     - 貪欲法
+
+11. 精選トピック① `完全マッチングに対する代数的アルゴリズム <algalg.pdf>`_
+
+12. 精選トピック② `Multiplicative Weight Update <mwunote.pdf>`_
+
+13. 精選トピック③ `グラフのスペクトル疎化 <tokuron/sparsification.pdf>`_
 
 
 Githubリポジトリ
@@ -83,6 +89,12 @@ https://github.com/tasusu/tokuron
 
 - `多面体的組合せ論 <polyhedra.pdf>`_
 - `二部マッチング <bipartite.pdf>`_
+
+English
+^^^^^^^^
+
+- `Polyhedral Combinatorics <polyhedra_en.pdf>`_
+- `Bipartite Matching <bipartite_en.pdf>`_
 
 Githubリポジトリ
 ^^^^^^^^^^^^^^^^
