@@ -9,7 +9,14 @@
 総研大 統計科学コース 組合せ最適化特論
 --------------------------------------
 
-スライド
+.. raw:: html
+
+    <div style="max-width:480px">
+    <script defer class="speakerdeck-embed" data-id="acbddc9193fd482a9bf04ceefb330204" data-ratio="1.7784313725490195" src="//speakerdeck.com/assets/embed.js"></script>
+    </div>
+
+
+各回内容・スライド
 ^^^^
 
 1. `多面体的組合せ論 <tokuron/polyhedra.pdf>`_
@@ -90,7 +97,7 @@ https://github.com/tasusu/tokuron
 - `多面体的組合せ論 <polyhedra.pdf>`_
 - `二部マッチング <bipartite.pdf>`_
 
-English
+English slides
 ^^^^^^^^
 
 - `Polyhedral Combinatorics <polyhedra_en.pdf>`_
@@ -101,11 +108,14 @@ Githubリポジトリ
 
 https://github.com/tasusu/keisansuuri
 
-東大計数 演習第二2019 (Multiplicative Weight Update)
+東大 計数工学科 数理情報工学演習第二
 --------------------------------------------------------------
+
+2019 (Multiplicative Weight Update)
+^^^^^^^^^^^^^^^^
 - `講義ノート <mwunote.pdf>`_ 
 - `レポート問題 <mwu.pdf>`_
 
-東大計数 演習第二2018 (完全マッチングに対する代数的アルゴリズム)
---------------------------------------------------------------
+2016--2018 (完全マッチングに対する代数的アルゴリズム)
+^^^^^^^^^^^^^^^^
 - `講義ノート <algalg.pdf>`_
