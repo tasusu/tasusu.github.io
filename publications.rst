@@ -212,6 +212,12 @@ Refereed Workshop Article
 Preprints
 ------------------------------
 .. rst-class:: cardlist
+
+    - **Quiver Semistability and Structured Kalman Decompositions for Networked Linear Dynamical Systems** [`ArXiv <https://arxiv.org/abs/2608.29871>`_]
+
+      with Kazuo Murota
+
+      ArXiv, 2026.
     
     - **Numerically stable variants of overrelaxation for operator Sinkhorn iteration** [`ArXiv <https://arxiv.org/abs/2603.12955>`_]
 
