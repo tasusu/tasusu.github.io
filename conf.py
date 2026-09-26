@@ -125,6 +125,7 @@ html_theme_options = {
          ('<span class="glyphicon glyphicon-th-list"></span> Publications', "publications"),
          ('<span class="glyphicon glyphicon-facetime-video"></span> Talks', "talks"),
          ('<span class="glyphicon glyphicon-hdd"></span> Software', 'software'),
+         ('<span class="glyphicon glyphicon-heart"></span> Games', 'games'),
          ('&#x1f1ef;&#x1f1f5;日本語', 'https://researchmap.jp/tasuku', 1)
     ],
 
