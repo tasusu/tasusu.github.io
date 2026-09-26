@@ -51,6 +51,7 @@ Contents
     publications
     talks
     software
+    games
 
 
 Notes (in Japanese) ノート
