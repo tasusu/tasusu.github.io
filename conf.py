@@ -105,14 +105,9 @@ html_theme = 'pydata_sphinx_theme'
 html_theme_options = {
     'logo': {'text': 'Tasuku Soma'},
     'navbar_start': ['navbar-logo'],
-    'navbar_center': ['navbar-nav'],
+    'navbar_center': ['components/navbar-nav.html'],
     'navbar_end': ['theme-switcher', 'navbar-icon-links'],
     'navbar_persistent': ['search-button'],
-    'header_links_before_dropdown': 4,
-    'external_links': [
-        {'name': 'C.V.', 'url': 'cv.pdf'},
-        {'name': '日本語', 'url': 'https://researchmap.jp/tasuku'},
-    ],
     'show_prev_next': False,
     'secondary_sidebar_items': ['page-toc', 'sourcelink'],
 }
