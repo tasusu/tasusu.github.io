@@ -110,6 +110,8 @@ html_theme_options = {
     'navbar_persistent': ['search-button'],
     'show_prev_next': False,
     'secondary_sidebar_items': ['page-toc', 'sourcelink'],
+    'footer_start': ["copyright", "sphinx-version"],
+    'footer_end': ["last-updated", "theme-version"],
 }
 
 # The name for this set of Sphinx documents.  If None, it defaults to
