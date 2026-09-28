@@ -5,13 +5,15 @@ border-bottom: 1px solid var(--pst-color-border);
 .top_float{
 	margin: 0 0 1rem 1.5rem;
 	float:right;
-	width: 200px;
-	max-width: 35%;
+	width: fit-content;
+	max-width: 100%;
 }
 
 .profile-photo{
   display: block;
-  width: 100%;
+  width: auto;
+  max-width: calc(100% - 10px);
+  box-sizing: content-box;
   height: auto;
   padding: 4px;
   border: 1px solid var(--pst-color-border);
