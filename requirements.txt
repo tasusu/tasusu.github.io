@@ -1,5 +1,5 @@
 sphinx
-sphinx_bootstrap_theme
+pydata-sphinx-theme>=0.16,<0.17
 sphinxemoji
 sphinx-last-updated-by-git
 myst-parser

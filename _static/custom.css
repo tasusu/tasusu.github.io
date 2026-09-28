@@ -1,32 +1,53 @@
-body{
-background: #F9F9F9;
-}
-
 h2{
-border-bottom: 1px #CCC solid;
+border-bottom: 1px solid var(--pst-color-border);
 }
 
 .top_float{
-	margin: 0;
+	margin: 0 0 1rem 1.5rem;
 	float:right;
+	width: 200px;
+	max-width: 35%;
+}
+
+.profile-photo{
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 4px;
+  border: 1px solid var(--pst-color-border);
+  border-radius: 4px;
+  background: var(--pst-color-surface);
 }
 
 .cardlist{
     padding-left: 0;
 }
 
-.cardlist li{
+.cardlist > li{
   list-style-type: none;
   padding:1rem 1.5rem;
-  box-shadow:0 1px 2px #aaa;
-  background:white;
+  border: 1px solid var(--pst-color-border);
+  background:var(--pst-color-surface);
   margin:0.8rem 0;
   border-radius:3px;
   transform-origin:top left;
 }
 
-div.body{
-  max-width: none !important;
+.cardlist iframe{
+  max-width: 100%;
+}
+
+@media (max-width: 767px){
+  .top_float{
+    float: none;
+    max-width: 100%;
+    margin: 0 0 1rem;
+  }
+
+  .cardlist > li{
+    padding: 1rem;
+    overflow-wrap: anywhere;
+  }
 }
 
 /* ------------------------------------

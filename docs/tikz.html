@@ -1,35 +1,61 @@
+
 <!DOCTYPE html>
 
-<html lang="en" data-content_root="./">
+
+<html lang="en" data-content_root="./" >
+
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <meta property="article:modified_time" content="2023-11-28T15:47:44+09:00" />
     <title>TikZ &#8212; Tasuku Soma&#39;s webpage</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="_static/bootstrap-sphinx.css?v=9f61996d" />
-    <link rel="stylesheet" type="text/css" href="_static/twemoji.css?v=2199c511" />
-    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=072d1131" />
-    <script src="_static/documentation_options.js?v=ec16d22d"></script>
+    <link rel="stylesheet" type="text/css" href="_static/twemoji.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=e02a854e" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="https://cdn.jsdelivr.net/npm/@twemoji/api@latest/dist/twemoji.min.js"></script>
-    <script src="_static/twemoji.js?v=a4381b3f"></script>
+    <script src="_static/twemoji.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'tikz';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Graphs in TikZ" href="tikzgraph.html" />
     <link rel="prev" title="Beamer" href="beamer.html" />
 
-<meta charset='utf-8'>
-<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
-<meta name="apple-mobile-web-app-capable" content="yes">
-<script type="text/javascript" src="_static/js/jquery-1.12.4.min.js"></script>
-<script type="text/javascript" src="_static/js/jquery-fix.js"></script>
-<script type="text/javascript" src="_static/bootstrap-3.4.1/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+    <meta name="docbuild:last-update" content="Nov 28, 2023"/>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9C0LTNW2Q"></script>
 <script>
@@ -40,52 +66,388 @@
   gtag('config', 'G-Y9C0LTNW2Q');
 </script>
 
-  </head><body>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
 
-  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">
-          Tasuku Soma</a>
-      </div>
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
-        <div class="collapse navbar-collapse nav-collapse">
-          <ul class="nav navbar-nav">
-            <li class="divider-vertical"></li>
-            
-                <li><a href="cv.pdf"><span class="glyphicon glyphicon-user"></span> C.V.</a></li>
-                <li><a href="publications.html"><span class="glyphicon glyphicon-th-list"></span> Publications</a></li>
-                <li><a href="talks.html"><span class="glyphicon glyphicon-facetime-video"></span> Talks</a></li>
-                <li><a href="software.html"><span class="glyphicon glyphicon-hdd"></span> Software</a></li>
-                <li><a href="games.html"><span class="glyphicon glyphicon-heart"></span> Games</a></li>
-                <li><a href="https://researchmap.jp/tasuku">&#x1f1ef;&#x1f1f5;日本語</a></li>
-            
-            
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
 
-              
-            
-            
-            
-            
-            
-          </ul>
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
 
-        </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">Tasuku Soma</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="publications.html">
+    Publications
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="talks.html">
+    Talks
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="software.html">
+    Software
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="games.html">
+    Games
+  </a>
+</li>
+
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false"
+                aria-controls="pst-nav-more-links">
+                    More
+                </button>
+                <ul id="pst-nav-more-links" class="dropdown-menu">
+                    
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="beamer.html">
+    Beamer
+  </a>
+</li>
+
+
+<li class=" current active">
+  <a class="nav-link dropdown-item nav-internal" href="#">
+    TikZ
+  </a>
+</li>
+
+
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="tikzgraph.html">
+    Graphs in TikZ
+  </a>
+</li>
+
+
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="biblatex.html">
+    BibLaTeX
+  </a>
+</li>
+
+
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="teaching.html">
+    講義資料
+  </a>
+</li>
+
+
+<li class=" ">
+  <a class="nav-link dropdown-item nav-external" href="cv.pdf">
+    C.V.
+  </a>
+</li>
+
+
+<li class=" ">
+  <a class="nav-link dropdown-item nav-external" href="https://researchmap.jp/tasuku">
+    日本語
+  </a>
+</li>
+
+                </ul>
+            </li>
+            
+  </ul>
+</nav></div>
+      
     </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar hide-on-wide">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="publications.html">
+    Publications
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="talks.html">
+    Talks
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="software.html">
+    Software
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="games.html">
+    Games
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="beamer.html">
+    Beamer
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="#">
+    TikZ
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="tikzgraph.html">
+    Graphs in TikZ
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="biblatex.html">
+    BibLaTeX
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="teaching.html">
+    講義資料
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="cv.pdf">
+    C.V.
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="https://researchmap.jp/tasuku">
+    日本語
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+      </div>
+    
+  </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
   </div>
 
-<div class="container">
-  <div class="row">
-    <div class="body col-md-12 content" role="main">
+
+      </div>
       
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">TikZ</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
   <section id="tikz">
-<h1>TikZ<a class="headerlink" href="#tikz" title="Link to this heading">¶</a></h1>
+<h1>TikZ<a class="headerlink" href="#tikz" title="Link to this heading">#</a></h1>
 <p>BeamerのためのTikZ</p>
 <nav class="contents local" id="contents">
 <ul class="simple">
@@ -131,11 +493,11 @@
 </ul>
 </nav>
 <section id="id1">
-<h2>TikZとは<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
+<h2>TikZとは<a class="headerlink" href="#id1" title="Link to this heading">#</a></h2>
 <p>Beamerは便利なのですが，図を描いたり絵を貼るのは苦手なので，どうしても文字を箇条書きしたようなスライドになりがちです．
 TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル性の高いプレゼンテーション</strong> を行うことができます．また，Beamer自体がTikZの機能を利用して作られているので，Beamerとの親和性は最高です．</p>
 <section id="id2">
-<h3>準備<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h3>
+<h3>準備<a class="headerlink" href="#id2" title="Link to this heading">#</a></h3>
 <p>まずは，TikZをプリアンブルでロードします．同時に <code class="docutils literal notranslate"><span class="pre">\usetikzlibrary</span></code> コマンドで”positioning”ライブラリをロードしておくと便利です．:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\usepackage</span><span class="nb">{</span>tikz<span class="nb">}</span>
 <span class="k">\usetikzlibrary</span><span class="nb">{</span>positioning<span class="nb">}</span>
@@ -155,11 +517,11 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 </section>
 </section>
 <section id="id3">
-<h2>模式図を作る<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h2>
+<h2>模式図を作る<a class="headerlink" href="#id3" title="Link to this heading">#</a></h2>
 <p>木構造を表す模式図をTikZで作ってみましょう．</p>
 <img alt="_images/tikz-tree.png" src="_images/tikz-tree.png" />
 <section id="id4">
-<h3>テキストボックスを配置する<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h3>
+<h3>テキストボックスを配置する<a class="headerlink" href="#id4" title="Link to this heading">#</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">\node</span></code> コマンドはPowerPointの「テキストボックス」のような使い方ができます．まずは，一番上のテキストを配置してみましょう:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>tikzpicture<span class="nb">}</span>
     <span class="k">\node</span><span class="nb">{</span>root<span class="nb">}</span>;
@@ -203,7 +565,7 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 </div>
 </section>
 <section id="id5">
-<h3>子ノードを配置する<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h3>
+<h3>子ノードを配置する<a class="headerlink" href="#id5" title="Link to this heading">#</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">child</span></code> 構文を使うと，現在のノードの子ノードを作ることができます:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>tikzpicture<span class="nb">}</span>
     <span class="k">\tikzset</span><span class="nb">{</span>block/.style=<span class="nb">{</span>rectangle, fill=cyan!10, text width=3cm, text centered, rounded corners, minimum height=1.5cm<span class="nb">}}</span>;
@@ -248,11 +610,11 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 </section>
 </section>
 <section id="id6">
-<h2>グラフを作る<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h2>
+<h2>グラフを作る<a class="headerlink" href="#id6" title="Link to this heading">#</a></h2>
 <p>よくある有向グラフを作ってみましょう．</p>
 <img alt="_images/tikz-network.png" src="_images/tikz-network.png" />
 <section id="id7">
-<h3>ノードの配置<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h3>
+<h3>ノードの配置<a class="headerlink" href="#id7" title="Link to this heading">#</a></h3>
 <p>まずは “s” というラベルのノードを配置してみましょう．これは <code class="docutils literal notranslate"><span class="pre">\node</span></code> コマンドを使います．文字 “s” だけだとグラフノードっぽくないので，丸で囲って色を塗っておきます．:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>tikzpicture<span class="nb">}</span>
     <span class="k">\node</span><span class="na">[circle,fill=cyan,white]</span><span class="nb">{</span>s<span class="nb">}</span>;
@@ -291,7 +653,7 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 <p><code class="docutils literal notranslate"><span class="pre">right=1.5cm</span> <span class="pre">of</span> <span class="pre">a</span></code> で「aの1.5cm右」を指定しています．こんな感じで，ノードを配置することが出来ました．</p>
 </section>
 <section id="id8">
-<h3>デフォルトスタイルを指定する<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h3>
+<h3>デフォルトスタイルを指定する<a class="headerlink" href="#id8" title="Link to this heading">#</a></h3>
 <p>さて，ノードを追加したはいいものの，新しいノードはまたしても文字だけです．ここでは <strong>全てのノードに自動で適応されるデフォルトスタイルを指定してみます．</strong> そのためには， <code class="docutils literal notranslate"><span class="pre">tikzpicture</span></code> 環境のオプションに <code class="docutils literal notranslate"><span class="pre">every</span> <span class="pre">node/.style={...}</span></code> の形でデフォルトオプションを指定します:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>tikzpicture<span class="nb">}</span>[every node/.style=<span class="nb">{</span>circle,fill=cyan,white<span class="nb">}</span>]
     <span class="k">\node</span> (s) <span class="nb">{</span>s<span class="nb">}</span>;
@@ -306,7 +668,7 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 <p>これで， <code class="docutils literal notranslate"><span class="pre">tikzpicture</span></code> 環境内の全てのノードに同じスタイルが指定されるようになりました．</p>
 </section>
 <section id="id9">
-<h3>枝を引く<a class="headerlink" href="#id9" title="Link to this heading">¶</a></h3>
+<h3>枝を引く<a class="headerlink" href="#id9" title="Link to this heading">#</a></h3>
 <p>次は枝を引いてみましょう．枝（というかパス）は <code class="docutils literal notranslate"><span class="pre">\draw</span></code> コマンドで引きます:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>tikzpicture<span class="nb">}</span>[every node/.style=<span class="nb">{</span>circle,fill=cyan,white<span class="nb">}</span>]
     <span class="k">\node</span> (s) <span class="nb">{</span>s<span class="nb">}</span>;
@@ -323,7 +685,7 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 <p>オプション <code class="docutils literal notranslate"><span class="pre">-&gt;</span></code> は終点に矢印をおくオプションです．無向枝の場合は要りません． <code class="docutils literal notranslate"><span class="pre">(s)</span> <span class="pre">--</span> <span class="pre">(a)</span></code> でノード “s” からノード “a” へのパスを表しています．</p>
 </section>
 <section id="foreach">
-<h3>foreach 構文で枝を一気に引く<a class="headerlink" href="#foreach" title="Link to this heading">¶</a></h3>
+<h3>foreach 構文で枝を一気に引く<a class="headerlink" href="#foreach" title="Link to this heading">#</a></h3>
 <p>これを全枝分繰り返せばグラフは完成ですが，面倒なのでもっと便利な <code class="docutils literal notranslate"><span class="pre">\foreach</span></code> 構文を使って枝をひくことにします:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>tikzpicture<span class="nb">}</span>[every node/.style=<span class="nb">{</span>circle,fill=cyan,white<span class="nb">}</span>]
     <span class="k">\node</span> (s) <span class="nb">{</span>s<span class="nb">}</span>;
@@ -343,11 +705,11 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 </section>
 </section>
 <section id="id10">
-<h2>数式にマーカーを引く・説明をつける<a class="headerlink" href="#id10" title="Link to this heading">¶</a></h2>
+<h2>数式にマーカーを引く・説明をつける<a class="headerlink" href="#id10" title="Link to this heading">#</a></h2>
 <p>数式の一部分にマーカーを引いて，その下に説明をつけることができます．数式の意味や役割を分かりやすく伝えるのに役に立ちます．</p>
 <img alt="_images/tikz-highlight.png" src="_images/tikz-highlight.png" />
 <section id="id11">
-<h3>tikzコマンド<a class="headerlink" href="#id11" title="Link to this heading">¶</a></h3>
+<h3>tikzコマンド<a class="headerlink" href="#id11" title="Link to this heading">#</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">\tikz</span></code> コマンドを利用すると文中にTikZの描画を入れることが出来ます．これを利用して，以下のように書いてみます（いきなり全部書くのは大変なので，第2項だけ書きます）:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\begin</span><span class="nb">{</span>align*<span class="nb">}</span>
     f(<span class="k">\mathbf</span><span class="nb">{</span>w<span class="nb">}</span>, b) =
@@ -369,7 +731,7 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 <p>中の <code class="docutils literal notranslate"><span class="pre">blue</span></code> を <code class="docutils literal notranslate"><span class="pre">red</span></code> に変えれば，もちろん色が赤くなります．</p>
 </section>
 <section id="highlight">
-<h3>highlight マクロ<a class="headerlink" href="#highlight" title="Link to this heading">¶</a></h3>
+<h3>highlight マクロ<a class="headerlink" href="#highlight" title="Link to this heading">#</a></h3>
 <p>これを毎回書くのは大変なので， <code class="docutils literal notranslate"><span class="pre">\newcommand</span></code> を使ってマクロを作りましょう:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\newcommand</span><span class="nb">{</span><span class="k">\highlight</span><span class="nb">}</span>[2][yellow]<span class="nb">{</span><span class="k">\tikz</span><span class="na">[baseline=(x.base)]</span><span class="nb">{</span><span class="k">\node</span><span class="na">[rectangle,rounded corners,fill=#1!10]</span>(x)<span class="nb">{</span>#2<span class="nb">}</span>;<span class="nb">}}</span>
 <span class="k">\newcommand</span><span class="nb">{</span><span class="k">\highlightcap</span><span class="nb">}</span>[3][yellow]<span class="nb">{</span><span class="k">\tikz</span><span class="na">[baseline=(x.base)]</span><span class="nb">{</span><span class="k">\node</span><span class="na">[rectangle,rounded corners,fill=#1!10]</span>(x)<span class="nb">{</span>#2<span class="nb">}</span> node[below of=x, color=#1]<span class="nb">{</span>#3<span class="nb">}</span>;<span class="nb">}}</span>
@@ -390,18 +752,18 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 </section>
 </section>
 <section id="id12">
-<h2>ふきだしを作る<a class="headerlink" href="#id12" title="Link to this heading">¶</a></h2>
+<h2>ふきだしを作る<a class="headerlink" href="#id12" title="Link to this heading">#</a></h2>
 <p>Beamerのプレゼンに便利なふきだしを作ってみましょう．</p>
 <img alt="_images/tikz-balloon.png" src="_images/tikz-balloon.png" />
 <section id="remember-picture">
-<h3>remember picture<a class="headerlink" href="#remember-picture" title="Link to this heading">¶</a></h3>
+<h3>remember picture<a class="headerlink" href="#remember-picture" title="Link to this heading">#</a></h3>
 <p>以下では <code class="docutils literal notranslate"><span class="pre">remember</span> <span class="pre">picute</span></code> と呼ばれる <code class="docutils literal notranslate"><span class="pre">tikzpicture</span></code> 環境間でノードの名前を共有する機能を使用します．pdftexやluatexを使っている場合は何もしなくても大丈夫ですが，(u)platex+dvipdfmxを使っている場合はpxpgfmarkパッケージを読み込む必要があります:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\usepackage</span><span class="nb">{</span>pxpgfmark<span class="nb">}</span>   <span class="c">% TikZを読み込む後に書く</span>
 </pre></div>
 </div>
 </section>
 <section id="shapes">
-<h3>shapesライブラリ<a class="headerlink" href="#shapes" title="Link to this heading">¶</a></h3>
+<h3>shapesライブラリ<a class="headerlink" href="#shapes" title="Link to this heading">#</a></h3>
 <p>吹き出しの形を使うためにshapesライブラリを利用します:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\usetikzlibrary</span><span class="nb">{</span>shapes.callouts<span class="nb">}</span>
 </pre></div>
@@ -434,15 +796,15 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 </section>
 </section>
 <section id="id13">
-<h2>Tikzの基礎<a class="headerlink" href="#id13" title="Link to this heading">¶</a></h2>
+<h2>Tikzの基礎<a class="headerlink" href="#id13" title="Link to this heading">#</a></h2>
 <p>もっと色んな絵を描いてみたい人向けの解説です．</p>
 <section id="id14">
-<h3>座標<a class="headerlink" href="#id14" title="Link to this heading">¶</a></h3>
+<h3>座標<a class="headerlink" href="#id14" title="Link to this heading">#</a></h3>
 <p>位置指定で最も基本的なのは座標による方法です．おなじみの2次元直交座標を使うと，原点は <code class="docutils literal notranslate"><span class="pre">(0,0)</span></code> のように表せます．ちょっと面白いのが極座標表示です． 例えば，r=1, θ=30° で定まる点は <code class="docutils literal notranslate"><span class="pre">(30:1)</span></code> のように表せます．円や回転対称な図を描く場合には極座標表示の方が楽です．
 さらに，ノードの名前を使って間接的に座標指定することもできます．</p>
 </section>
 <section id="id15">
-<h3>パス<a class="headerlink" href="#id15" title="Link to this heading">¶</a></h3>
+<h3>パス<a class="headerlink" href="#id15" title="Link to this heading">#</a></h3>
 <p>TikZの基本となる概念が <strong>パス</strong> です．だいたい曲線や直線のようなものだと思ってもらえればOKです．ただし，TikZでのパスは線をひくためだけのものではありません．例えば，閉じたパスを使って，パスの内部を塗り潰したり，別の図形を切り取ったりもできます．このようなパスの使い方は，PhotoshopやIllustratorを使ったことがある人なら馴染みのあるものでしょう．</p>
 <p>パスを定義するには <code class="docutils literal notranslate"><span class="pre">\path</span></code> コマンドを使います．原点から点(0,1)まで線分からなるパスは以下のように書けます:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\path</span> (0,0) -- (0,1);
@@ -471,7 +833,7 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 <p>詳しいオプションは TikZ/PGF マニュアルを読んで下さい．</p>
 </section>
 <section id="id16">
-<h3>ノード<a class="headerlink" href="#id16" title="Link to this heading">¶</a></h3>
+<h3>ノード<a class="headerlink" href="#id16" title="Link to this heading">#</a></h3>
 <p>ノードは，PowerPointで言うところの「テキストボックス」や「図形」のような役割をします．文字や図形を配置することができます．ノードは <code class="docutils literal notranslate"><span class="pre">\node</span></code> コマンドで定義します:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\node</span> at (座標) <span class="nb">{</span>ノードの中身の文章<span class="nb">}</span> (ノードの名前);
 </pre></div>
@@ -483,7 +845,7 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 <p>となります．座標を省略すると自動的に原点に置かれます．</p>
 </section>
 <section id="id17">
-<h3>パス中にノードを配置する<a class="headerlink" href="#id17" title="Link to this heading">¶</a></h3>
+<h3>パス中にノードを配置する<a class="headerlink" href="#id17" title="Link to this heading">#</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">\path</span></code> コマンドの途中でノードを作ることもできます．実際， <code class="docutils literal notranslate"><span class="pre">\node</span></code> コマンドは <code class="docutils literal notranslate"><span class="pre">\path</span> <span class="pre">node</span></code> の省略形です:</p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\path</span><span class="na">[-&gt;,draw]</span> (0,0) -- node[above]<span class="nb">{</span>my path<span class="nb">}</span> (3,0);
 </pre></div>
@@ -498,29 +860,128 @@ TikZを使うと，模式図やグラフ等を用いた <strong>ビジュアル�
 </section>
 
 
-    </div>
-      
+                </article>
+              
+              
+              
+              
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
   </div>
-</div>
-<footer class="footer">
-  <div class="container">
-    <p class="pull-right">
-      <a href="#">Back to top</a>
-      
-        <br/>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">TikZとは</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">準備</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">模式図を作る</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">テキストボックスを配置する</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">子ノードを配置する</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">グラフを作る</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">ノードの配置</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">デフォルトスタイルを指定する</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">枝を引く</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#foreach">foreach 構文で枝を一気に引く</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">数式にマーカーを引く・説明をつける</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">tikzコマンド</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#highlight">highlight マクロ</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">ふきだしを作る</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#remember-picture">remember picture</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#shapes">shapesライブラリ</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Tikzの基礎</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">座標</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">パス</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">ノード</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">パス中にノードを配置する</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/tikz.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
         
-<div id="sourcelink">
-  <a href="_sources/tikz.rst.txt"
-     rel="nofollow">Source</a>
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright Tasuku Soma.
+      <br/>
+    
+  </p>
 </div>
       
-    </p>
-    <p>
-        &copy; Copyright Tasuku Soma.<br/>
-      Last updated on Nov 28, 2023.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 8.2.3.<br/>
-    </p>
-  </div>
-</footer>
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
   </body>
 </html>
