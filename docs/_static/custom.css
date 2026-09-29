@@ -1,3 +1,7 @@
+html{
+  --pst-font-family-base-system: sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 h2{
 border-bottom: 1px solid var(--pst-color-border);
 }
