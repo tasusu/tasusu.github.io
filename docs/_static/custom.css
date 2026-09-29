@@ -55,15 +55,3 @@ border-bottom: 1px solid var(--pst-color-border);
     overflow-wrap: anywhere;
   }
 }
-
-/* ------------------------------------
- * Clearfix フロートの調整用
- -------------------------------------*/ 
-.clearfix:after{content: "."; display: block; clear: both; height: 0; visibility: hidden;}
-.clearfix{min-height: 1px;}
-* html .clearfix{height: 1px;
-  /**//*/
-  height: auto;
-  overflow: hidden;
-  /**/
-}
