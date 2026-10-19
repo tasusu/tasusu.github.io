@@ -50,6 +50,7 @@ Contents
 
     publications
     talks
+    teaching
     software
     games
 
@@ -63,10 +64,3 @@ Notes (in Japanese) ノート
     tikz
     tikzgraph
     biblatex
-
-Teaching (in Japanese) 講義資料 
------------------------------
-.. toctree::
-    :maxdepth: 1
-
-    teaching

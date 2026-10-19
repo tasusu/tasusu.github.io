@@ -3,7 +3,7 @@
     <li class="nav-item">
       <a class="nav-link" href="{{ pathto('cv.pdf', 1) }}">CV</a>
     </li>
-    {% for page, title in [('publications', 'Publications'), ('talks', 'Talks'), ('software', 'Software'), ('games', 'Games')] %}
+    {% for page, title in [('publications', 'Publications'), ('talks', 'Talks'), ('teaching', 'Teaching'), ('software', 'Software'), ('games', 'Games')] %}
     <li class="nav-item{% if pagename == page %} current active{% endif %}">
       <a class="nav-link nav-internal" href="{{ pathto(page) }}"{% if pagename == page %} aria-current="page"{% endif %}>{{ title }}</a>
     </li>
